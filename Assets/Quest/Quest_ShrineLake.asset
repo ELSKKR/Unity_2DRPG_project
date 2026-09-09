@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abbde27a398fc1469333e023355f9d8, type: 3}
+  m_Name: Quest_ShrineLake
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: shrine_lake
+  questName: "\u6E56\u908A\u7684\u820A\u795E\u793E"
+  description: "\u6751\u6C11\u8AAA\u6E56\u908A\u7684\u820A\u795E\u793E\u9019\u5E7E\u5929\u6709\u602A\u5149\u3002\u845B\u502B\u5E74\u7D00\u5927\u4E86\u8D70\u4E0D\u52D5\uFF0C\u8A17\u6211\u53BB\u770B\u770B\u3002"
+  type: 1
+  stageObjectives:
+  - "\u53BB\u6E56\u908A\u7684\u820A\u795E\u793E\u770B\u770B"
+  - "\u628A\u64BF\u5230\u7684\u820A\u7269\u4EF6\u62FF\u7D66\u8001\u8C9D"
+  - "\u5DF2\u7D93\u628A\u820A\u7269\u4EF6\u4EA4\u7D66\u8001\u8C9D\u4E86"

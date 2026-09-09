@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194a5fe86368bc747879ff50bf618355, type: 3}
+  m_Name: NPCConversation_Villager
+  m_EditorClassIdentifier: Assembly-CSharp::NPCConversationData
+  speakerName: "\u7169\u60F1\u7684\u6751\u6C11"
+  stages:
+  - quest: {fileID: 11400000, guid: 9cba2dc92834f574c9f27a5d3e91591e, type: 2}
+    requiredCompletedQuest: {fileID: 0}
+    requiredItem: {fileID: 0}
+    requiredItemCount: 1
+    turnInItem: {fileID: 11400000, guid: 8aa83d0bea9d12943a6f1d0251eb3099, type: 2}
+    stageIndexInProgress: 0
+    stageIndexReadyToHandIn: 1
+    intro:
+      lines:
+      - "\u6211\u628A\u6211\u5BB6\u7684\u9470\u5319\u5F04\u4E1F\u4E86......"
+      - "\u4F60\u80FD\u5E6B\u6211\u627E\u56DE\u4F86\u55CE?"
+      choices:
+      - label: "\u662F"
+        reactionLines:
+        - "\u592A\u597D\u4E86\uFF0C\u62DC\u8A17\u4F60\u4E86\uFF01"
+      - label: "\u5426"
+        reactionLines:
+        - "\u6C92\u95DC\u4FC2\uFF0C\u4F60\u6539\u8B8A\u4E3B\u610F\u7684\u8A71\u518D\u4F86\u627E\u6211\u5427\u3002"
+      typingSound: {fileID: 8300000, guid: 99fbe8692a106864799513b3bf188aeb, type: 3}
+      startSound: {fileID: 0}
+    reminder:
+      lines:
+      - "\u9470\u5319\u9084\u6C92\u627E\u5230\u55CE\u2026\u2026"
+      - "\u61C9\u8A72\u5C31\u5728\u6751\u5B50\u9644\u8FD1\uFF0C\u4F60\u518D\u627E\u627E\u770B\u3002"
+      choices: []
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+    handIn:
+      lines:
+      - "\u592A\u597D\u4E86\uFF0C\u9019\u5C31\u662F\u6211\u5BB6\u7684\u9470\u5319!"
+      - "\u8B1D\u8B1D\u4F60\u5E6B\u6211\u627E\u56DE\u4F86\uFF0C\u771F\u662F\u5E6B\u4E86\u6211\u5927\u5FD9\u3002"
+      choices: []
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+    completed:
+      lines:
+      - "\u8B1D\u8B1D\u4F60\u4E4B\u524D\u5E6B\u6211\u627E\u5230\u9470\u5319\u3002"
+      - "\u6709\u7A7A\u5E38\u4F86\u5750\u5750\u5427!"
+      choices: []
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}

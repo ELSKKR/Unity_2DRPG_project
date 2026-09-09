@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abbde27a398fc1469333e023355f9d8, type: 3}
+  m_Name: Quest_FindTheKey
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: find_the_key
+  questName: "\u5C0B\u627E\u9470\u5319"
+  description: "\u6751\u838A\u9644\u8FD1\u7684\u5730\u4E0A\u4F3C\u4E4E\u6389\u4E86\u4E00\u628A\u9470\u5319\uFF0C\u64BF\u8D77\u4F86\u6216\u8A31\u80FD\u6253\u958B\u5DE6\u908A\u90A3\u68DF\u623F\u5B50\u7684\u9580\u3002"
+  type: 0
+  stageObjectives:
+  - "\u5728\u6751\u838A\u9644\u8FD1\u5C0B\u627E\u907A\u5931\u7684\u9470\u5319"
+  - "\u628A\u9470\u5319\u4EA4\u7D66\u7169\u60F1\u7684\u6751\u6C11"
+  - "\u5DF2\u7D93\u628A\u9470\u5319\u9084\u7D66\u6751\u6C11\u4E86"

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abbde27a398fc1469333e023355f9d8, type: 3}
+  m_Name: Quest_GatherCrops
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: gather_crops_for_sailor
+  questName: "\u63A1\u96C6\u4F5C\u7269"
+  description: "\u8CFD\u52D2\u627E\u56DE\u914D\u65B9\u5F8C\uFF0C\u9700\u8981\u6309\u6BD4\u4F8B\u63A1\u96C6\u4F5C\u7269\u624D\u80FD\u7149\u85E5\u3002\u914D\u65B9\u5BEB\u8457\u751C\u83DC
+    1\u3001\u9AD8\u9E97\u83DC 1.5\u3001\u6D0B\u8525 2.5\u2014\u2014\u4F5C\u7269\u6C92\u8FA6\u6CD5\u5207\u534A\uFF0C\u5F97\u81EA\u5DF1\u63DB\u7B97\u6210\u5BE6\u969B\u4EFD\u6578\u3002"
+  type: 1
+  stageObjectives:
+  - "\u6309 \u751C\u83DC 1 : \u9AD8\u9E97\u83DC 1.5 : \u6D0B\u8525 2.5 \u7684\u6BD4\u4F8B\u63A1\u96C6\u4F5C\u7269"
+  - "\u628A\u4F5C\u7269\u4EA4\u7D66\u8CFD\u52D2"

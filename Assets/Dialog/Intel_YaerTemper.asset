@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac372ef62af3c7445a0fc6a23f9a959a, type: 3}
+  m_Name: Intel_YaerTemper
+  m_EditorClassIdentifier: Assembly-CSharp::IntelData
+  intelID: yaer_temper
+  title: "\u4E9E\u723E\u66B4\u8E81\u7684\u539F\u56E0"
+  body: "\u6751\u53E3\u7684\u4E9E\u723E\u6700\u8FD1\u7E3D\u662F\u7368\u81EA\u5750\u8457\u3001\u813E\u6C23\u4E0D\u592A\u597D\u3002\u807D\u611B\u62C9\u8AAA\uFF0C\u4ED6\u524D\u9663\u5B50\u5728\u6751\u5317\u7684\u68EE\u6797\u88E1\u53D7\u4E86\u50B7\uFF0C\u96A8\u8EAB\u591A\u5E74\u7684\u4F69\u528D\u4E5F\u5728\u90A3\u5834\u6230\u9B25\u4E2D\u5F04\u4E1F\u4E86\uFF0C\u50B7\u52E2\u672A\u7652\u8B93\u4ED6\u6C92\u8FA6\u6CD5\u89AA\u81EA\u53BB\u627E\u3002"

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194a5fe86368bc747879ff50bf618355, type: 3}
+  m_Name: NPCConversation_Glenn
+  m_EditorClassIdentifier: Assembly-CSharp::NPCConversationData
+  speakerName: "\u845B\u502B"
+  stages:
+  - quest: {fileID: 11400000, guid: 8c0e824e53dc697419c7604163dffe84, type: 2}
+    canAcceptQuest: 1
+    completesQuestOnHandIn: 0
+    requiredCompletedQuest: {fileID: 0}
+    requiredItem: {fileID: 0}
+    requiredItemCount: 1
+    turnInItem: {fileID: 11400000, guid: 8af67fa38999e2d478725d7608619f7a, type: 2}
+    consumeTurnInItem: 1
+    unlockEventID: 
+    stageIndexInProgress: 0
+    stageIndexReadyToHandIn: 1
+    intro:
+      lines:
+      - "\u4F60\u662F\u5916\u5730\u4F86\u7684\u65C5\u4EBA\u5427\uFF1F\u6B63\u597D\uFF0C\u80FD\u4E0D\u80FD\u5E6B\u6751\u5B50\u4E00\u500B\u5FD9\uFF1F"
+      - "\u6E56\u908A\u90A3\u5EA7\u820A\u795E\u793E\uFF0C\u9019\u5E7E\u5929\u7E3D\u6709\u6751\u6C11\u8AAA\u770B\u5230\u602A\u5149\u3002\u6211\u5E74\u7D00\u5927\u4E86\u8D70\u4E0D\u52D5\uFF0C\u4F60\u80FD\u53BB\u770B\u770B\u55CE\uFF1F"
+      choices:
+      - label: "\u597D\uFF0C\u6211\u53BB\u770B\u770B\u3002"
+        reactionLines: []
+        acceptsQuest: 1
+      - label: "\u90A3\u5EA7\u795E\u793E\u600E\u9EBC\u4E86\u55CE\uFF1F"
+        reactionLines:
+        - "\u807D\u8AAA\u5F88\u4E45\u4EE5\u524D\u6E56\u88E1\u51FA\u904E\u4E8B\uFF0C\u4E4B\u5F8C\u795E\u793E\u5C31\u6C92\u4EBA\u7BA1\u4E86\u3002\u53EF\u80FD\u53EA\u662F\u50B3\u8A00\uFF0C\u4F46\u6751\u6C11\u4E0D\u5B89\uFF0C\u4F60\u53BB\u78BA\u8A8D\u4E00\u4E0B\u4E5F\u597D\u3002"
+        acceptsQuest: 1
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+    reminder:
+      lines:
+      - "\u795E\u793E\u90A3\u908A\u9084\u597D\u55CE\uFF1F\u5C0F\u5FC3\u9EDE\uFF0C\u5225\u592A\u9760\u8FD1\u6E56\u908A\u3002"
+      choices: []
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+    handIn:
+      lines:
+      - "\u4F60\u624B\u4E0A\u90A3\u500B\u2026\u2026\u662F\u5F9E\u795E\u793E\u64BF\u7684\uFF1F\u6211\u6C92\u4EC0\u9EBC\u5370\u8C61\uFF0C\u4F60\u53BB\u554F\u554F\u8001\u8C9D\u5427\uFF0C\u4ED6\u5728\u9019\u6751\u5B50\u4F4F\u6700\u4E45\u3002"
+      choices: []
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+    completed:
+      lines:
+      - "\u6751\u5B50\u5B89\u975C\u4E0B\u4F86\u4E86\uFF0C\u8B1D\u8B1D\u4F60\u3002"
+      choices: []
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+  chats: []

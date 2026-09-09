@@ -1,0 +1,43 @@
+# Claude Code config (contains API keys)
+.claude/
+
+# Unity generated folders
+Library/
+Temp/
+Obj/
+Build/
+build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Plastic SCM local metadata (using GitHub instead)
+.plastic/
+ignore.conf
+
+# Unity build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crash reports
+crashlytics-build.properties
+
+# IDE 自動產生的專案檔（換電腦/換 Unity 版本會重新產生，不用進版控）
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db

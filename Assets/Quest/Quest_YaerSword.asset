@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abbde27a398fc1469333e023355f9d8, type: 3}
+  m_Name: Quest_YaerSword
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: yaer_sword
+  questName: "\u4E9E\u723E\u7684\u4F69\u528D"
+  description: "\u4E9E\u723E\u524D\u9663\u5B50\u5728\u6751\u5B50\u5317\u65B9\u7684\u68EE\u6797\u88E1\u906D\u9047\u8972\u64CA\u53D7\u4E86\u50B7\uFF0C\u96A8\u8EAB\u7684\u4F69\u528D\u4E5F\u5728\u6DF7\u6230\u4E2D\u5F04\u4E1F\u4E86\uFF0C\u4ED6\u50B7\u52E2\u672A\u7652\uFF0C\u6C92\u8FA6\u6CD5\u89AA\u81EA\u53BB\u627E\u3002"
+  type: 1
+  stageObjectives:
+  - "\u524D\u5F80\u6751\u5B50\u5317\u65B9\u7684\u68EE\u6797\u5C0B\u627E\u4F69\u528D"
+  - "\u628A\u4F69\u528D\u4EA4\u9084\u7D66\u4E9E\u723E"

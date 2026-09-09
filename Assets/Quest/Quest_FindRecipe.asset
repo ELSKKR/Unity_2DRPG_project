@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9abbde27a398fc1469333e023355f9d8, type: 3}
+  m_Name: Quest_FindRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::QuestData
+  questID: find_recipe_for_sailor
+  questName: "\u8CFD\u52D2\u7684\u914D\u65B9"
+  description: "\u8CFD\u52D2\u8981\u5E6B\u611B\u62C9\u7149\u85E5\uFF0C\u537B\u627E\u4E0D\u5230\u914D\u65B9\u4E86\uFF0C\u516B\u6210\u53C8\u88AB\u4ED6\u96A8\u624B\u585E\u5230\u5C4B\u88E1\u54EA\u500B\u89D2\u843D\u3002"
+  type: 1
+  stageObjectives:
+  - "\u5728\u8CFD\u52D2\u5BB6\u88E1\u627E\u5230\u85E5\u6C34\u914D\u65B9"
+  - "\u628A\u914D\u65B9\u4EA4\u7D66\u8CFD\u52D2"

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df636675cf2b5b04bb75e98079bc9e86, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemID: yaer_sword
+  itemName: "\u4E9E\u723E\u7684\u4F69\u528D"
+  icon: {fileID: -1667574192, guid: a34456ecec3b5154d94126cdf0f64a80, type: 3}
+  description: "\u4E9E\u723E\u9000\u5F79\u524D\u6700\u5F8C\u4E00\u6B21\u4EFB\u52D9\u7528\u7684\u528D\uFF0C\u6389\u5728\u6751\u5B50\u5317\u65B9\u7684\u68EE\u6797\u9644\u8FD1\u3002"
+  isStackable: 0
+  maxStack: 1

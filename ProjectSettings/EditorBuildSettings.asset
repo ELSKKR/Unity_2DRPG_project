@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Persistent.unity
+    guid: dc76f109284bb184eb7b9e55ed6fedfa
+  - enabled: 1
+    path: Assets/Scenes/Forest_Village.unity
+    guid: 80d007f9f245abd449f583f0f5bd63e9
+  - enabled: 1
+    path: Assets/Scenes/House_Interior_A.unity
+    guid: dc2981ac7f16f514c849db402b6ca152
+  - enabled: 1
+    path: Assets/Scenes/House_Interior_B.unity
+    guid: e8dacadafdda62b488012272a18e7d8f
+  - enabled: 1
+    path: Assets/Scenes/House_Interior_C.unity
+    guid: 5c49af3faa6252d4eb8cd6d299207242
+  - enabled: 1
+    path: Assets/Scenes/House_Interior_D.unity
+    guid: 211a9efeaced7524185ce16c50e39958
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: e79e13f35a560014286c66b630edd94d
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+  m_UseUCBPForAssetBundles: 0

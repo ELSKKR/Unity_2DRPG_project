@@ -1,0 +1,5941 @@
+fileFormatVersion: 2
+guid: 89b80efe28c183e45a8d38e4df079e5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3589683125489218092
+    second: Silver Book SpriteSheet_0
+  - first:
+      213: -5341558031739694890
+    second: Silver Book SpriteSheet_1
+  - first:
+      213: 6046235293323008213
+    second: Silver Book SpriteSheet_2
+  - first:
+      213: -894838820292894361
+    second: Silver Book SpriteSheet_3
+  - first:
+      213: 3526796219503862009
+    second: Silver Book SpriteSheet_4
+  - first:
+      213: 5508034471831299554
+    second: Silver Book SpriteSheet_5
+  - first:
+      213: 1173488949825793114
+    second: Silver Book SpriteSheet_6
+  - first:
+      213: 3694499072776724611
+    second: Silver Book SpriteSheet_7
+  - first:
+      213: 3579951986795307630
+    second: Silver Book SpriteSheet_8
+  - first:
+      213: -9114695453163980861
+    second: Silver Book SpriteSheet_9
+  - first:
+      213: 2559771525567216522
+    second: Silver Book SpriteSheet_10
+  - first:
+      213: 6819006116547809195
+    second: Silver Book SpriteSheet_11
+  - first:
+      213: -7115809744733131330
+    second: Silver Book SpriteSheet_12
+  - first:
+      213: -2188543382008119052
+    second: Silver Book SpriteSheet_13
+  - first:
+      213: -2023090364117434070
+    second: Silver Book SpriteSheet_14
+  - first:
+      213: -6097759160195755737
+    second: Silver Book SpriteSheet_15
+  - first:
+      213: 6940657999573498371
+    second: Silver Book SpriteSheet_16
+  - first:
+      213: -2655656558110668914
+    second: Silver Book SpriteSheet_17
+  - first:
+      213: 7834823692145895654
+    second: Silver Book SpriteSheet_18
+  - first:
+      213: -1585704266433685148
+    second: Silver Book SpriteSheet_19
+  - first:
+      213: -762391332012392233
+    second: Silver Book SpriteSheet_20
+  - first:
+      213: 5771882714966795228
+    second: Silver Book SpriteSheet_21
+  - first:
+      213: 6101646386674089541
+    second: Silver Book SpriteSheet_22
+  - first:
+      213: 1501943701107305939
+    second: Silver Book SpriteSheet_23
+  - first:
+      213: 8047091902076587284
+    second: Silver Book SpriteSheet_24
+  - first:
+      213: -3005974249018191145
+    second: Silver Book SpriteSheet_25
+  - first:
+      213: 5836444249302095530
+    second: Silver Book SpriteSheet_26
+  - first:
+      213: -934112218979240890
+    second: Silver Book SpriteSheet_27
+  - first:
+      213: 3743701265178080425
+    second: Silver Book SpriteSheet_28
+  - first:
+      213: -8228512646099524103
+    second: Silver Book SpriteSheet_29
+  - first:
+      213: 2667351323472692055
+    second: Silver Book SpriteSheet_30
+  - first:
+      213: -8592410759988992409
+    second: Silver Book SpriteSheet_31
+  - first:
+      213: -3209671676108533980
+    second: Silver Book SpriteSheet_32
+  - first:
+      213: 2981198304510039487
+    second: Silver Book SpriteSheet_33
+  - first:
+      213: -2807447446287940439
+    second: Silver Book SpriteSheet_34
+  - first:
+      213: 3978707941507335106
+    second: Silver Book SpriteSheet_35
+  - first:
+      213: 1337095868142082521
+    second: Silver Book SpriteSheet_36
+  - first:
+      213: -2548065823776172578
+    second: Silver Book SpriteSheet_37
+  - first:
+      213: -88829028968808504
+    second: Silver Book SpriteSheet_38
+  - first:
+      213: 2783688463059491252
+    second: Silver Book SpriteSheet_39
+  - first:
+      213: -7430158816952428668
+    second: Silver Book SpriteSheet_40
+  - first:
+      213: 1619430546534572578
+    second: Silver Book SpriteSheet_41
+  - first:
+      213: 5734528072037824403
+    second: Silver Book SpriteSheet_42
+  - first:
+      213: -1753684303364444366
+    second: Silver Book SpriteSheet_43
+  - first:
+      213: -3753908448897569301
+    second: Silver Book SpriteSheet_44
+  - first:
+      213: 1713796456800252425
+    second: Silver Book SpriteSheet_45
+  - first:
+      213: 8705843467778213431
+    second: Silver Book SpriteSheet_46
+  - first:
+      213: 8567575751924567982
+    second: Silver Book SpriteSheet_47
+  - first:
+      213: -2027487475228814433
+    second: Silver Book SpriteSheet_48
+  - first:
+      213: 99623782355453675
+    second: Silver Book SpriteSheet_49
+  - first:
+      213: -6047351573945219849
+    second: Silver Book SpriteSheet_50
+  - first:
+      213: 5589956607649346809
+    second: Silver Book SpriteSheet_51
+  - first:
+      213: 3753295717974341227
+    second: Silver Book SpriteSheet_52
+  - first:
+      213: 2207267186322874564
+    second: Silver Book SpriteSheet_53
+  - first:
+      213: 7202901483249548418
+    second: Silver Book SpriteSheet_54
+  - first:
+      213: 1796216985910213982
+    second: Silver Book SpriteSheet_55
+  - first:
+      213: -2203727622452667563
+    second: Silver Book SpriteSheet_56
+  - first:
+      213: 4124489585503216023
+    second: Silver Book SpriteSheet_57
+  - first:
+      213: -4099202449082099914
+    second: Silver Book SpriteSheet_58
+  - first:
+      213: 3806247407424313528
+    second: Silver Book SpriteSheet_59
+  - first:
+      213: -7230563263755041166
+    second: Silver Book SpriteSheet_60
+  - first:
+      213: -6669393900082371309
+    second: Silver Book SpriteSheet_61
+  - first:
+      213: -7577464436410701035
+    second: Silver Book SpriteSheet_62
+  - first:
+      213: 5171172253660548104
+    second: Silver Book SpriteSheet_63
+  - first:
+      213: -6304200188319837163
+    second: Silver Book SpriteSheet_64
+  - first:
+      213: -7710870268730331244
+    second: Silver Book SpriteSheet_65
+  - first:
+      213: 7736161618373807321
+    second: Silver Book SpriteSheet_66
+  - first:
+      213: -197601599622133347
+    second: Silver Book SpriteSheet_67
+  - first:
+      213: 1501781155252109616
+    second: Silver Book SpriteSheet_68
+  - first:
+      213: -8682854036046363257
+    second: Silver Book SpriteSheet_69
+  - first:
+      213: -6875412195919706337
+    second: Silver Book SpriteSheet_70
+  - first:
+      213: -6707606533751048846
+    second: Silver Book SpriteSheet_71
+  - first:
+      213: 5067652867563857200
+    second: Silver Book SpriteSheet_72
+  - first:
+      213: 8061527803762516704
+    second: Silver Book SpriteSheet_73
+  - first:
+      213: 3331778340934360258
+    second: Silver Book SpriteSheet_74
+  - first:
+      213: 7891325605403613550
+    second: Silver Book SpriteSheet_75
+  - first:
+      213: -1125774045977918668
+    second: Silver Book SpriteSheet_76
+  - first:
+      213: -7713478352639315828
+    second: Silver Book SpriteSheet_77
+  - first:
+      213: -8579304049756627793
+    second: Silver Book SpriteSheet_78
+  - first:
+      213: -6049073101965804561
+    second: Silver Book SpriteSheet_79
+  - first:
+      213: -8896273318163440942
+    second: Silver Book SpriteSheet_80
+  - first:
+      213: -6461691666861058214
+    second: Silver Book SpriteSheet_81
+  - first:
+      213: 4144070400100615150
+    second: Silver Book SpriteSheet_82
+  - first:
+      213: 1318437062171799962
+    second: Silver Book SpriteSheet_83
+  - first:
+      213: -59493389145930467
+    second: Silver Book SpriteSheet_84
+  - first:
+      213: -6878493016450616978
+    second: Silver Book SpriteSheet_85
+  - first:
+      213: 1922932623863500754
+    second: Silver Book SpriteSheet_86
+  - first:
+      213: -8329384412889229037
+    second: Silver Book SpriteSheet_87
+  - first:
+      213: -5119380680320626549
+    second: Silver Book SpriteSheet_88
+  - first:
+      213: -7666847171607761679
+    second: Silver Book SpriteSheet_89
+  - first:
+      213: 7896057379561676087
+    second: Silver Book SpriteSheet_90
+  - first:
+      213: -415655884612278535
+    second: Silver Book SpriteSheet_91
+  - first:
+      213: -864470321493222784
+    second: Silver Book SpriteSheet_92
+  - first:
+      213: 259386969568121266
+    second: Silver Book SpriteSheet_93
+  - first:
+      213: -8015612445173195524
+    second: Silver Book SpriteSheet_94
+  - first:
+      213: -7757165371563810442
+    second: Silver Book SpriteSheet_95
+  - first:
+      213: 660292758566748823
+    second: Silver Book SpriteSheet_96
+  - first:
+      213: 5608853318597218410
+    second: Silver Book SpriteSheet_97
+  - first:
+      213: -6276809588707126733
+    second: Silver Book SpriteSheet_98
+  - first:
+      213: 6589759901642633207
+    second: Silver Book SpriteSheet_99
+  - first:
+      213: -624577545620446865
+    second: Silver Book SpriteSheet_100
+  - first:
+      213: 2029545879312729822
+    second: Silver Book SpriteSheet_101
+  - first:
+      213: -209125346856002774
+    second: Silver Book SpriteSheet_102
+  - first:
+      213: 6788191164346195255
+    second: Silver Book SpriteSheet_103
+  - first:
+      213: -5113430464350609516
+    second: Silver Book SpriteSheet_104
+  - first:
+      213: -929253283835354281
+    second: Silver Book SpriteSheet_105
+  - first:
+      213: -1483943439737584649
+    second: Silver Book SpriteSheet_106
+  - first:
+      213: -5431551409339505697
+    second: Silver Book SpriteSheet_107
+  - first:
+      213: 80238721334587817
+    second: Silver Book SpriteSheet_108
+  - first:
+      213: 2271745577350658460
+    second: Silver Book SpriteSheet_109
+  - first:
+      213: -1216453038480237227
+    second: Silver Book SpriteSheet_110
+  - first:
+      213: 3964638382103596640
+    second: Silver Book SpriteSheet_111
+  - first:
+      213: -5705600132160714837
+    second: Silver Book SpriteSheet_112
+  - first:
+      213: -4512019473070230458
+    second: Silver Book SpriteSheet_113
+  - first:
+      213: -4154199372825202406
+    second: Silver Book SpriteSheet_114
+  - first:
+      213: -4015086046976160686
+    second: Silver Book SpriteSheet_115
+  - first:
+      213: -8486123856401493181
+    second: Silver Book SpriteSheet_116
+  - first:
+      213: -3541111282681761008
+    second: Silver Book SpriteSheet_117
+  - first:
+      213: 4095166431824140084
+    second: Silver Book SpriteSheet_118
+  - first:
+      213: -4659239195760217319
+    second: Silver Book SpriteSheet_119
+  - first:
+      213: -7481822667317133357
+    second: Silver Book SpriteSheet_120
+  - first:
+      213: 8467014200820118339
+    second: Silver Book SpriteSheet_121
+  - first:
+      213: 1477614772459595984
+    second: Silver Book SpriteSheet_122
+  - first:
+      213: 3877573448849701430
+    second: Silver Book SpriteSheet_123
+  - first:
+      213: -5592507212787207398
+    second: Silver Book SpriteSheet_124
+  - first:
+      213: -5252428944107794770
+    second: Silver Book SpriteSheet_125
+  - first:
+      213: -8637347478267239806
+    second: Silver Book SpriteSheet_126
+  - first:
+      213: 2909842128687352611
+    second: Silver Book SpriteSheet_127
+  - first:
+      213: 1275130797122190061
+    second: Silver Book SpriteSheet_128
+  - first:
+      213: 755565706972697838
+    second: Silver Book SpriteSheet_129
+  - first:
+      213: 4070154467363833577
+    second: Silver Book SpriteSheet_130
+  - first:
+      213: 4551954701228326659
+    second: Silver Book SpriteSheet_131
+  - first:
+      213: -3450626143733355604
+    second: Silver Book SpriteSheet_132
+  - first:
+      213: -1474656568614948466
+    second: Silver Book SpriteSheet_133
+  - first:
+      213: -2621946923589949217
+    second: Silver Book SpriteSheet_134
+  - first:
+      213: 4215320921615141419
+    second: Silver Book SpriteSheet_135
+  - first:
+      213: 6254310515982379623
+    second: Silver Book SpriteSheet_136
+  - first:
+      213: -4562739098812224124
+    second: Silver Book SpriteSheet_137
+  - first:
+      213: -1097234703942362538
+    second: Silver Book SpriteSheet_138
+  - first:
+      213: 8998605508000454294
+    second: Silver Book SpriteSheet_139
+  - first:
+      213: 156132672633292388
+    second: Silver Book SpriteSheet_140
+  - first:
+      213: 5625641123774696427
+    second: Silver Book SpriteSheet_141
+  - first:
+      213: 8937328581533081890
+    second: Silver Book SpriteSheet_142
+  - first:
+      213: 1657901539046222143
+    second: Silver Book SpriteSheet_143
+  - first:
+      213: 5624941858629813280
+    second: Silver Book SpriteSheet_144
+  - first:
+      213: -8816677127080071408
+    second: Silver Book SpriteSheet_145
+  - first:
+      213: -2502430302221631416
+    second: Silver Book SpriteSheet_146
+  - first:
+      213: 8526848010233225350
+    second: Silver Book SpriteSheet_147
+  - first:
+      213: 6595945571956875780
+    second: Silver Book SpriteSheet_148
+  - first:
+      213: 3364635325456004745
+    second: Silver Book SpriteSheet_149
+  - first:
+      213: -8925294852013214263
+    second: Silver Book SpriteSheet_150
+  - first:
+      213: 2916858479807473938
+    second: Silver Book SpriteSheet_151
+  - first:
+      213: -6992561058572326477
+    second: Silver Book SpriteSheet_152
+  - first:
+      213: 1807399627920471326
+    second: Silver Book SpriteSheet_153
+  - first:
+      213: -5222124938020151903
+    second: Silver Book SpriteSheet_154
+  - first:
+      213: -8068572461193225544
+    second: Silver Book SpriteSheet_155
+  - first:
+      213: 4302397470841494778
+    second: Silver Book SpriteSheet_156
+  - first:
+      213: -5937017034807539293
+    second: Silver Book SpriteSheet_157
+  - first:
+      213: -790516151534657322
+    second: Silver Book SpriteSheet_158
+  - first:
+      213: 4175825603152449736
+    second: Silver Book SpriteSheet_159
+  - first:
+      213: -9181458340129469030
+    second: Silver Book SpriteSheet_160
+  - first:
+      213: 4884024074411906671
+    second: Silver Book SpriteSheet_161
+  - first:
+      213: -7741583397954423658
+    second: Silver Book SpriteSheet_162
+  - first:
+      213: -2585688645145391601
+    second: Silver Book SpriteSheet_163
+  - first:
+      213: -2677117269593593377
+    second: Silver Book SpriteSheet_164
+  - first:
+      213: -3656838594273256551
+    second: Silver Book SpriteSheet_165
+  - first:
+      213: 6160447622107162594
+    second: Silver Book SpriteSheet_166
+  - first:
+      213: -951163796696114252
+    second: Silver Book SpriteSheet_167
+  - first:
+      213: 4854714104005219414
+    second: Silver Book SpriteSheet_168
+  - first:
+      213: -4295440619656095528
+    second: Silver Book SpriteSheet_169
+  - first:
+      213: -8053481425853109710
+    second: Silver Book SpriteSheet_170
+  - first:
+      213: 1717617438515698511
+    second: Silver Book SpriteSheet_171
+  - first:
+      213: -5995123794407030779
+    second: Silver Book SpriteSheet_172
+  - first:
+      213: -6248121271836779173
+    second: Silver Book SpriteSheet_173
+  - first:
+      213: 998689790840915901
+    second: Silver Book SpriteSheet_174
+  - first:
+      213: 4180681136699267591
+    second: Silver Book SpriteSheet_175
+  - first:
+      213: -8018406691851498166
+    second: Silver Book SpriteSheet_176
+  - first:
+      213: -1635579490419810005
+    second: Silver Book SpriteSheet_177
+  - first:
+      213: -280617414018552755
+    second: Silver Book SpriteSheet_178
+  - first:
+      213: -3492923354569706360
+    second: Silver Book SpriteSheet_179
+  - first:
+      213: -1635830557754468569
+    second: Silver Book SpriteSheet_180
+  - first:
+      213: 6838389392537983371
+    second: Silver Book SpriteSheet_181
+  - first:
+      213: -4442398426346961946
+    second: Silver Book SpriteSheet_182
+  - first:
+      213: 8064023237878872996
+    second: Silver Book SpriteSheet_183
+  - first:
+      213: 3823123849601549774
+    second: Silver Book SpriteSheet_184
+  - first:
+      213: 1222939872201394914
+    second: Silver Book SpriteSheet_185
+  - first:
+      213: -4791425933955874835
+    second: Silver Book SpriteSheet_186
+  - first:
+      213: -661257191510479970
+    second: Silver Book SpriteSheet_187
+  - first:
+      213: 4277295871261326802
+    second: Silver Book SpriteSheet_188
+  - first:
+      213: -4726305552380435838
+    second: Silver Book SpriteSheet_189
+  - first:
+      213: -5683469873814566386
+    second: Silver Book SpriteSheet_190
+  - first:
+      213: -6623905110778899347
+    second: Silver Book SpriteSheet_191
+  - first:
+      213: 8073517654384515156
+    second: Silver Book SpriteSheet_192
+  - first:
+      213: 3902076751520355675
+    second: Silver Book SpriteSheet_193
+  - first:
+      213: 4856993164849627500
+    second: Silver Book SpriteSheet_194
+  - first:
+      213: -2068743754817986830
+    second: Silver Book SpriteSheet_195
+  - first:
+      213: 3019540470067918783
+    second: Silver Book SpriteSheet_196
+  - first:
+      213: -475071801843097596
+    second: Silver Book SpriteSheet_197
+  - first:
+      213: -521452485521210311
+    second: Silver Book SpriteSheet_198
+  - first:
+      213: 2153021302660314198
+    second: Silver Book SpriteSheet_199
+  - first:
+      213: 763396064749205627
+    second: Silver Book SpriteSheet_200
+  - first:
+      213: -4625234383717083015
+    second: Silver Book SpriteSheet_201
+  - first:
+      213: -543296103902840277
+    second: Silver Book SpriteSheet_202
+  - first:
+      213: -5447921185388732007
+    second: Silver Book SpriteSheet_203
+  - first:
+      213: 6585911152710449364
+    second: Silver Book SpriteSheet_204
+  - first:
+      213: 9079782302267655704
+    second: Silver Book SpriteSheet_205
+  - first:
+      213: -8921600563591893090
+    second: Silver Book SpriteSheet_206
+  - first:
+      213: 1066151460052742784
+    second: Silver Book SpriteSheet_207
+  - first:
+      213: 6248823837428591751
+    second: Silver Book SpriteSheet_208
+  - first:
+      213: -8759929490517304579
+    second: Silver Book SpriteSheet_209
+  - first:
+      213: -2804292898370806798
+    second: Silver Book SpriteSheet_210
+  - first:
+      213: 5915158920199449442
+    second: Silver Book SpriteSheet_211
+  - first:
+      213: 5942988394044429548
+    second: Silver Book SpriteSheet_212
+  - first:
+      213: 8766302607810997398
+    second: Silver Book SpriteSheet_213
+  - first:
+      213: -2328138426650935478
+    second: Silver Book SpriteSheet_214
+  - first:
+      213: -3877558355848607503
+    second: Silver Book SpriteSheet_215
+  - first:
+      213: 462485567883972828
+    second: Silver Book SpriteSheet_216
+  - first:
+      213: 1886062348980243877
+    second: Silver Book SpriteSheet_217
+  - first:
+      213: -7825373385351348443
+    second: Silver Book SpriteSheet_218
+  - first:
+      213: -8089921590089725233
+    second: Silver Book SpriteSheet_219
+  - first:
+      213: 5581553115784025015
+    second: Silver Book SpriteSheet_220
+  - first:
+      213: 2197708648560478234
+    second: Silver Book SpriteSheet_221
+  - first:
+      213: -3080927529483274632
+    second: Silver Book SpriteSheet_222
+  - first:
+      213: 9111603189372681997
+    second: Silver Book SpriteSheet_223
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3271
+        width: 514
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22bffe98cd11d130800000000000000
+      internalID: 3589683125489218092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0550b5549fed5b0800000000000000
+      internalID: -5341558031739694890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d892f607fa88e350800000000000000
+      internalID: 6046235293323008213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761663185d4e493f0800000000000000
+      internalID: -894838820292894361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0e7b2d972b1f030800000000000000
+      internalID: 3526796219503862009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e56c185b28707c40800000000000000
+      internalID: 5508034471831299554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c66328bf1194010800000000000000
+      internalID: 1173488949825793114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2311
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380edd7155f754330800000000000000
+      internalID: 3694499072776724611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2311
+        width: 490
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6263e55d5b8ea130800000000000000
+      internalID: 3579951986795307630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2311
+        width: 490
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7fa4ee6c8128180800000000000000
+      internalID: -9114695453163980861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2297
+        width: 490
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bf797e3a2268320800000000000000
+      internalID: 2559771525567216522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 2311
+        width: 490
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf4c023fe9f1ae50800000000000000
+      internalID: 6819006116547809195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd2be30db09f3d90800000000000000
+      internalID: -7115809744733131330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0cfd3b36bb0a1e0800000000000000
+      internalID: -2188543382008119052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21c34a580a8ce3e0800000000000000
+      internalID: -2023090364117434070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721d5a2e958606ba0800000000000000
+      internalID: -6097759160195755737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1274
+        width: 414
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a3d0c6dab225060800000000000000
+      internalID: 6940657999573498371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1217
+        width: 224
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8780604e66352bd0800000000000000
+      internalID: -2655656558110668914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1192
+        width: 54
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8ab2823a2eabc60800000000000000
+      internalID: 7834823692145895654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1319
+        width: 32
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46916600f527ef9e0800000000000000
+      internalID: -1585704266433685148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1314
+        width: 98
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d080937f117b65f0800000000000000
+      internalID: -762391332012392233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1322
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd320de9fb8d91050800000000000000
+      internalID: 5771882714966795228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 1313
+        width: 382
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e31ce8f076da450800000000000000
+      internalID: 6101646386674089541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 1319
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dde229a6d9f7d410800000000000000
+      internalID: 1501943701107305939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 695
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d823a13730daf60800000000000000
+      internalID: 8047091902076587284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 689
+        width: 382
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d29c4bc852a846d0800000000000000
+      internalID: -3005974249018191145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 698
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6d5073f173ff050800000000000000
+      internalID: 5836444249302095530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 690
+        width: 98
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644f36fc2ed5903f0800000000000000
+      internalID: -934112218979240890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 695
+        width: 32
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4be18377c44f330800000000000000
+      internalID: 3743701265178080425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5ad6b48537ecd80800000000000000
+      internalID: -8228512646099524103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 495
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75302ce75e5540520800000000000000
+      internalID: 2667351323472692055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766ac9630ff91c880800000000000000
+      internalID: -8592410759988992409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f0bebbd94f473d0800000000000000
+      internalID: -3209671676108533980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 495
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5515910185f5920800000000000000
+      internalID: 2981198304510039487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a40e6e0c61f909d0800000000000000
+      internalID: -2807447446287940439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3029eeac5373730800000000000000
+      internalID: 3978707941507335106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9504b9b915e8210800000000000000
+      internalID: 1337095868142082521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5128d22a373acd0800000000000000
+      internalID: -2548065823776172578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 470
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf3292087a64cef0800000000000000
+      internalID: -88829028968808504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 471
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9930698e5a1a620800000000000000
+      internalID: 2783688463059491252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 498
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48750d23ce5c2e890800000000000000
+      internalID: -7430158816952428668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2222c90808f597610800000000000000
+      internalID: 1619430546534572578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 499
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397f15016e2259f40800000000000000
+      internalID: 5734528072037824403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 499
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa8c1ea69a9a7e0800000000000000
+      internalID: -1753684303364444366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed6f10a72077ebc0800000000000000
+      internalID: -3753908448897569301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 496
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902f6e02cc0a8c710800000000000000
+      internalID: 1713796456800252425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 496
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7364317228e51d870800000000000000
+      internalID: 8705843467778213431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 496
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafc6bfd0c426e670800000000000000
+      internalID: 8567575751924567982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 496
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93de6422eaecd3e0800000000000000
+      internalID: -2027487475228814433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 496
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be64a7e5d4fe16100800000000000000
+      internalID: 99623782355453675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 463
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f48813a8cd731ca0800000000000000
+      internalID: -6047351573945219849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 463
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f479c4fae3839d40800000000000000
+      internalID: 5589956607649346809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 499
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66fad6d192661430800000000000000
+      internalID: 3753295717974341227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 499
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0a625bfc9c1ae10800000000000000
+      internalID: 2207267186322874564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 499
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c39358cb8d5f360800000000000000
+      internalID: 7202901483249548418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 500
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d73b8f4d17de810800000000000000
+      internalID: 1796216985910213982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 500
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b1ef93769ca61e0800000000000000
+      internalID: -2203727622452667563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 500
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791a7bfec612d3930800000000000000
+      internalID: 4124489585503216023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 476
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637dc005715bc17c0800000000000000
+      internalID: -4099202449082099914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b817c6c9d182d430800000000000000
+      internalID: 3806247407424313528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27644e15501e7ab90800000000000000
+      internalID: -7230563263755041166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 483
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315ee66759d8173a0800000000000000
+      internalID: -6669393900082371309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 484
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba5910e3077d690800000000000000
+      internalID: -7577464436410701035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 484
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c0bc344c1b3c740800000000000000
+      internalID: 5171172253660548104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 484
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514de3e645bf288a0800000000000000
+      internalID: -6304200188319837163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 463
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f2533385c7df490800000000000000
+      internalID: -7710870268730331244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc8e24010e5c5b60800000000000000
+      internalID: 7736161618373807321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 463
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99497f546af14df0800000000000000
+      internalID: -197601599622133347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 463
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0318d21010667d410800000000000000
+      internalID: 1501781155252109616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785c3e8024e408780800000000000000
+      internalID: -8682854036046363257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 463
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1741d90901a590a0800000000000000
+      internalID: -6875412195919706337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275fdae556bc9e2a0800000000000000
+      internalID: -6707606533751048846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 467
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0352228fe6be35640800000000000000
+      internalID: 5067652867563857200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2233263dc40ef60800000000000000
+      internalID: 8061527803762516704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 467
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc9bb1afbadc3e20800000000000000
+      internalID: 3331778340934360258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 466
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69d60df3de938d60800000000000000
+      internalID: 7891325605403613550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 464
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433c12448727060f0800000000000000
+      internalID: -1125774045977918668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 464
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80b4485e4834f490800000000000000
+      internalID: -7713478352639315828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 464
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac9f2efb6030f880800000000000000
+      internalID: -8579304049756627793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 464
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb35f820106d0ca0800000000000000
+      internalID: -6049073101965804561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 464
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da15163d861a8480800000000000000
+      internalID: -8896273318163440942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 467
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5715ac1aa57356a0800000000000000
+      internalID: -6461691666861058214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 435
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3453a9212b28930800000000000000
+      internalID: 4144070400100615150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 467
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b57dc5870c4210800000000000000
+      internalID: 1318437062171799962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 468
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d150979e313ac2ff0800000000000000
+      internalID: -59493389145930467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 468
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61b47c9b0faa80a0800000000000000
+      internalID: -6878493016450616978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfc4648801afaa10800000000000000
+      internalID: 1922932623863500754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 451
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319df08e105186c80800000000000000
+      internalID: -8329384412889229037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 451
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80dd77156e44f8b0800000000000000
+      internalID: -5119380680320626549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 452
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc6c1d3e13e99590800000000000000
+      internalID: -7666847171607761679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 452
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d10e20a5e649d60800000000000000
+      internalID: 7896057379561676087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 431
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f662e8dc2b4b3af0800000000000000
+      internalID: -415655884612278535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a5780a2d8c004f0800000000000000
+      internalID: -864470321493222784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 431
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b119741317899300800000000000000
+      internalID: 259386969568121266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 436
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc504c13f2d2c090800000000000000
+      internalID: -8015612445173195524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 436
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6716afb9133095490800000000000000
+      internalID: -7757165371563810442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 436
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792422af3c4d92900800000000000000
+      internalID: 660292758566748823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6012445066a6dd40800000000000000
+      internalID: 5608853318597218410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332985e5fea44e8a0800000000000000
+      internalID: -6276809588707126733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffa58c67b7837b50800000000000000
+      internalID: 6589759901642633207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ab9a080e0557f0800000000000000
+      internalID: -624577545620446865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed60bc769356a2c10800000000000000
+      internalID: 2029545879312729822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b1e13ea99091df0800000000000000
+      internalID: -209125346856002774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ddc4a06ef743e50800000000000000
+      internalID: 6788191164346195255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f98b4b5127909b0800000000000000
+      internalID: -5113430464350609516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753e0aecf01aa13f0800000000000000
+      internalID: -929253283835354281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f38ba7cd49f76be0800000000000000
+      internalID: -1483943439737584649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 434
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3eb0355c04f94b0800000000000000
+      internalID: -5431551409339505697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 433
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1316221b01d1100800000000000000
+      internalID: 80238721334587817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 433
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99fc0ef09cd68f10800000000000000
+      internalID: 2271745577350658460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 432
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dd073186a4e1fe0800000000000000
+      internalID: -1216453038480237227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 432
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e0a2c5a99350730800000000000000
+      internalID: 3964638382103596640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7832cc8e2a1d0b0800000000000000
+      internalID: -5705600132160714837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 432
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644f008e1361261c0800000000000000
+      internalID: -4512019473070230458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 431
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a117a982ea15956c0800000000000000
+      internalID: -4154199372825202406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 400
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ccb5b538c8748c0800000000000000
+      internalID: -4015086046976160686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 399
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3439833605b3b3a80800000000000000
+      internalID: -8486123856401493181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 435
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01330adcc027bdec0800000000000000
+      internalID: -3541111282681761008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 435
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4375bf03c24f4d830800000000000000
+      internalID: 4095166431824140084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 403
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913b22d13ae075fb0800000000000000
+      internalID: -4659239195760217319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfb81aace93b2890800000000000000
+      internalID: -7481822667317133357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34332143e80e08570800000000000000
+      internalID: 8467014200820118339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 403
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8e25b8eca818410800000000000000
+      internalID: 1477614772459595984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 367
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a3c29e188efc530800000000000000
+      internalID: 3877573448849701430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 367
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a133202025c6362b0800000000000000
+      internalID: -5592507212787207398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 367
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae897234bf9b17b0800000000000000
+      internalID: -5252428944107794770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282e34c2b3af12880800000000000000
+      internalID: -8637347478267239806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b40e0cff5d16820800000000000000
+      internalID: 2909842128687352611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaf0ac34bc22b110800000000000000
+      internalID: 1275130797122190061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 383
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee41390e10f4c7a00800000000000000
+      internalID: 755565706972697838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 383
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6c0386ce71c7830800000000000000
+      internalID: 4070154467363833577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 385
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f3268feaacb2f30800000000000000
+      internalID: 4551954701228326659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabe812fdc9ec10d0800000000000000
+      internalID: -3450626143733355604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 383
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e817206f9a7f88be0800000000000000
+      internalID: -1474656568614948466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 382
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd82e772a29fc9bd0800000000000000
+      internalID: -2621946923589949217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a84236b04df7a30800000000000000
+      internalID: 4215320921615141419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aae1c0746cbc650800000000000000
+      internalID: 6254310515982379623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48de28cc6f4eda0c0800000000000000
+      internalID: -4562739098812224124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ad844a9d6d5c0f0800000000000000
+      internalID: -1097234703942362538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 367
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6969d3a680871ec70800000000000000
+      internalID: 8998605508000454294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 369
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466c32aa6d1ba2200800000000000000
+      internalID: 156132672633292388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb8b60dbca421e40800000000000000
+      internalID: 5625641123774696427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 368
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221a93f2ef4c70c70800000000000000
+      internalID: 8937328581533081890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 368
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f396c637aac020710800000000000000
+      internalID: 1657901539046222143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0240bd571decf0e40800000000000000
+      internalID: 5624941858629813280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fa41d9dded4a580800000000000000
+      internalID: -8816677127080071408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 335
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84008e806e4954dd0800000000000000
+      internalID: -2502430302221631416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 335
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680a2bf8613755670800000000000000
+      internalID: 8526848010233225350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402ec460d81898b50800000000000000
+      internalID: 6595945571956875780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986398c700691be20800000000000000
+      internalID: 3364635325456004745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5312ece9bf22480800000000000000
+      internalID: -8925294852013214263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219a20d4553ca7820800000000000000
+      internalID: 2916858479807473938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 287
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b92191f3ce65fe90800000000000000
+      internalID: -6992561058572326477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e157f55b26c251910800000000000000
+      internalID: 1807399627920471326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad999079094787b0800000000000000
+      internalID: -5222124938020151903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 335
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba141e781ca60090800000000000000
+      internalID: -8068572461193225544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 351
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcdb0464bf25bb30800000000000000
+      internalID: 4302397470841494778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a98ad6667a7b9da0800000000000000
+      internalID: -5937017034807539293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0619e9fb58705f0800000000000000
+      internalID: -790516151534657322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 351
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c012e7f24383f930800000000000000
+      internalID: 4175825603152449736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d098cf848e49080800000000000000
+      internalID: -9181458340129469030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 352
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6617cdd40a87c340800000000000000
+      internalID: 4884024074411906671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6947ddd8aee509490800000000000000
+      internalID: -7741583397954423658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e095670e9cd1cd0800000000000000
+      internalID: -2585688645145391601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd96fcbf608f8dad0800000000000000
+      internalID: -2677117269593593377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 322
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b576b5cac404dc0800000000000000
+      internalID: -3656838594273256551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 319
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7e81d097e4e7550800000000000000
+      internalID: 6160447622107162594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 303
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb57bef099ccc2f0800000000000000
+      internalID: -951163796696114252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 271
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6545f4791c86f5340800000000000000
+      internalID: 4854714104005219414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 258
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d85d9fb3878364c0800000000000000
+      internalID: -4295440619656095528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 260
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aa1d6ff494c3090800000000000000
+      internalID: -8053481425853109710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b9eb2c5f336d710800000000000000
+      internalID: 1717617438515698511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50080e92caa0dcca0800000000000000
+      internalID: -5995123794407030779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d5b96aec63a49a0800000000000000
+      internalID: -6248121271836779173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c1efc21f0cdd00800000000000000
+      internalID: 998689790840915901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 277
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ad228f753c40a30800000000000000
+      internalID: 4180681136699267591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 236
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d839bd895e8b090800000000000000
+      internalID: -8018406691851498166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 236
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21ec9f7e114d49e0800000000000000
+      internalID: -1635579490419810005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 236
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca2afd2fb0b1cf0800000000000000
+      internalID: -280617414018552755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 210
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884f43f17b4a68fc0800000000000000
+      internalID: -3492923354569706360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 228
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727d05456cc5c49e0800000000000000
+      internalID: -1635830557754468569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b899602dbe6d6ee50800000000000000
+      internalID: 6838389392537983371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3c5d60b2e6952c0800000000000000
+      internalID: -4442398426346961946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abf34ae86a29ef60800000000000000
+      internalID: 8064023237878872996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec503dba2e67e0530800000000000000
+      internalID: 3823123849601549774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 207
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eac9389551c8f010800000000000000
+      internalID: 1222939872201394914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 207
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def37f6cf7f618db0800000000000000
+      internalID: -4791425933955874835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b68da761eb2d6f0800000000000000
+      internalID: -661257191510479970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddb6cdcee10c5b30800000000000000
+      internalID: 4277295871261326802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2826862242ac86eb0800000000000000
+      internalID: -4726305552380435838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 193
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a06a713424021b0800000000000000
+      internalID: -5683469873814566386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 201
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64112e85692314a0800000000000000
+      internalID: -6623905110778899347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 193
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4581f650885ea0070800000000000000
+      internalID: 8073517654384515156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 194
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b555ea4a126f62630800000000000000
+      internalID: 3902076751520355675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61cc5bcc81876340800000000000000
+      internalID: 4856993164849627500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe14c204885a43e0800000000000000
+      internalID: -2068743754817986830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 162
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7705f2f0097e920800000000000000
+      internalID: 3019540470067918783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 146
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400665896b43869f0800000000000000
+      internalID: -475071801843097596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 180
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93483492abd63c8f0800000000000000
+      internalID: -521452485521210311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 148
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654bae2b77111ed10800000000000000
+      internalID: 2153021302660314198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 174
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78be4e1da0289a00800000000000000
+      internalID: 763396064749205627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 173
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978de9365dddfcfb0800000000000000
+      internalID: -4625234383717083015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 144
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a740f6213d578f0800000000000000
+      internalID: -543296103902840277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9916494db881564b0800000000000000
+      internalID: -5447921185388732007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 124
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8f69bbc4bd56b50800000000000000
+      internalID: 6585911152710449364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 124
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816ca8ca5edd10e70800000000000000
+      internalID: 9079782302267655704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f2e2b5e8b103480800000000000000
+      internalID: -8921600563591893090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082353daa1bbbce00800000000000000
+      internalID: 1066151460052742784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cace52c2848b650800000000000000
+      internalID: 6248823837428591751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 146
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa5f3c5a8a7e6680800000000000000
+      internalID: -8759929490517304579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb157a77762519d0800000000000000
+      internalID: -2804292898370806798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ba874b2bdd61250800000000000000
+      internalID: 5915158920199449442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 146
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce49943057cb97250800000000000000
+      internalID: 5942988394044429548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ca724a6c928a970800000000000000
+      internalID: 8766302607810997398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 147
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fb88b9f6ac0bfd0800000000000000
+      internalID: -2328138426650935478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 147
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8cbc33835203ac0800000000000000
+      internalID: -3877558355848607503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd018737c241b6600800000000000000
+      internalID: 462485567883972828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adc43fa6b3ac2a10800000000000000
+      internalID: 1886062348980243877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f365bdd50b66390800000000000000
+      internalID: -7825373385351348443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca40f11d23dabf80800000000000000
+      internalID: -8089921590089725233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b318498cf8a57d40800000000000000
+      internalID: 5581553115784025015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1840453f54df7e10800000000000000
+      internalID: 2197708648560478234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 114
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8767d624cb85e35d0800000000000000
+      internalID: -3080927529483274632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Book SpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fffdc43dae27e70800000000000000
+      internalID: 9111603189372681997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Silver Book SpriteSheet_0: 3589683125489218092
+      Silver Book SpriteSheet_1: -5341558031739694890
+      Silver Book SpriteSheet_10: 2559771525567216522
+      Silver Book SpriteSheet_100: -624577545620446865
+      Silver Book SpriteSheet_101: 2029545879312729822
+      Silver Book SpriteSheet_102: -209125346856002774
+      Silver Book SpriteSheet_103: 6788191164346195255
+      Silver Book SpriteSheet_104: -5113430464350609516
+      Silver Book SpriteSheet_105: -929253283835354281
+      Silver Book SpriteSheet_106: -1483943439737584649
+      Silver Book SpriteSheet_107: -5431551409339505697
+      Silver Book SpriteSheet_108: 80238721334587817
+      Silver Book SpriteSheet_109: 2271745577350658460
+      Silver Book SpriteSheet_11: 6819006116547809195
+      Silver Book SpriteSheet_110: -1216453038480237227
+      Silver Book SpriteSheet_111: 3964638382103596640
+      Silver Book SpriteSheet_112: -5705600132160714837
+      Silver Book SpriteSheet_113: -4512019473070230458
+      Silver Book SpriteSheet_114: -4154199372825202406
+      Silver Book SpriteSheet_115: -4015086046976160686
+      Silver Book SpriteSheet_116: -8486123856401493181
+      Silver Book SpriteSheet_117: -3541111282681761008
+      Silver Book SpriteSheet_118: 4095166431824140084
+      Silver Book SpriteSheet_119: -4659239195760217319
+      Silver Book SpriteSheet_12: -7115809744733131330
+      Silver Book SpriteSheet_120: -7481822667317133357
+      Silver Book SpriteSheet_121: 8467014200820118339
+      Silver Book SpriteSheet_122: 1477614772459595984
+      Silver Book SpriteSheet_123: 3877573448849701430
+      Silver Book SpriteSheet_124: -5592507212787207398
+      Silver Book SpriteSheet_125: -5252428944107794770
+      Silver Book SpriteSheet_126: -8637347478267239806
+      Silver Book SpriteSheet_127: 2909842128687352611
+      Silver Book SpriteSheet_128: 1275130797122190061
+      Silver Book SpriteSheet_129: 755565706972697838
+      Silver Book SpriteSheet_13: -2188543382008119052
+      Silver Book SpriteSheet_130: 4070154467363833577
+      Silver Book SpriteSheet_131: 4551954701228326659
+      Silver Book SpriteSheet_132: -3450626143733355604
+      Silver Book SpriteSheet_133: -1474656568614948466
+      Silver Book SpriteSheet_134: -2621946923589949217
+      Silver Book SpriteSheet_135: 4215320921615141419
+      Silver Book SpriteSheet_136: 6254310515982379623
+      Silver Book SpriteSheet_137: -4562739098812224124
+      Silver Book SpriteSheet_138: -1097234703942362538
+      Silver Book SpriteSheet_139: 8998605508000454294
+      Silver Book SpriteSheet_14: -2023090364117434070
+      Silver Book SpriteSheet_140: 156132672633292388
+      Silver Book SpriteSheet_141: 5625641123774696427
+      Silver Book SpriteSheet_142: 8937328581533081890
+      Silver Book SpriteSheet_143: 1657901539046222143
+      Silver Book SpriteSheet_144: 5624941858629813280
+      Silver Book SpriteSheet_145: -8816677127080071408
+      Silver Book SpriteSheet_146: -2502430302221631416
+      Silver Book SpriteSheet_147: 8526848010233225350
+      Silver Book SpriteSheet_148: 6595945571956875780
+      Silver Book SpriteSheet_149: 3364635325456004745
+      Silver Book SpriteSheet_15: -6097759160195755737
+      Silver Book SpriteSheet_150: -8925294852013214263
+      Silver Book SpriteSheet_151: 2916858479807473938
+      Silver Book SpriteSheet_152: -6992561058572326477
+      Silver Book SpriteSheet_153: 1807399627920471326
+      Silver Book SpriteSheet_154: -5222124938020151903
+      Silver Book SpriteSheet_155: -8068572461193225544
+      Silver Book SpriteSheet_156: 4302397470841494778
+      Silver Book SpriteSheet_157: -5937017034807539293
+      Silver Book SpriteSheet_158: -790516151534657322
+      Silver Book SpriteSheet_159: 4175825603152449736
+      Silver Book SpriteSheet_16: 6940657999573498371
+      Silver Book SpriteSheet_160: -9181458340129469030
+      Silver Book SpriteSheet_161: 4884024074411906671
+      Silver Book SpriteSheet_162: -7741583397954423658
+      Silver Book SpriteSheet_163: -2585688645145391601
+      Silver Book SpriteSheet_164: -2677117269593593377
+      Silver Book SpriteSheet_165: -3656838594273256551
+      Silver Book SpriteSheet_166: 6160447622107162594
+      Silver Book SpriteSheet_167: -951163796696114252
+      Silver Book SpriteSheet_168: 4854714104005219414
+      Silver Book SpriteSheet_169: -4295440619656095528
+      Silver Book SpriteSheet_17: -2655656558110668914
+      Silver Book SpriteSheet_170: -8053481425853109710
+      Silver Book SpriteSheet_171: 1717617438515698511
+      Silver Book SpriteSheet_172: -5995123794407030779
+      Silver Book SpriteSheet_173: -6248121271836779173
+      Silver Book SpriteSheet_174: 998689790840915901
+      Silver Book SpriteSheet_175: 4180681136699267591
+      Silver Book SpriteSheet_176: -8018406691851498166
+      Silver Book SpriteSheet_177: -1635579490419810005
+      Silver Book SpriteSheet_178: -280617414018552755
+      Silver Book SpriteSheet_179: -3492923354569706360
+      Silver Book SpriteSheet_18: 7834823692145895654
+      Silver Book SpriteSheet_180: -1635830557754468569
+      Silver Book SpriteSheet_181: 6838389392537983371
+      Silver Book SpriteSheet_182: -4442398426346961946
+      Silver Book SpriteSheet_183: 8064023237878872996
+      Silver Book SpriteSheet_184: 3823123849601549774
+      Silver Book SpriteSheet_185: 1222939872201394914
+      Silver Book SpriteSheet_186: -4791425933955874835
+      Silver Book SpriteSheet_187: -661257191510479970
+      Silver Book SpriteSheet_188: 4277295871261326802
+      Silver Book SpriteSheet_189: -4726305552380435838
+      Silver Book SpriteSheet_19: -1585704266433685148
+      Silver Book SpriteSheet_190: -5683469873814566386
+      Silver Book SpriteSheet_191: -6623905110778899347
+      Silver Book SpriteSheet_192: 8073517654384515156
+      Silver Book SpriteSheet_193: 3902076751520355675
+      Silver Book SpriteSheet_194: 4856993164849627500
+      Silver Book SpriteSheet_195: -2068743754817986830
+      Silver Book SpriteSheet_196: 3019540470067918783
+      Silver Book SpriteSheet_197: -475071801843097596
+      Silver Book SpriteSheet_198: -521452485521210311
+      Silver Book SpriteSheet_199: 2153021302660314198
+      Silver Book SpriteSheet_2: 6046235293323008213
+      Silver Book SpriteSheet_20: -762391332012392233
+      Silver Book SpriteSheet_200: 763396064749205627
+      Silver Book SpriteSheet_201: -4625234383717083015
+      Silver Book SpriteSheet_202: -543296103902840277
+      Silver Book SpriteSheet_203: -5447921185388732007
+      Silver Book SpriteSheet_204: 6585911152710449364
+      Silver Book SpriteSheet_205: 9079782302267655704
+      Silver Book SpriteSheet_206: -8921600563591893090
+      Silver Book SpriteSheet_207: 1066151460052742784
+      Silver Book SpriteSheet_208: 6248823837428591751
+      Silver Book SpriteSheet_209: -8759929490517304579
+      Silver Book SpriteSheet_21: 5771882714966795228
+      Silver Book SpriteSheet_210: -2804292898370806798
+      Silver Book SpriteSheet_211: 5915158920199449442
+      Silver Book SpriteSheet_212: 5942988394044429548
+      Silver Book SpriteSheet_213: 8766302607810997398
+      Silver Book SpriteSheet_214: -2328138426650935478
+      Silver Book SpriteSheet_215: -3877558355848607503
+      Silver Book SpriteSheet_216: 462485567883972828
+      Silver Book SpriteSheet_217: 1886062348980243877
+      Silver Book SpriteSheet_218: -7825373385351348443
+      Silver Book SpriteSheet_219: -8089921590089725233
+      Silver Book SpriteSheet_22: 6101646386674089541
+      Silver Book SpriteSheet_220: 5581553115784025015
+      Silver Book SpriteSheet_221: 2197708648560478234
+      Silver Book SpriteSheet_222: -3080927529483274632
+      Silver Book SpriteSheet_223: 9111603189372681997
+      Silver Book SpriteSheet_23: 1501943701107305939
+      Silver Book SpriteSheet_24: 8047091902076587284
+      Silver Book SpriteSheet_25: -3005974249018191145
+      Silver Book SpriteSheet_26: 5836444249302095530
+      Silver Book SpriteSheet_27: -934112218979240890
+      Silver Book SpriteSheet_28: 3743701265178080425
+      Silver Book SpriteSheet_29: -8228512646099524103
+      Silver Book SpriteSheet_3: -894838820292894361
+      Silver Book SpriteSheet_30: 2667351323472692055
+      Silver Book SpriteSheet_31: -8592410759988992409
+      Silver Book SpriteSheet_32: -3209671676108533980
+      Silver Book SpriteSheet_33: 2981198304510039487
+      Silver Book SpriteSheet_34: -2807447446287940439
+      Silver Book SpriteSheet_35: 3978707941507335106
+      Silver Book SpriteSheet_36: 1337095868142082521
+      Silver Book SpriteSheet_37: -2548065823776172578
+      Silver Book SpriteSheet_38: -88829028968808504
+      Silver Book SpriteSheet_39: 2783688463059491252
+      Silver Book SpriteSheet_4: 3526796219503862009
+      Silver Book SpriteSheet_40: -7430158816952428668
+      Silver Book SpriteSheet_41: 1619430546534572578
+      Silver Book SpriteSheet_42: 5734528072037824403
+      Silver Book SpriteSheet_43: -1753684303364444366
+      Silver Book SpriteSheet_44: -3753908448897569301
+      Silver Book SpriteSheet_45: 1713796456800252425
+      Silver Book SpriteSheet_46: 8705843467778213431
+      Silver Book SpriteSheet_47: 8567575751924567982
+      Silver Book SpriteSheet_48: -2027487475228814433
+      Silver Book SpriteSheet_49: 99623782355453675
+      Silver Book SpriteSheet_5: 5508034471831299554
+      Silver Book SpriteSheet_50: -6047351573945219849
+      Silver Book SpriteSheet_51: 5589956607649346809
+      Silver Book SpriteSheet_52: 3753295717974341227
+      Silver Book SpriteSheet_53: 2207267186322874564
+      Silver Book SpriteSheet_54: 7202901483249548418
+      Silver Book SpriteSheet_55: 1796216985910213982
+      Silver Book SpriteSheet_56: -2203727622452667563
+      Silver Book SpriteSheet_57: 4124489585503216023
+      Silver Book SpriteSheet_58: -4099202449082099914
+      Silver Book SpriteSheet_59: 3806247407424313528
+      Silver Book SpriteSheet_6: 1173488949825793114
+      Silver Book SpriteSheet_60: -7230563263755041166
+      Silver Book SpriteSheet_61: -6669393900082371309
+      Silver Book SpriteSheet_62: -7577464436410701035
+      Silver Book SpriteSheet_63: 5171172253660548104
+      Silver Book SpriteSheet_64: -6304200188319837163
+      Silver Book SpriteSheet_65: -7710870268730331244
+      Silver Book SpriteSheet_66: 7736161618373807321
+      Silver Book SpriteSheet_67: -197601599622133347
+      Silver Book SpriteSheet_68: 1501781155252109616
+      Silver Book SpriteSheet_69: -8682854036046363257
+      Silver Book SpriteSheet_7: 3694499072776724611
+      Silver Book SpriteSheet_70: -6875412195919706337
+      Silver Book SpriteSheet_71: -6707606533751048846
+      Silver Book SpriteSheet_72: 5067652867563857200
+      Silver Book SpriteSheet_73: 8061527803762516704
+      Silver Book SpriteSheet_74: 3331778340934360258
+      Silver Book SpriteSheet_75: 7891325605403613550
+      Silver Book SpriteSheet_76: -1125774045977918668
+      Silver Book SpriteSheet_77: -7713478352639315828
+      Silver Book SpriteSheet_78: -8579304049756627793
+      Silver Book SpriteSheet_79: -6049073101965804561
+      Silver Book SpriteSheet_8: 3579951986795307630
+      Silver Book SpriteSheet_80: -8896273318163440942
+      Silver Book SpriteSheet_81: -6461691666861058214
+      Silver Book SpriteSheet_82: 4144070400100615150
+      Silver Book SpriteSheet_83: 1318437062171799962
+      Silver Book SpriteSheet_84: -59493389145930467
+      Silver Book SpriteSheet_85: -6878493016450616978
+      Silver Book SpriteSheet_86: 1922932623863500754
+      Silver Book SpriteSheet_87: -8329384412889229037
+      Silver Book SpriteSheet_88: -5119380680320626549
+      Silver Book SpriteSheet_89: -7666847171607761679
+      Silver Book SpriteSheet_9: -9114695453163980861
+      Silver Book SpriteSheet_90: 7896057379561676087
+      Silver Book SpriteSheet_91: -415655884612278535
+      Silver Book SpriteSheet_92: -864470321493222784
+      Silver Book SpriteSheet_93: 259386969568121266
+      Silver Book SpriteSheet_94: -8015612445173195524
+      Silver Book SpriteSheet_95: -7757165371563810442
+      Silver Book SpriteSheet_96: 660292758566748823
+      Silver Book SpriteSheet_97: 5608853318597218410
+      Silver Book SpriteSheet_98: -6276809588707126733
+      Silver Book SpriteSheet_99: 6589759901642633207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

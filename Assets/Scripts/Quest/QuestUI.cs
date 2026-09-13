@@ -2,10 +2,9 @@ using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
 
-public class QuestUI : MenuPanelBase
+// 書本的「任務」那一頁。開關書與動畫都是 BookWindow 的事，這裡只管內容。
+public class QuestUI : MonoBehaviour
 {
-    public static QuestUI Instance { get; private set; }
-
     [SerializeField] private Transform questListContainer;
     [SerializeField] private GameObject questEntryPrefab;
     [SerializeField] private GameObject emptyHintText;
@@ -19,31 +18,22 @@ public class QuestUI : MenuPanelBase
     private int selectedIndex = -1;
     private List<QuestEntryUI> entryUIs = new List<QuestEntryUI>();
 
-    protected override void Awake()
+    // 訂閱跟著「這一頁有沒有顯示」走：頁面藏起來時資料改了也不用重建，
+    // 下次翻回來 OnEnable 會重新抓一次（跟 InventoryUI 同一套寫法）
+    void OnEnable()
     {
-        base.Awake();
-        Instance = this;
-    }
-
-    protected override void Start()
-    {
-        base.Start();
-        if (detailPanel != null) detailPanel.SetActive(false);
-
+        if (QuestManager.Instance == null) return;
         QuestManager.Instance.OnQuestsChanged += RefreshUI;
+        RefreshUI();
     }
 
-    void OnDestroy()
+    void OnDisable()
     {
         if (QuestManager.Instance != null)
             QuestManager.Instance.OnQuestsChanged -= RefreshUI;
+
+        ClearSelection();
     }
-
-    // 開關的快捷鍵由資訊視窗的 TabGroup 統一處理（要判斷「切分頁」還是「關視窗」），這裡不再自己監聽
-
-    protected override void OnOpened() => RefreshUI();
-
-    protected override void OnClosed() => ClearSelection();
 
     void RefreshUI()
     {

@@ -24,9 +24,20 @@ public class AudioManager : MonoBehaviour
 
     const string BgmVolumeKey = "BGMVolume";
     const string SfxVolumeKey = "SFXVolume";
+    const string MutedKey = "AudioMuted";
+
+    // 靜音是獨立於音量的開關，不是「把音量設成 0」——這樣取消靜音時
+    // 才能把玩家原本調好的音量原封不動地還回去
+    private bool muted;
+
+    // Inspector 上填的那組值就是「預設音量」。要在讀 PlayerPrefs 之前先抄起來，
+    // 不然開過一次遊戲之後它們就被存檔蓋掉，設定頁的「重設」會變成還原成上次的值
+    private float defaultBgmVolume;
+    private float defaultSfxVolume;
 
     public float BGMVolume => bgmVolume;
     public float SFXVolume => sfxVolume;
+    public bool Muted => muted;
 
     void Awake()
     {
@@ -37,13 +48,24 @@ public class AudioManager : MonoBehaviour
         }
         Instance = this;
 
+        defaultBgmVolume = bgmVolume;
+        defaultSfxVolume = sfxVolume;
+
         // 讀回上次存的音量（沒存過就沿用 Inspector 的預設值）
         bgmVolume = PlayerPrefs.GetFloat(BgmVolumeKey, bgmVolume);
         sfxVolume = PlayerPrefs.GetFloat(SfxVolumeKey, sfxVolume);
+        muted = PlayerPrefs.GetInt(MutedKey, 0) != 0;
 
         bgmSource.loop = true;
-        bgmSource.volume = bgmVolume;
-        sfxSource.volume = sfxVolume;
+        ApplyVolumes();
+    }
+
+    // 音量與靜音都只會改到這兩個 AudioSource，集中在一個地方設，
+    // 免得之後又漏掉其中一邊（SetSFXVolume 就漏過一次，音量被算成平方）
+    void ApplyVolumes()
+    {
+        bgmSource.volume = muted ? 0f : bgmVolume;
+        sfxSource.volume = muted ? 0f : sfxVolume;
     }
 
     // 播放背景音樂（會自動循環，切換歌曲時才會重播）
@@ -71,15 +93,29 @@ public class AudioManager : MonoBehaviour
     public void SetBGMVolume(float value)
     {
         bgmVolume = Mathf.Clamp01(value);
-        bgmSource.volume = bgmVolume;
+        ApplyVolumes();
         PlayerPrefs.SetFloat(BgmVolumeKey, bgmVolume);
     }
 
     public void SetSFXVolume(float value)
     {
         sfxVolume = Mathf.Clamp01(value);
-        sfxSource.volume = sfxVolume;   // 原本漏掉這行，滑桿拉低時音量會被算成平方
+        ApplyVolumes();                 // 原本漏掉這行，滑桿拉低時音量會被算成平方
         PlayerPrefs.SetFloat(SfxVolumeKey, sfxVolume);
+    }
+
+    public void SetMuted(bool value)
+    {
+        muted = value;
+        ApplyVolumes();
+        PlayerPrefs.SetInt(MutedKey, muted ? 1 : 0);
+    }
+
+    public void ResetVolumesToDefault()
+    {
+        SetBGMVolume(defaultBgmVolume);
+        SetSFXVolume(defaultSfxVolume);
+        SetMuted(false);
     }
 
     // 滑桿拖動時每幀都寫硬碟太重，改成關閉設定面板時才真正存檔

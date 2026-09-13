@@ -12,9 +12,6 @@ public class UIPanelManager : MonoBehaviour
     [Tooltip("必須是實作 IMenuPanel 的元件（例如 SettingsUI）")]
     [SerializeField] private MonoBehaviour defaultEscPanel;
 
-    [Header("改鍵位時 Esc 的意思是「取消改鍵」，不是關閉視窗，所以要先問過它")]
-    [SerializeField] private KeybindSettingsUI keybindSettings;
-
     private IMenuPanel currentOpenPanel;
     private IMenuPanel DefaultPanel => defaultEscPanel as IMenuPanel;
 
@@ -32,8 +29,9 @@ public class UIPanelManager : MonoBehaviour
     {
         if (!Input.GetKeyDown(KeyCode.Escape)) return;
 
-        // 正在等玩家按下新鍵時，Esc 交給 KeybindSettingsUI 當「取消」處理，不要順手把視窗關掉
-        if (keybindSettings != null && keybindSettings.IsCapturing) return;
+        // 正在等玩家按下新鍵時，Esc 交給 KeybindSettingsUI 當「取消」處理，不要順手把視窗關掉。
+        // 問的是靜態旗標而不是指定的那一份：鍵位頁現在有兩個地方會出現（標題畫面、書本內頁）
+        if (KeybindSettingsUI.AnyCapturing) return;
 
         if (currentOpenPanel != null)
             CloseCurrent();

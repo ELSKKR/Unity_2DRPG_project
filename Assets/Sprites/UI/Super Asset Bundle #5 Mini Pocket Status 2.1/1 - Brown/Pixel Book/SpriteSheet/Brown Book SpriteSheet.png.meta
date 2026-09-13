@@ -1,0 +1,5941 @@
+fileFormatVersion: 2
+guid: 8afc5ae4c2353a24e9015397d46c07e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7575473964261821815
+    second: Brown Book SpriteSheet_0
+  - first:
+      213: -4032583369404687273
+    second: Brown Book SpriteSheet_1
+  - first:
+      213: 2754447606740469567
+    second: Brown Book SpriteSheet_2
+  - first:
+      213: -4945097194709891492
+    second: Brown Book SpriteSheet_3
+  - first:
+      213: 2891522661897348732
+    second: Brown Book SpriteSheet_4
+  - first:
+      213: 6211013878694459378
+    second: Brown Book SpriteSheet_5
+  - first:
+      213: 3076288114021588291
+    second: Brown Book SpriteSheet_6
+  - first:
+      213: 1182722652230496748
+    second: Brown Book SpriteSheet_7
+  - first:
+      213: 2504457100390996229
+    second: Brown Book SpriteSheet_8
+  - first:
+      213: -4904660963158414196
+    second: Brown Book SpriteSheet_9
+  - first:
+      213: 94582750573044004
+    second: Brown Book SpriteSheet_10
+  - first:
+      213: 1457834617663155188
+    second: Brown Book SpriteSheet_11
+  - first:
+      213: -5321676886071195810
+    second: Brown Book SpriteSheet_12
+  - first:
+      213: -3709401804459675279
+    second: Brown Book SpriteSheet_13
+  - first:
+      213: 6652031855838787532
+    second: Brown Book SpriteSheet_14
+  - first:
+      213: 258732619843179995
+    second: Brown Book SpriteSheet_15
+  - first:
+      213: 625432060768660917
+    second: Brown Book SpriteSheet_16
+  - first:
+      213: -5704398469512781573
+    second: Brown Book SpriteSheet_17
+  - first:
+      213: -2112823339405037445
+    second: Brown Book SpriteSheet_18
+  - first:
+      213: 4945311907997125112
+    second: Brown Book SpriteSheet_19
+  - first:
+      213: -5207968427257412754
+    second: Brown Book SpriteSheet_20
+  - first:
+      213: 3341042616168479746
+    second: Brown Book SpriteSheet_21
+  - first:
+      213: -5310895297627043106
+    second: Brown Book SpriteSheet_22
+  - first:
+      213: 2761760279098446707
+    second: Brown Book SpriteSheet_23
+  - first:
+      213: 8393893657572563107
+    second: Brown Book SpriteSheet_24
+  - first:
+      213: 5574548853116997703
+    second: Brown Book SpriteSheet_25
+  - first:
+      213: 713724051589392908
+    second: Brown Book SpriteSheet_26
+  - first:
+      213: -1885743005924086437
+    second: Brown Book SpriteSheet_27
+  - first:
+      213: 109049472590940734
+    second: Brown Book SpriteSheet_28
+  - first:
+      213: -2961503317528971278
+    second: Brown Book SpriteSheet_29
+  - first:
+      213: -3401291815708463972
+    second: Brown Book SpriteSheet_30
+  - first:
+      213: -1136231299096982229
+    second: Brown Book SpriteSheet_31
+  - first:
+      213: -4271282390220729491
+    second: Brown Book SpriteSheet_32
+  - first:
+      213: -4607629873607354876
+    second: Brown Book SpriteSheet_33
+  - first:
+      213: 5770369010274813502
+    second: Brown Book SpriteSheet_34
+  - first:
+      213: 4642790948267310824
+    second: Brown Book SpriteSheet_35
+  - first:
+      213: -1554251555729072519
+    second: Brown Book SpriteSheet_36
+  - first:
+      213: 6853840449007324563
+    second: Brown Book SpriteSheet_37
+  - first:
+      213: -728600765828463343
+    second: Brown Book SpriteSheet_38
+  - first:
+      213: 7311961210823107210
+    second: Brown Book SpriteSheet_39
+  - first:
+      213: 8122838824754046245
+    second: Brown Book SpriteSheet_40
+  - first:
+      213: -3227987556157338709
+    second: Brown Book SpriteSheet_41
+  - first:
+      213: -5731518523452620395
+    second: Brown Book SpriteSheet_42
+  - first:
+      213: 4401973225869373707
+    second: Brown Book SpriteSheet_43
+  - first:
+      213: 7793376846348647040
+    second: Brown Book SpriteSheet_44
+  - first:
+      213: 8082538184895791084
+    second: Brown Book SpriteSheet_45
+  - first:
+      213: 902036215755596265
+    second: Brown Book SpriteSheet_46
+  - first:
+      213: -6201896703689349763
+    second: Brown Book SpriteSheet_47
+  - first:
+      213: 1930294147568958315
+    second: Brown Book SpriteSheet_48
+  - first:
+      213: 7434736892262810494
+    second: Brown Book SpriteSheet_49
+  - first:
+      213: 7319225209943789338
+    second: Brown Book SpriteSheet_50
+  - first:
+      213: -5973126341082100057
+    second: Brown Book SpriteSheet_51
+  - first:
+      213: 1206015344709642678
+    second: Brown Book SpriteSheet_52
+  - first:
+      213: 8240931043201229108
+    second: Brown Book SpriteSheet_53
+  - first:
+      213: -4653171816439215252
+    second: Brown Book SpriteSheet_54
+  - first:
+      213: -5103339434917758243
+    second: Brown Book SpriteSheet_55
+  - first:
+      213: 7686043728688370067
+    second: Brown Book SpriteSheet_56
+  - first:
+      213: -8679835989750897380
+    second: Brown Book SpriteSheet_57
+  - first:
+      213: 2261300586950579303
+    second: Brown Book SpriteSheet_58
+  - first:
+      213: -6116784413441238681
+    second: Brown Book SpriteSheet_59
+  - first:
+      213: 196320116931863677
+    second: Brown Book SpriteSheet_60
+  - first:
+      213: -5307092021371405271
+    second: Brown Book SpriteSheet_61
+  - first:
+      213: -1410285970703078766
+    second: Brown Book SpriteSheet_62
+  - first:
+      213: -1504566463920282422
+    second: Brown Book SpriteSheet_63
+  - first:
+      213: 1072939737819253074
+    second: Brown Book SpriteSheet_64
+  - first:
+      213: 8131630967967808799
+    second: Brown Book SpriteSheet_65
+  - first:
+      213: 5164972409720766658
+    second: Brown Book SpriteSheet_66
+  - first:
+      213: 7479494913588418798
+    second: Brown Book SpriteSheet_67
+  - first:
+      213: -5298281919513104897
+    second: Brown Book SpriteSheet_68
+  - first:
+      213: 1899518053703592201
+    second: Brown Book SpriteSheet_69
+  - first:
+      213: -108074887319294737
+    second: Brown Book SpriteSheet_70
+  - first:
+      213: 468928453888046559
+    second: Brown Book SpriteSheet_71
+  - first:
+      213: 5242838654462452435
+    second: Brown Book SpriteSheet_72
+  - first:
+      213: 4288040646939560571
+    second: Brown Book SpriteSheet_73
+  - first:
+      213: 5592282010543090615
+    second: Brown Book SpriteSheet_74
+  - first:
+      213: -5290720547525613646
+    second: Brown Book SpriteSheet_75
+  - first:
+      213: -6888371453395647889
+    second: Brown Book SpriteSheet_76
+  - first:
+      213: 4646924238442279358
+    second: Brown Book SpriteSheet_77
+  - first:
+      213: -1680815797802624281
+    second: Brown Book SpriteSheet_78
+  - first:
+      213: -201917915641508761
+    second: Brown Book SpriteSheet_79
+  - first:
+      213: -998492169831258667
+    second: Brown Book SpriteSheet_80
+  - first:
+      213: 3825452927259428920
+    second: Brown Book SpriteSheet_81
+  - first:
+      213: -7668550711844437400
+    second: Brown Book SpriteSheet_82
+  - first:
+      213: 6441393372241874181
+    second: Brown Book SpriteSheet_83
+  - first:
+      213: -6170908083156580975
+    second: Brown Book SpriteSheet_84
+  - first:
+      213: 5387805511081487788
+    second: Brown Book SpriteSheet_85
+  - first:
+      213: 2809502124527904767
+    second: Brown Book SpriteSheet_86
+  - first:
+      213: -3376651923339981218
+    second: Brown Book SpriteSheet_87
+  - first:
+      213: -5943250007758303648
+    second: Brown Book SpriteSheet_88
+  - first:
+      213: -8607223095724806371
+    second: Brown Book SpriteSheet_89
+  - first:
+      213: -6463580823099238667
+    second: Brown Book SpriteSheet_90
+  - first:
+      213: -8095987854731912251
+    second: Brown Book SpriteSheet_91
+  - first:
+      213: -6612314640979826992
+    second: Brown Book SpriteSheet_92
+  - first:
+      213: -2093469021121659918
+    second: Brown Book SpriteSheet_93
+  - first:
+      213: -6083807264358525603
+    second: Brown Book SpriteSheet_94
+  - first:
+      213: -3168437515415678516
+    second: Brown Book SpriteSheet_95
+  - first:
+      213: 6498700059540021555
+    second: Brown Book SpriteSheet_96
+  - first:
+      213: -3636543617999969363
+    second: Brown Book SpriteSheet_97
+  - first:
+      213: 2451945767991971697
+    second: Brown Book SpriteSheet_98
+  - first:
+      213: 3700193359133362461
+    second: Brown Book SpriteSheet_99
+  - first:
+      213: 4310340963325694418
+    second: Brown Book SpriteSheet_100
+  - first:
+      213: 3528977781706406575
+    second: Brown Book SpriteSheet_101
+  - first:
+      213: -8526317721816900120
+    second: Brown Book SpriteSheet_102
+  - first:
+      213: -579333629457689490
+    second: Brown Book SpriteSheet_103
+  - first:
+      213: -8786869955730768410
+    second: Brown Book SpriteSheet_104
+  - first:
+      213: 3685986464116048562
+    second: Brown Book SpriteSheet_105
+  - first:
+      213: 918394565707237416
+    second: Brown Book SpriteSheet_106
+  - first:
+      213: -1549218113950364037
+    second: Brown Book SpriteSheet_107
+  - first:
+      213: -3111126322370266797
+    second: Brown Book SpriteSheet_108
+  - first:
+      213: -8117415551036921216
+    second: Brown Book SpriteSheet_109
+  - first:
+      213: -7763844289900248055
+    second: Brown Book SpriteSheet_110
+  - first:
+      213: 3934076487894838160
+    second: Brown Book SpriteSheet_111
+  - first:
+      213: 8465827278329669080
+    second: Brown Book SpriteSheet_112
+  - first:
+      213: -3203180397497786477
+    second: Brown Book SpriteSheet_113
+  - first:
+      213: 2221179285077624692
+    second: Brown Book SpriteSheet_114
+  - first:
+      213: -7460388488629272549
+    second: Brown Book SpriteSheet_115
+  - first:
+      213: -6086334827714846828
+    second: Brown Book SpriteSheet_116
+  - first:
+      213: -8836057513718934118
+    second: Brown Book SpriteSheet_117
+  - first:
+      213: -3306299225932291214
+    second: Brown Book SpriteSheet_118
+  - first:
+      213: -1236177140904475457
+    second: Brown Book SpriteSheet_119
+  - first:
+      213: -950819207260170290
+    second: Brown Book SpriteSheet_120
+  - first:
+      213: -8781467750106189973
+    second: Brown Book SpriteSheet_121
+  - first:
+      213: -5578655444135199073
+    second: Brown Book SpriteSheet_122
+  - first:
+      213: -7666802362616497936
+    second: Brown Book SpriteSheet_123
+  - first:
+      213: -206158350767105539
+    second: Brown Book SpriteSheet_124
+  - first:
+      213: -4219581860497987282
+    second: Brown Book SpriteSheet_125
+  - first:
+      213: 5503573906237488428
+    second: Brown Book SpriteSheet_126
+  - first:
+      213: -1311421721749117470
+    second: Brown Book SpriteSheet_127
+  - first:
+      213: 2051839932920446500
+    second: Brown Book SpriteSheet_128
+  - first:
+      213: 4316733288877782764
+    second: Brown Book SpriteSheet_129
+  - first:
+      213: 6465847391186081360
+    second: Brown Book SpriteSheet_130
+  - first:
+      213: 7731652339419933326
+    second: Brown Book SpriteSheet_131
+  - first:
+      213: -158323563208290171
+    second: Brown Book SpriteSheet_132
+  - first:
+      213: 8603669669753101759
+    second: Brown Book SpriteSheet_133
+  - first:
+      213: 2563756992016248606
+    second: Brown Book SpriteSheet_134
+  - first:
+      213: 621087110673484927
+    second: Brown Book SpriteSheet_135
+  - first:
+      213: -3022526464486965930
+    second: Brown Book SpriteSheet_136
+  - first:
+      213: 8151258235948742366
+    second: Brown Book SpriteSheet_137
+  - first:
+      213: 4282608979856925086
+    second: Brown Book SpriteSheet_138
+  - first:
+      213: 6700747721513589745
+    second: Brown Book SpriteSheet_139
+  - first:
+      213: 5214360961088068504
+    second: Brown Book SpriteSheet_140
+  - first:
+      213: 585196143111684121
+    second: Brown Book SpriteSheet_141
+  - first:
+      213: 6910682319403361399
+    second: Brown Book SpriteSheet_142
+  - first:
+      213: -2679009521543018542
+    second: Brown Book SpriteSheet_143
+  - first:
+      213: -6400775228122442983
+    second: Brown Book SpriteSheet_144
+  - first:
+      213: 5833513401938775156
+    second: Brown Book SpriteSheet_145
+  - first:
+      213: -94129505839773883
+    second: Brown Book SpriteSheet_146
+  - first:
+      213: 4127360671869726755
+    second: Brown Book SpriteSheet_147
+  - first:
+      213: -5193674312666336205
+    second: Brown Book SpriteSheet_148
+  - first:
+      213: 7940520473508123418
+    second: Brown Book SpriteSheet_149
+  - first:
+      213: 5464271424250171409
+    second: Brown Book SpriteSheet_150
+  - first:
+      213: -5795737273226660503
+    second: Brown Book SpriteSheet_151
+  - first:
+      213: -553573973683293860
+    second: Brown Book SpriteSheet_152
+  - first:
+      213: -7019689315320630819
+    second: Brown Book SpriteSheet_153
+  - first:
+      213: 3561207198363680897
+    second: Brown Book SpriteSheet_154
+  - first:
+      213: 5232818150905360353
+    second: Brown Book SpriteSheet_155
+  - first:
+      213: 1707845384931617053
+    second: Brown Book SpriteSheet_156
+  - first:
+      213: -8932458153618400745
+    second: Brown Book SpriteSheet_157
+  - first:
+      213: 1031089123430586259
+    second: Brown Book SpriteSheet_158
+  - first:
+      213: 3532048231880956453
+    second: Brown Book SpriteSheet_159
+  - first:
+      213: 7282295150328571807
+    second: Brown Book SpriteSheet_160
+  - first:
+      213: 7681882707957972396
+    second: Brown Book SpriteSheet_161
+  - first:
+      213: -2686290173605267140
+    second: Brown Book SpriteSheet_162
+  - first:
+      213: 8501367047605353391
+    second: Brown Book SpriteSheet_163
+  - first:
+      213: 7867034492250108855
+    second: Brown Book SpriteSheet_164
+  - first:
+      213: 2466316251706099677
+    second: Brown Book SpriteSheet_165
+  - first:
+      213: -6021042138524934286
+    second: Brown Book SpriteSheet_166
+  - first:
+      213: 8371648140333636152
+    second: Brown Book SpriteSheet_167
+  - first:
+      213: -8848447994111222713
+    second: Brown Book SpriteSheet_168
+  - first:
+      213: 2178528215060979112
+    second: Brown Book SpriteSheet_169
+  - first:
+      213: 6541486777372311798
+    second: Brown Book SpriteSheet_170
+  - first:
+      213: 7544827725361307544
+    second: Brown Book SpriteSheet_171
+  - first:
+      213: -1707744886234058873
+    second: Brown Book SpriteSheet_172
+  - first:
+      213: 8795216185139660385
+    second: Brown Book SpriteSheet_173
+  - first:
+      213: 6821769123819422361
+    second: Brown Book SpriteSheet_174
+  - first:
+      213: 6701380689566703047
+    second: Brown Book SpriteSheet_175
+  - first:
+      213: 4157248221144821444
+    second: Brown Book SpriteSheet_176
+  - first:
+      213: 2470691079653574741
+    second: Brown Book SpriteSheet_177
+  - first:
+      213: 8324509891117711320
+    second: Brown Book SpriteSheet_178
+  - first:
+      213: 2490199421575574246
+    second: Brown Book SpriteSheet_179
+  - first:
+      213: -8782205277986397791
+    second: Brown Book SpriteSheet_180
+  - first:
+      213: 3690251615958445714
+    second: Brown Book SpriteSheet_181
+  - first:
+      213: -4830606715691896201
+    second: Brown Book SpriteSheet_182
+  - first:
+      213: -6102302845647699218
+    second: Brown Book SpriteSheet_183
+  - first:
+      213: -4023465538720437587
+    second: Brown Book SpriteSheet_184
+  - first:
+      213: -1206782472846831200
+    second: Brown Book SpriteSheet_185
+  - first:
+      213: 8025703754388076804
+    second: Brown Book SpriteSheet_186
+  - first:
+      213: 5785990498216193683
+    second: Brown Book SpriteSheet_187
+  - first:
+      213: 4315064119411498143
+    second: Brown Book SpriteSheet_188
+  - first:
+      213: 5457506746527980028
+    second: Brown Book SpriteSheet_189
+  - first:
+      213: -1651675098548462922
+    second: Brown Book SpriteSheet_190
+  - first:
+      213: -3273253438773406794
+    second: Brown Book SpriteSheet_191
+  - first:
+      213: 8019393692303419550
+    second: Brown Book SpriteSheet_192
+  - first:
+      213: 6406366378014685812
+    second: Brown Book SpriteSheet_193
+  - first:
+      213: -2250449216883133091
+    second: Brown Book SpriteSheet_194
+  - first:
+      213: 1680372805899938609
+    second: Brown Book SpriteSheet_195
+  - first:
+      213: 8842889305573307971
+    second: Brown Book SpriteSheet_196
+  - first:
+      213: 2791854595694533016
+    second: Brown Book SpriteSheet_197
+  - first:
+      213: 1376605035184764678
+    second: Brown Book SpriteSheet_198
+  - first:
+      213: 7067644514569824820
+    second: Brown Book SpriteSheet_199
+  - first:
+      213: -6952291459885560920
+    second: Brown Book SpriteSheet_200
+  - first:
+      213: 5045336842607072538
+    second: Brown Book SpriteSheet_201
+  - first:
+      213: 7015963768367276407
+    second: Brown Book SpriteSheet_202
+  - first:
+      213: -7219086231703641879
+    second: Brown Book SpriteSheet_203
+  - first:
+      213: -9065829454260460405
+    second: Brown Book SpriteSheet_204
+  - first:
+      213: -5753733333077979908
+    second: Brown Book SpriteSheet_205
+  - first:
+      213: -6194141611252375563
+    second: Brown Book SpriteSheet_206
+  - first:
+      213: 5076674277212507176
+    second: Brown Book SpriteSheet_207
+  - first:
+      213: -2801632407326692803
+    second: Brown Book SpriteSheet_208
+  - first:
+      213: -1999782326748748228
+    second: Brown Book SpriteSheet_209
+  - first:
+      213: -5206168674181384085
+    second: Brown Book SpriteSheet_210
+  - first:
+      213: 3120856376201740584
+    second: Brown Book SpriteSheet_211
+  - first:
+      213: -2202857470489045803
+    second: Brown Book SpriteSheet_212
+  - first:
+      213: -5752980261043664078
+    second: Brown Book SpriteSheet_213
+  - first:
+      213: 929035820305315785
+    second: Brown Book SpriteSheet_214
+  - first:
+      213: -7754505221307227919
+    second: Brown Book SpriteSheet_215
+  - first:
+      213: 7193878089258444248
+    second: Brown Book SpriteSheet_216
+  - first:
+      213: 5958929800582287648
+    second: Brown Book SpriteSheet_217
+  - first:
+      213: 8081445195236738017
+    second: Brown Book SpriteSheet_218
+  - first:
+      213: 5212790723224573442
+    second: Brown Book SpriteSheet_219
+  - first:
+      213: -3618173346807385798
+    second: Brown Book SpriteSheet_220
+  - first:
+      213: -1644252139207830903
+    second: Brown Book SpriteSheet_221
+  - first:
+      213: -8949306993640558602
+    second: Brown Book SpriteSheet_222
+  - first:
+      213: 9196639660230520811
+    second: Brown Book SpriteSheet_223
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3271
+        width: 514
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dcb051f6d712960800000000000000
+      internalID: 7575473964261821815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c5c738ac26908c0800000000000000
+      internalID: -4032583369404687273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37c0303183c93620800000000000000
+      internalID: 2754447606740469567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5649893d4c7f5bb0800000000000000
+      internalID: -4945097194709891492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7622628a80c02820800000000000000
+      internalID: 2891522661897348732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7ba9e1734f13650800000000000000
+      internalID: 6211013878694459378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d5307adbb21ba20800000000000000
+      internalID: 3076288114021588291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2311
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1b1026cffd96010800000000000000
+      internalID: 1182722652230496748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2311
+        width: 490
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5099200b67e91c220800000000000000
+      internalID: 2504457100390996229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2311
+        width: 490
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ca73b07d42febb0800000000000000
+      internalID: -4904660963158414196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2297
+        width: 490
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42129c1b286005100800000000000000
+      internalID: 94582750573044004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 2311
+        width: 490
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb641f5cd44b3410800000000000000
+      internalID: 1457834617663155188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57c15c411b9526b0800000000000000
+      internalID: -5321676886071195810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171fcfb46be858cc0800000000000000
+      internalID: -3709401804459675279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc77ad99ab3c05c50800000000000000
+      internalID: 6652031855838787532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd51f8962f3379300800000000000000
+      internalID: 258732619843179995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1274
+        width: 414
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bda145452bfda800800000000000000
+      internalID: 625432060768660917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1217
+        width: 224
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0a86fa0d7e5d0b0800000000000000
+      internalID: -5704398469512781573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1192
+        width: 54
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70bb95fd5ebda2e0800000000000000
+      internalID: -2112823339405037445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1319
+        width: 32
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f98dab9af641a440800000000000000
+      internalID: 4945311907997125112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1314
+        width: 98
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634fd3fe4499b7b0800000000000000
+      internalID: -5207968427257412754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1322
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf92cce84cd5e20800000000000000
+      internalID: 3341042616168479746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 1313
+        width: 382
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edac5a97dd8eb46b0800000000000000
+      internalID: -5310895297627043106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 1319
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3735276675eb35620800000000000000
+      internalID: 2761760279098446707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 695
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8540e0fc91d7470800000000000000
+      internalID: 8393893657572563107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 689
+        width: 382
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740991d85a6cc5d40800000000000000
+      internalID: 5574548853116997703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 698
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a63a25e38a7e900800000000000000
+      internalID: 713724051589392908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 690
+        width: 98
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5da73a2abe74d5e0800000000000000
+      internalID: -1885743005924086437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 695
+        width: 32
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a0ab4eaeb638100800000000000000
+      internalID: 109049472590940734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f77b856c60a6e6d0800000000000000
+      internalID: -2961503317528971278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 495
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ce04b4d1f2cc0d0800000000000000
+      internalID: -3401291815708463972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dc4aa47ab4b30f0800000000000000
+      internalID: -1136231299096982229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63138bdb4b59b4c0800000000000000
+      internalID: -4271282390220729491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 495
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406d72fca096e00c0800000000000000
+      internalID: -4607629873607354876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e364a58ca08741050800000000000000
+      internalID: 5770369010274813502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee3fd5d4c18e6040800000000000000
+      internalID: 4642790948267310824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e9b21e1703e6ae0800000000000000
+      internalID: -1554251555729072519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d094e339bbd1f50800000000000000
+      internalID: 6853840449007324563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 470
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11587b9b67d73e5f0800000000000000
+      internalID: -728600765828463343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 471
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82eb861bfd497560800000000000000
+      internalID: 7311961210823107210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 498
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525673ddfde1ab070800000000000000
+      internalID: 8122838824754046245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab4cd79b62e333d0800000000000000
+      internalID: -3227987556157338709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 499
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5910902154e8570b0800000000000000
+      internalID: -5731518523452620395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 499
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0179b68353f61d30800000000000000
+      internalID: 4401973225869373707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a7d5f53f2a72c60800000000000000
+      internalID: 7793376846348647040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 496
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef7e32f7a1fa2070800000000000000
+      internalID: 8082538184895791084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 496
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e166a6b82da48c00800000000000000
+      internalID: 902036215755596265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 496
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d752eea9ecf6ee9a0800000000000000
+      internalID: -6201896703689349763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 496
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bfcd1dc48c9ca10800000000000000
+      internalID: 1930294147568958315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 496
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7301d500dd7d2760800000000000000
+      internalID: 7434736892262810494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 463
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f88cdac8c139560800000000000000
+      internalID: 7319225209943789338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 463
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aec5416d313b1da0800000000000000
+      internalID: -5973126341082100057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 499
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9a617f090acb010800000000000000
+      internalID: 1206015344709642678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 499
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431af781f1bad5270800000000000000
+      internalID: 8240931043201229108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 499
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b0842f2ec9c6fb0800000000000000
+      internalID: -4653171816439215252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 500
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddafb7592db4d29b0800000000000000
+      internalID: -5103339434917758243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 500
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391d6908c005aaa60800000000000000
+      internalID: 7686043728688370067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 500
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c152f32b7270b8780800000000000000
+      internalID: -8679835989750897380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 476
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764529727e0c16f10800000000000000
+      internalID: 2261300586950579303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769503debf0dc1ba0800000000000000
+      internalID: -6116784413441238681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74acff2b1879b200800000000000000
+      internalID: 196320116931863677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 483
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cf8dbbceb6956b0800000000000000
+      internalID: -5307092021371405271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 484
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa684b168ad6ce0800000000000000
+      internalID: -1410285970703078766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 484
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4e019c5c4be1be0800000000000000
+      internalID: -1504566463920282422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 484
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2590e12c109d3ee00800000000000000
+      internalID: 1072939737819253074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 463
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d794a384b59d070800000000000000
+      internalID: 8131630967967808799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0891c9a0bada740800000000000000
+      internalID: 5164972409720766658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 463
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee857cfeef08cc760800000000000000
+      internalID: 7479494913588418798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 463
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdeb8b6aa8b876b0800000000000000
+      internalID: -5298281919513104897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909a1731b917c5a10800000000000000
+      internalID: 1899518053703592201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 463
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec613c667a008ef0800000000000000
+      internalID: -108074887319294737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5f11fb1f7f18600800000000000000
+      internalID: 468928453888046559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 467
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2ebed7afd42c840800000000000000
+      internalID: 5242838654462452435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ac447df3e228b30800000000000000
+      internalID: 4288040646939560571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 467
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb6a320cd6cb9d40800000000000000
+      internalID: 5592282010543090615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 466
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b720e681b59396b0800000000000000
+      internalID: -5290720547525613646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 464
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f624967c8a69760a0800000000000000
+      internalID: -6888371453395647889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 464
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1318279f03d7040800000000000000
+      internalID: 4646924238442279358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 464
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea1c1fefea8ca8e0800000000000000
+      internalID: -1680815797802624281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 464
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c866cb9b4a23df0800000000000000
+      internalID: -201917915641508761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 464
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5e23a69a4a422f0800000000000000
+      internalID: -998492169831258667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 467
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838c6425b2db61530800000000000000
+      internalID: 3825452927259428920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 435
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862817ed1c5d39590800000000000000
+      internalID: -7668550711844437400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 467
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d4803e42d646950800000000000000
+      internalID: 6441393372241874181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 468
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1958dd11bc78c5aa0800000000000000
+      internalID: -6170908083156580975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 468
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad67e6019455ca40800000000000000
+      internalID: 5387805511081487788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7e0300c4b5df620800000000000000
+      internalID: 2809502124527904767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 451
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e4e2b47f8b321d0800000000000000
+      internalID: -3376651923339981218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 451
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e8a3c4b95558da0800000000000000
+      internalID: -5943250007758303648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 452
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fe8cc82300d8880800000000000000
+      internalID: -8607223095724806371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 452
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f69426ac7fbc46a0800000000000000
+      internalID: -6463580823099238667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 431
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbd3d4c0f545af80800000000000000
+      internalID: -8095987854731912251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d668491ed65c34a0800000000000000
+      internalID: -6612314640979826992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 431
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb32c7540182f2e0800000000000000
+      internalID: -2093469021121659918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 436
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5518f5c689f19ba0800000000000000
+      internalID: -6083807264358525603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 436
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc190a8edd27704d0800000000000000
+      internalID: -3168437515415678516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 436
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33161b6c545003a50800000000000000
+      internalID: 6498700059540021555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3e5eeb8d6688dc0800000000000000
+      internalID: -3636543617999969363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f0fad5faf070220800000000000000
+      internalID: 2451945767991971697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d194763714ab95330800000000000000
+      internalID: 3700193359133362461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1d7dbd44861db30800000000000000
+      internalID: 4310340963325694418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa3bda589279f030800000000000000
+      internalID: 3528977781706406575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed5cf4d43f6ca980800000000000000
+      internalID: -8526317721816900120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e649cb9222bc5f7f0800000000000000
+      internalID: -579333629457689490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed7d118454ce0680800000000000000
+      internalID: -8786869955730768410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b20980f821472330800000000000000
+      internalID: 3685986464116048562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82801acddfacebc00800000000000000
+      internalID: 918394565707237416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 434
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e436e5552108ae0800000000000000
+      internalID: -1549218113950364037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 433
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359b0cfd71f03d4d0800000000000000
+      internalID: -3111126322370266797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 433
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a66327095295f80800000000000000
+      internalID: -8117415551036921216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 432
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9040d01c0c8414490800000000000000
+      internalID: -7763844289900248055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 432
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b203cd8b5a89630800000000000000
+      internalID: 3934076487894838160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5e6a64e09ac7570800000000000000
+      internalID: 8465827278329669080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 432
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f56af46640c83d0800000000000000
+      internalID: -3203180397497786477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 431
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477028d9ac633de10800000000000000
+      internalID: 2221179285077624692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 400
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10c6d84230677890800000000000000
+      internalID: -7460388488629272549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 399
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fd7f198bef88ba0800000000000000
+      internalID: -6086334827714846828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 435
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a959cd7b184006580800000000000000
+      internalID: -8836057513718934118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 435
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273282d1f5aad12d0800000000000000
+      internalID: -3306299225932291214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 403
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb44eec907738dee0800000000000000
+      internalID: -1236177140904475457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec793a9f7f20ec2f0800000000000000
+      internalID: -950819207260170290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f2f548b95f12680800000000000000
+      internalID: -8781467750106189973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 403
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9eb5083e62a492b0800000000000000
+      internalID: -5578655444135199073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 367
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f83e152fdb0a9590800000000000000
+      internalID: -7666802362616497936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 367
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9db0f7214932df0800000000000000
+      internalID: -206158350767105539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 367
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29e55877a80175c0800000000000000
+      internalID: -4219581860497987282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2df46cfe4f906c40800000000000000
+      internalID: 5503573906237488428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5a96c64e4eccde0800000000000000
+      internalID: -1311421721749117470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e3fa14c89997c10800000000000000
+      internalID: 2051839932920446500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 383
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6f9a12e0e18eb30800000000000000
+      internalID: 4316733288877782764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 383
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056588bd1fd4bb950800000000000000
+      internalID: 6465847391186081360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 385
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a61f1b6d85c4b60800000000000000
+      internalID: 7731652339419933326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580556fde858dcdf0800000000000000
+      internalID: -158323563208290171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 383
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd9f6efaff566770800000000000000
+      internalID: 8603669669753101759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 382
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f6d8f966b449320800000000000000
+      internalID: 2563756992016248606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c444ebf6b8e9800800000000000000
+      internalID: 621087110673484927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d7900d134dd06d0800000000000000
+      internalID: -3022526464486965930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6b33aad261f1170800000000000000
+      internalID: 8151258235948742366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91254c4d22ee6b30800000000000000
+      internalID: 4282608979856925086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 367
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb5356fc86ddfc50800000000000000
+      internalID: 6700747721513589745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 369
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b9150daa12d5840800000000000000
+      internalID: 5214360961088068504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910c91aaac80f1800800000000000000
+      internalID: 585196143111684121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 368
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7742c9384fca7ef50800000000000000
+      internalID: 6910682319403361399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 368
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d70a8eb80f32dad0800000000000000
+      internalID: -2679009521543018542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91354a0c7d0eb27a0800000000000000
+      internalID: -6400775228122442983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c8a03288dc4f050800000000000000
+      internalID: 5833513401938775156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 335
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547898196b591bef0800000000000000
+      internalID: -94129505839773883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 335
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32076b2d9a4574930800000000000000
+      internalID: 4127360671869726755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334b37adabc5ce7b0800000000000000
+      internalID: -5193674312666336205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a131b2bcc45623e60800000000000000
+      internalID: 7940520473508123418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110dfbec8edf4db40800000000000000
+      internalID: 5464271424250171409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96575d938a7619fa0800000000000000
+      internalID: -5795737273226660503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 287
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51b4b5676f4158f0800000000000000
+      internalID: -553573973683293860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd175b672cd059e90800000000000000
+      internalID: -7019689315320630819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180080e2413fb6130800000000000000
+      internalID: 3561207198363680897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 335
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef2ee23264be9840800000000000000
+      internalID: 5232818150905360353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 351
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19a32c345c73b710800000000000000
+      internalID: 1707845384931617053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a988ea2a8890480800000000000000
+      internalID: -8932458153618400745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39759d5481a2f4e00800000000000000
+      internalID: 1031089123430586259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 351
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a9fce372b540130800000000000000
+      internalID: 3532048231880956453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9762e02bd8ef0560800000000000000
+      internalID: 7282295150328571807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 352
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadfc0e5f978b9a60800000000000000
+      internalID: 7681882707957972396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39b2a6d15168bad0800000000000000
+      internalID: -2686290173605267140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab7ab1a94ceaf570800000000000000
+      internalID: 8501367047605353391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3305a70325d2d60800000000000000
+      internalID: 7867034492250108855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 322
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd707b6509d1a3220800000000000000
+      internalID: 2466316251706099677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 319
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f109b6316f07ca0800000000000000
+      internalID: -6021042138524934286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 303
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a5525f0a11e2470800000000000000
+      internalID: 8371648140333636152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 271
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c9b713e6ff33580800000000000000
+      internalID: -8848447994111222713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 258
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad10e78edfab3e10800000000000000
+      internalID: 2178528215060979112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 260
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f00134d09708ca50800000000000000
+      internalID: 6541486777372311798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fddad87dc94b860800000000000000
+      internalID: 7544827725361307544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f6701f21fdc48e0800000000000000
+      internalID: -1707744886234058873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16604067582ee0a70800000000000000
+      internalID: 8795216185139660385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9920cf4ffdacbae50800000000000000
+      internalID: 6821769123819422361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 277
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd19425b36100d50800000000000000
+      internalID: 6701380689566703047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 236
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce26782b3381b930800000000000000
+      internalID: 4157248221144821444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 236
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5584a785278a94220800000000000000
+      internalID: 2470691079653574741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 236
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dffb4d04a9968370800000000000000
+      internalID: 8324509891117711320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 210
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e235e62e27fe8220800000000000000
+      internalID: 2490199421575574246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 228
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a16f0d64d65f1680800000000000000
+      internalID: -8782205277986397791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ea30dfa48663330800000000000000
+      internalID: 3690251615958445714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772719529cc36fcb0800000000000000
+      internalID: -4830606715691896201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2405da4e3405ba0800000000000000
+      internalID: -6102302845647699218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daaea86e867c928c0800000000000000
+      internalID: -4023465538720437587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 207
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a11cc81cb5a04fe0800000000000000
+      internalID: -1206782472846831200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 207
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409f1d8ea07016f60800000000000000
+      internalID: 8025703754388076804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e26ffd3b7fb4050800000000000000
+      internalID: 5785990498216193683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c5e8454ff22eb30800000000000000
+      internalID: 4315064119411498143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9191a8875fcbb40800000000000000
+      internalID: 5457506746527980028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 193
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba19a2bf321419e0800000000000000
+      internalID: -1651675098548462922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 201
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3d51207511392d0800000000000000
+      internalID: -3273253438773406794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 193
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98e0c7131c9a4f60800000000000000
+      internalID: 8019393692303419550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 194
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a3296474cf7e850800000000000000
+      internalID: 6406366378014685812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55ff925c5cc4c0e0800000000000000
+      internalID: -2250449216883133091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b64e9f922e15710800000000000000
+      internalID: 1680372805899938609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 162
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3463cc6c8f048ba70800000000000000
+      internalID: 8842889305573307971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 146
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8991ae086f8aeb620800000000000000
+      internalID: 2791854595694533016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 180
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b3366cfeaa1310800000000000000
+      internalID: 1376605035184764678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 148
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a2ca17d31551260800000000000000
+      internalID: 7067644514569824820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 174
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab0a8680cf748f90800000000000000
+      internalID: -6952291459885560920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 173
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1519c38023a40640800000000000000
+      internalID: 5045336842607072538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 144
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771ea8a00e5bd5160800000000000000
+      internalID: 7015963768367276407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e024641257a0db90800000000000000
+      internalID: -7219086231703641879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 124
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b842888e424bf2280800000000000000
+      internalID: -9065829454260460405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 124
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc0095a402a620b0800000000000000
+      internalID: -5753733333077979908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff16d4c50df90aa0800000000000000
+      internalID: -6194141611252375563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c4d959b58f37640800000000000000
+      internalID: 5076674277212507176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ae1125b2a9e19d0800000000000000
+      internalID: -2801632407326692803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 146
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c366902b1985f34e0800000000000000
+      internalID: -1999782326748748228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f6ae9c29ffb7b0800000000000000
+      internalID: -5206168674181384085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8218482d6528f4b20800000000000000
+      internalID: 3120856376201740584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 146
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d45fa44dc0ed61e0800000000000000
+      internalID: -2202857470489045803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b88a4eeee4920b0800000000000000
+      internalID: -5752980261043664078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 147
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c779e4082994ec00800000000000000
+      internalID: 929035820305315785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 147
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0221b1696726490800000000000000
+      internalID: -7754505221307227919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d527b3e10ac5d360800000000000000
+      internalID: 7193878089258444248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0215235f41f52b250800000000000000
+      internalID: 5958929800582287648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e38fd5769f072070800000000000000
+      internalID: 8081445195236738017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20690425b8d875840800000000000000
+      internalID: 5212790723224573442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3172cfc28aa9cdc0800000000000000
+      internalID: -3618173346807385798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982575914617e29e0800000000000000
+      internalID: -1644252139207830903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 114
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffa22a64bcadc380800000000000000
+      internalID: -8949306993640558602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brown Book SpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef2f4b8b0701af70800000000000000
+      internalID: 9196639660230520811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Brown Book SpriteSheet_0: 7575473964261821815
+      Brown Book SpriteSheet_1: -4032583369404687273
+      Brown Book SpriteSheet_10: 94582750573044004
+      Brown Book SpriteSheet_100: 4310340963325694418
+      Brown Book SpriteSheet_101: 3528977781706406575
+      Brown Book SpriteSheet_102: -8526317721816900120
+      Brown Book SpriteSheet_103: -579333629457689490
+      Brown Book SpriteSheet_104: -8786869955730768410
+      Brown Book SpriteSheet_105: 3685986464116048562
+      Brown Book SpriteSheet_106: 918394565707237416
+      Brown Book SpriteSheet_107: -1549218113950364037
+      Brown Book SpriteSheet_108: -3111126322370266797
+      Brown Book SpriteSheet_109: -8117415551036921216
+      Brown Book SpriteSheet_11: 1457834617663155188
+      Brown Book SpriteSheet_110: -7763844289900248055
+      Brown Book SpriteSheet_111: 3934076487894838160
+      Brown Book SpriteSheet_112: 8465827278329669080
+      Brown Book SpriteSheet_113: -3203180397497786477
+      Brown Book SpriteSheet_114: 2221179285077624692
+      Brown Book SpriteSheet_115: -7460388488629272549
+      Brown Book SpriteSheet_116: -6086334827714846828
+      Brown Book SpriteSheet_117: -8836057513718934118
+      Brown Book SpriteSheet_118: -3306299225932291214
+      Brown Book SpriteSheet_119: -1236177140904475457
+      Brown Book SpriteSheet_12: -5321676886071195810
+      Brown Book SpriteSheet_120: -950819207260170290
+      Brown Book SpriteSheet_121: -8781467750106189973
+      Brown Book SpriteSheet_122: -5578655444135199073
+      Brown Book SpriteSheet_123: -7666802362616497936
+      Brown Book SpriteSheet_124: -206158350767105539
+      Brown Book SpriteSheet_125: -4219581860497987282
+      Brown Book SpriteSheet_126: 5503573906237488428
+      Brown Book SpriteSheet_127: -1311421721749117470
+      Brown Book SpriteSheet_128: 2051839932920446500
+      Brown Book SpriteSheet_129: 4316733288877782764
+      Brown Book SpriteSheet_13: -3709401804459675279
+      Brown Book SpriteSheet_130: 6465847391186081360
+      Brown Book SpriteSheet_131: 7731652339419933326
+      Brown Book SpriteSheet_132: -158323563208290171
+      Brown Book SpriteSheet_133: 8603669669753101759
+      Brown Book SpriteSheet_134: 2563756992016248606
+      Brown Book SpriteSheet_135: 621087110673484927
+      Brown Book SpriteSheet_136: -3022526464486965930
+      Brown Book SpriteSheet_137: 8151258235948742366
+      Brown Book SpriteSheet_138: 4282608979856925086
+      Brown Book SpriteSheet_139: 6700747721513589745
+      Brown Book SpriteSheet_14: 6652031855838787532
+      Brown Book SpriteSheet_140: 5214360961088068504
+      Brown Book SpriteSheet_141: 585196143111684121
+      Brown Book SpriteSheet_142: 6910682319403361399
+      Brown Book SpriteSheet_143: -2679009521543018542
+      Brown Book SpriteSheet_144: -6400775228122442983
+      Brown Book SpriteSheet_145: 5833513401938775156
+      Brown Book SpriteSheet_146: -94129505839773883
+      Brown Book SpriteSheet_147: 4127360671869726755
+      Brown Book SpriteSheet_148: -5193674312666336205
+      Brown Book SpriteSheet_149: 7940520473508123418
+      Brown Book SpriteSheet_15: 258732619843179995
+      Brown Book SpriteSheet_150: 5464271424250171409
+      Brown Book SpriteSheet_151: -5795737273226660503
+      Brown Book SpriteSheet_152: -553573973683293860
+      Brown Book SpriteSheet_153: -7019689315320630819
+      Brown Book SpriteSheet_154: 3561207198363680897
+      Brown Book SpriteSheet_155: 5232818150905360353
+      Brown Book SpriteSheet_156: 1707845384931617053
+      Brown Book SpriteSheet_157: -8932458153618400745
+      Brown Book SpriteSheet_158: 1031089123430586259
+      Brown Book SpriteSheet_159: 3532048231880956453
+      Brown Book SpriteSheet_16: 625432060768660917
+      Brown Book SpriteSheet_160: 7282295150328571807
+      Brown Book SpriteSheet_161: 7681882707957972396
+      Brown Book SpriteSheet_162: -2686290173605267140
+      Brown Book SpriteSheet_163: 8501367047605353391
+      Brown Book SpriteSheet_164: 7867034492250108855
+      Brown Book SpriteSheet_165: 2466316251706099677
+      Brown Book SpriteSheet_166: -6021042138524934286
+      Brown Book SpriteSheet_167: 8371648140333636152
+      Brown Book SpriteSheet_168: -8848447994111222713
+      Brown Book SpriteSheet_169: 2178528215060979112
+      Brown Book SpriteSheet_17: -5704398469512781573
+      Brown Book SpriteSheet_170: 6541486777372311798
+      Brown Book SpriteSheet_171: 7544827725361307544
+      Brown Book SpriteSheet_172: -1707744886234058873
+      Brown Book SpriteSheet_173: 8795216185139660385
+      Brown Book SpriteSheet_174: 6821769123819422361
+      Brown Book SpriteSheet_175: 6701380689566703047
+      Brown Book SpriteSheet_176: 4157248221144821444
+      Brown Book SpriteSheet_177: 2470691079653574741
+      Brown Book SpriteSheet_178: 8324509891117711320
+      Brown Book SpriteSheet_179: 2490199421575574246
+      Brown Book SpriteSheet_18: -2112823339405037445
+      Brown Book SpriteSheet_180: -8782205277986397791
+      Brown Book SpriteSheet_181: 3690251615958445714
+      Brown Book SpriteSheet_182: -4830606715691896201
+      Brown Book SpriteSheet_183: -6102302845647699218
+      Brown Book SpriteSheet_184: -4023465538720437587
+      Brown Book SpriteSheet_185: -1206782472846831200
+      Brown Book SpriteSheet_186: 8025703754388076804
+      Brown Book SpriteSheet_187: 5785990498216193683
+      Brown Book SpriteSheet_188: 4315064119411498143
+      Brown Book SpriteSheet_189: 5457506746527980028
+      Brown Book SpriteSheet_19: 4945311907997125112
+      Brown Book SpriteSheet_190: -1651675098548462922
+      Brown Book SpriteSheet_191: -3273253438773406794
+      Brown Book SpriteSheet_192: 8019393692303419550
+      Brown Book SpriteSheet_193: 6406366378014685812
+      Brown Book SpriteSheet_194: -2250449216883133091
+      Brown Book SpriteSheet_195: 1680372805899938609
+      Brown Book SpriteSheet_196: 8842889305573307971
+      Brown Book SpriteSheet_197: 2791854595694533016
+      Brown Book SpriteSheet_198: 1376605035184764678
+      Brown Book SpriteSheet_199: 7067644514569824820
+      Brown Book SpriteSheet_2: 2754447606740469567
+      Brown Book SpriteSheet_20: -5207968427257412754
+      Brown Book SpriteSheet_200: -6952291459885560920
+      Brown Book SpriteSheet_201: 5045336842607072538
+      Brown Book SpriteSheet_202: 7015963768367276407
+      Brown Book SpriteSheet_203: -7219086231703641879
+      Brown Book SpriteSheet_204: -9065829454260460405
+      Brown Book SpriteSheet_205: -5753733333077979908
+      Brown Book SpriteSheet_206: -6194141611252375563
+      Brown Book SpriteSheet_207: 5076674277212507176
+      Brown Book SpriteSheet_208: -2801632407326692803
+      Brown Book SpriteSheet_209: -1999782326748748228
+      Brown Book SpriteSheet_21: 3341042616168479746
+      Brown Book SpriteSheet_210: -5206168674181384085
+      Brown Book SpriteSheet_211: 3120856376201740584
+      Brown Book SpriteSheet_212: -2202857470489045803
+      Brown Book SpriteSheet_213: -5752980261043664078
+      Brown Book SpriteSheet_214: 929035820305315785
+      Brown Book SpriteSheet_215: -7754505221307227919
+      Brown Book SpriteSheet_216: 7193878089258444248
+      Brown Book SpriteSheet_217: 5958929800582287648
+      Brown Book SpriteSheet_218: 8081445195236738017
+      Brown Book SpriteSheet_219: 5212790723224573442
+      Brown Book SpriteSheet_22: -5310895297627043106
+      Brown Book SpriteSheet_220: -3618173346807385798
+      Brown Book SpriteSheet_221: -1644252139207830903
+      Brown Book SpriteSheet_222: -8949306993640558602
+      Brown Book SpriteSheet_223: 9196639660230520811
+      Brown Book SpriteSheet_23: 2761760279098446707
+      Brown Book SpriteSheet_24: 8393893657572563107
+      Brown Book SpriteSheet_25: 5574548853116997703
+      Brown Book SpriteSheet_26: 713724051589392908
+      Brown Book SpriteSheet_27: -1885743005924086437
+      Brown Book SpriteSheet_28: 109049472590940734
+      Brown Book SpriteSheet_29: -2961503317528971278
+      Brown Book SpriteSheet_3: -4945097194709891492
+      Brown Book SpriteSheet_30: -3401291815708463972
+      Brown Book SpriteSheet_31: -1136231299096982229
+      Brown Book SpriteSheet_32: -4271282390220729491
+      Brown Book SpriteSheet_33: -4607629873607354876
+      Brown Book SpriteSheet_34: 5770369010274813502
+      Brown Book SpriteSheet_35: 4642790948267310824
+      Brown Book SpriteSheet_36: -1554251555729072519
+      Brown Book SpriteSheet_37: 6853840449007324563
+      Brown Book SpriteSheet_38: -728600765828463343
+      Brown Book SpriteSheet_39: 7311961210823107210
+      Brown Book SpriteSheet_4: 2891522661897348732
+      Brown Book SpriteSheet_40: 8122838824754046245
+      Brown Book SpriteSheet_41: -3227987556157338709
+      Brown Book SpriteSheet_42: -5731518523452620395
+      Brown Book SpriteSheet_43: 4401973225869373707
+      Brown Book SpriteSheet_44: 7793376846348647040
+      Brown Book SpriteSheet_45: 8082538184895791084
+      Brown Book SpriteSheet_46: 902036215755596265
+      Brown Book SpriteSheet_47: -6201896703689349763
+      Brown Book SpriteSheet_48: 1930294147568958315
+      Brown Book SpriteSheet_49: 7434736892262810494
+      Brown Book SpriteSheet_5: 6211013878694459378
+      Brown Book SpriteSheet_50: 7319225209943789338
+      Brown Book SpriteSheet_51: -5973126341082100057
+      Brown Book SpriteSheet_52: 1206015344709642678
+      Brown Book SpriteSheet_53: 8240931043201229108
+      Brown Book SpriteSheet_54: -4653171816439215252
+      Brown Book SpriteSheet_55: -5103339434917758243
+      Brown Book SpriteSheet_56: 7686043728688370067
+      Brown Book SpriteSheet_57: -8679835989750897380
+      Brown Book SpriteSheet_58: 2261300586950579303
+      Brown Book SpriteSheet_59: -6116784413441238681
+      Brown Book SpriteSheet_6: 3076288114021588291
+      Brown Book SpriteSheet_60: 196320116931863677
+      Brown Book SpriteSheet_61: -5307092021371405271
+      Brown Book SpriteSheet_62: -1410285970703078766
+      Brown Book SpriteSheet_63: -1504566463920282422
+      Brown Book SpriteSheet_64: 1072939737819253074
+      Brown Book SpriteSheet_65: 8131630967967808799
+      Brown Book SpriteSheet_66: 5164972409720766658
+      Brown Book SpriteSheet_67: 7479494913588418798
+      Brown Book SpriteSheet_68: -5298281919513104897
+      Brown Book SpriteSheet_69: 1899518053703592201
+      Brown Book SpriteSheet_7: 1182722652230496748
+      Brown Book SpriteSheet_70: -108074887319294737
+      Brown Book SpriteSheet_71: 468928453888046559
+      Brown Book SpriteSheet_72: 5242838654462452435
+      Brown Book SpriteSheet_73: 4288040646939560571
+      Brown Book SpriteSheet_74: 5592282010543090615
+      Brown Book SpriteSheet_75: -5290720547525613646
+      Brown Book SpriteSheet_76: -6888371453395647889
+      Brown Book SpriteSheet_77: 4646924238442279358
+      Brown Book SpriteSheet_78: -1680815797802624281
+      Brown Book SpriteSheet_79: -201917915641508761
+      Brown Book SpriteSheet_8: 2504457100390996229
+      Brown Book SpriteSheet_80: -998492169831258667
+      Brown Book SpriteSheet_81: 3825452927259428920
+      Brown Book SpriteSheet_82: -7668550711844437400
+      Brown Book SpriteSheet_83: 6441393372241874181
+      Brown Book SpriteSheet_84: -6170908083156580975
+      Brown Book SpriteSheet_85: 5387805511081487788
+      Brown Book SpriteSheet_86: 2809502124527904767
+      Brown Book SpriteSheet_87: -3376651923339981218
+      Brown Book SpriteSheet_88: -5943250007758303648
+      Brown Book SpriteSheet_89: -8607223095724806371
+      Brown Book SpriteSheet_9: -4904660963158414196
+      Brown Book SpriteSheet_90: -6463580823099238667
+      Brown Book SpriteSheet_91: -8095987854731912251
+      Brown Book SpriteSheet_92: -6612314640979826992
+      Brown Book SpriteSheet_93: -2093469021121659918
+      Brown Book SpriteSheet_94: -6083807264358525603
+      Brown Book SpriteSheet_95: -3168437515415678516
+      Brown Book SpriteSheet_96: 6498700059540021555
+      Brown Book SpriteSheet_97: -3636543617999969363
+      Brown Book SpriteSheet_98: 2451945767991971697
+      Brown Book SpriteSheet_99: 3700193359133362461
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

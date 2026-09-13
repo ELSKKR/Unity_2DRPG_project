@@ -15,6 +15,12 @@ public class KeybindSettingsUI : MonoBehaviour
     private readonly List<KeybindRowUI> rows = new List<KeybindRowUI>();
     private KeybindRowUI capturing;
 
+    // 場景裡會同時存在兩份鍵位頁（標題畫面的舊設定面板、遊戲中的書本頁），
+    // UIPanelManager 只需要知道「現在有沒有人在等玩家按鍵」，不必認得是哪一份。
+    // 兩份不可能同時顯示（面板本來就是互斥的），所以一個靜態指標就夠
+    static KeybindSettingsUI activeCapturer;
+    public static bool AnyCapturing => activeCapturer != null;
+
     // 這些鍵不開放綁定：Esc 在等待輸入時是「取消」，滑鼠鍵在這個遊戲沒有對應操作
     static readonly KeyCode[] Forbidden =
     {
@@ -54,12 +60,14 @@ public class KeybindSettingsUI : MonoBehaviour
     {
         CancelCapture();
         capturing = row;
+        activeCapturer = this;
         row.ShowCapturing();
         SetHint("按下要指定的按鍵，Esc 取消");
     }
 
     void CancelCapture()
     {
+        if (activeCapturer == this) activeCapturer = null;
         if (capturing == null) return;
         capturing.Refresh();
         capturing = null;
@@ -87,6 +95,7 @@ public class KeybindSettingsUI : MonoBehaviour
 
             var target = capturing;
             capturing = null;
+            activeCapturer = null;
 
             var swapped = KeyBindings.Rebind(target.Action, code);
             RefreshAll();
@@ -101,7 +110,7 @@ public class KeybindSettingsUI : MonoBehaviour
         }
     }
 
-    // 等待輸入時要擋住 Esc 關視窗（UIPanelManager 會查這個）
+    // 等待輸入時要擋住 Esc 關視窗（UIPanelManager 會查上面那個靜態版本）
     public bool IsCapturing => capturing != null;
 
     void ResetAll()

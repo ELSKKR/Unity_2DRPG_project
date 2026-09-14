@@ -4,403 +4,403 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 5546671543968653177
-    second: SpriteSheet_0
+    second: Plate_Tabbed
   - first:
       213: 8755591262435691780
-    second: SpriteSheet_1
+    second: Panel_Square
   - first:
       213: -3459558614108198297
-    second: SpriteSheet_2
+    second: Panel_Square_FoldSmall
   - first:
       213: 659797372610145418
-    second: SpriteSheet_3
+    second: Bar_Red_Full
   - first:
       213: -689520407193891599
-    second: SpriteSheet_4
+    second: Bar_Red_Cap
   - first:
       213: 160890277334083914
-    second: SpriteSheet_5
+    second: Bar_Red_Mid
   - first:
       213: 1026407549584056185
-    second: SpriteSheet_6
+    second: Bar_Red_Tip
   - first:
       213: -3086720242725003937
-    second: SpriteSheet_7
+    second: Bar_Blue_Full
   - first:
       213: -4556197565260342421
-    second: SpriteSheet_8
+    second: Bar_Blue_Cap
   - first:
       213: -2764029711273647405
-    second: SpriteSheet_9
+    second: Bar_Blue_Mid
   - first:
       213: -5540648042656198855
-    second: SpriteSheet_10
+    second: Bar_Blue_Tip
   - first:
       213: 3929453942698372637
-    second: SpriteSheet_11
+    second: Bar_Orange_Full
   - first:
       213: 8058879627694289943
-    second: SpriteSheet_12
+    second: Bar_Orange_Cap
   - first:
       213: 6833624519701456044
-    second: SpriteSheet_13
+    second: Bar_Orange_Mid
   - first:
       213: 4050273695720440628
-    second: SpriteSheet_14
+    second: Bar_Orange_Tip
   - first:
       213: -8516189750247450741
-    second: SpriteSheet_15
+    second: Bar_Track_Full
   - first:
       213: -4768450242260759221
-    second: SpriteSheet_16
+    second: Bar_Track_Cap
   - first:
       213: -5521112282276127969
-    second: SpriteSheet_17
+    second: Bar_Track_Mid
   - first:
       213: -8541409857757731410
-    second: SpriteSheet_18
+    second: Bar_Track_Tip
   - first:
       213: -3472991853938201931
-    second: SpriteSheet_19
+    second: Bar_Rail_Full
   - first:
       213: 6310945038506529798
-    second: SpriteSheet_20
+    second: Bar_Rail_Mid
   - first:
       213: 299985813260920670
-    second: SpriteSheet_21
+    second: Bar_Rail_Tip
   - first:
       213: 8784019252837020500
-    second: SpriteSheet_22
+    second: Plate
   - first:
       213: -5692808054993777421
-    second: SpriteSheet_23
+    second: Panel_Square_Fold
   - first:
       213: -3647626148071368089
-    second: SpriteSheet_24
+    second: Icon_Book_Blue
   - first:
       213: 3740191742173349062
-    second: SpriteSheet_25
+    second: Icon_Egg
   - first:
       213: -5489517133611239331
-    second: SpriteSheet_26
+    second: Icon_Fish
   - first:
       213: -1271462477897197946
-    second: SpriteSheet_27
+    second: Icon_Candy
   - first:
       213: 974577563860017414
-    second: SpriteSheet_28
+    second: Icon_Book_Red
   - first:
       213: 2486827473776425114
-    second: SpriteSheet_29
+    second: Icon_Log
   - first:
       213: -6614553410548192088
-    second: SpriteSheet_30
+    second: Icon_Meat
   - first:
       213: 8361751297272463746
-    second: SpriteSheet_31
+    second: Icon_Ingot_Silver
   - first:
       213: -4598120355091656921
-    second: SpriteSheet_32
+    second: Icon_Ingot_Gold
   - first:
       213: 7099261525860559180
-    second: SpriteSheet_33
+    second: Icon_Herb
   - first:
       213: -8215722657267735165
-    second: SpriteSheet_34
+    second: Icon_Plank
   - first:
       213: 6025432222443554310
-    second: SpriteSheet_35
+    second: Icon_Feather
   - first:
       213: 8289768022458011462
-    second: SpriteSheet_36
+    second: Plate_Plain
   - first:
       213: 8679224743372824947
-    second: SpriteSheet_37
+    second: Portrait_Small
   - first:
       213: -4273276076692731511
-    second: SpriteSheet_38
+    second: Icon_Star
   - first:
       213: -3031591476522573043
-    second: SpriteSheet_39
+    second: Icon_Coin
   - first:
       213: 6497019688765925324
-    second: SpriteSheet_40
+    second: Bracket_Side
   - first:
       213: 244501058832009928
-    second: SpriteSheet_41
+    second: Bracket_Box
   - first:
       213: 7219066547588084184
-    second: SpriteSheet_42
+    second: Bracket_Dot
   - first:
       213: -1517539347721397750
-    second: SpriteSheet_43
+    second: Bracket_Edge
   - first:
       213: -6298986058642862026
-    second: SpriteSheet_44
+    second: Divider_Cap
   - first:
       213: -6855937049084916964
-    second: SpriteSheet_45
+    second: Divider_Line
   - first:
       213: -5974330689473217505
-    second: SpriteSheet_46
+    second: Panel_Bar
   - first:
       213: 8090335375369496866
-    second: SpriteSheet_47
+    second: Grid_Clues
   - first:
       213: 4797463210970005564
-    second: SpriteSheet_48
+    second: Icon_Person
   - first:
       213: -6076800551345269519
-    second: SpriteSheet_49
+    second: Icon_Cross
   - first:
       213: -5692022439710868814
-    second: SpriteSheet_50
+    second: Icon_Home
   - first:
       213: -735721280079296861
-    second: SpriteSheet_51
+    second: Chip
   - first:
       213: 8626295676608811214
-    second: SpriteSheet_52
+    second: Chevron_Left
   - first:
       213: -4395729614481908416
-    second: SpriteSheet_53
+    second: Chevron_Left_Dark
   - first:
       213: -3856703243772173698
-    second: SpriteSheet_54
+    second: Shelf
   - first:
       213: 2573680409823022928
-    second: SpriteSheet_55
+    second: Slot
   - first:
       213: -2113894915680229263
-    second: SpriteSheet_56
+    second: Slot_Alt
   - first:
       213: -1569871411453203166
-    second: SpriteSheet_57
+    second: Panel_Wide
   - first:
       213: 7413646742071866149
-    second: SpriteSheet_58
+    second: Portrait_Large
   - first:
       213: 7851113030376596135
-    second: SpriteSheet_59
+    second: Divider_Left
   - first:
       213: -3141680586608123305
-    second: SpriteSheet_60
+    second: Divider_Right
   - first:
       213: 3021200732435110644
-    second: SpriteSheet_61
+    second: Icon_Key_Z
   - first:
       213: 5169811298419766961
-    second: SpriteSheet_62
+    second: KeyCap
   - first:
       213: 1815293632669626553
-    second: SpriteSheet_63
+    second: KeyCap_Flat
   - first:
       213: 4403123471519957660
-    second: SpriteSheet_64
+    second: Bubble
   - first:
       213: -740330472280341754
-    second: SpriteSheet_65
+    second: Panel_Tall
   - first:
       213: 574446148126647275
-    second: SpriteSheet_66
+    second: Ornament_Tall
   - first:
       213: 1235874337418114886
-    second: SpriteSheet_67
+    second: Diamond
   - first:
       213: 7434960351050355323
-    second: SpriteSheet_68
+    second: Diamond_Alt
   - first:
       213: 824356400910527634
-    second: SpriteSheet_69
+    second: Button_XS
   - first:
       213: 5513838114274322276
-    second: SpriteSheet_70
+    second: Button_S
   - first:
       213: -3199715790774524361
-    second: SpriteSheet_71
+    second: Button_M
   - first:
       213: 1914563275169840824
-    second: SpriteSheet_72
+    second: Button_L
   - first:
       213: -4378996295949237452
-    second: SpriteSheet_73
+    second: Button_XL
   - first:
       213: 5457183550987407018
-    second: SpriteSheet_74
+    second: Divider_Short
   - first:
       213: 6335360754331110017
-    second: SpriteSheet_75
+    second: Divider_Options
   - first:
       213: 7222537069723327875
-    second: SpriteSheet_76
+    second: Panel_Small
   - first:
       213: 2669869789316320289
-    second: SpriteSheet_77
+    second: Chevron_Right
   - first:
       213: -4401392294409562214
-    second: SpriteSheet_78
+    second: Chevron_Right_Dark
   - first:
       213: -1504178909458899807
-    second: SpriteSheet_79
+    second: Letter_Pause_1
   - first:
       213: -1680910415198251487
-    second: SpriteSheet_80
+    second: Letter_Pause_2
   - first:
       213: 259971794018114871
-    second: SpriteSheet_81
+    second: Letter_Pause_3
   - first:
       213: -8967083802194223982
-    second: SpriteSheet_82
+    second: Letter_Pause_4
   - first:
       213: -332775548261697083
-    second: SpriteSheet_83
+    second: Letter_Pause_5
   - first:
       213: 4931685296756513552
-    second: SpriteSheet_84
+    second: Portrait_Tag
   - first:
       213: -5332477682625526632
-    second: SpriteSheet_85
+    second: Button
   - first:
       213: -7110964374204439647
-    second: SpriteSheet_86
+    second: Button_Pressed
   - first:
       213: -7446906405079736297
-    second: SpriteSheet_87
+    second: Shelf_Slot
   - first:
       213: 4120251076616230861
-    second: SpriteSheet_88
+    second: Speaker_Tag
   - first:
       213: 3075932930824612872
-    second: SpriteSheet_89
+    second: Panel
   - first:
       213: -3336083728469882985
-    second: SpriteSheet_90
+    second: Ornament
   - first:
       213: 237302907797614667
-    second: SpriteSheet_91
+    second: Diamond_Small
   - first:
       213: -4138009372153320744
-    second: SpriteSheet_92
+    second: Diamond_Small_Alt
   - first:
       213: 7633654532641064657
-    second: SpriteSheet_93
+    second: Letter_Display_1
   - first:
       213: 5430743998967427626
-    second: SpriteSheet_94
+    second: Letter_Display_2
   - first:
       213: -101211121952396709
-    second: SpriteSheet_95
+    second: Letter_Display_3
   - first:
       213: 3664476683137694898
-    second: SpriteSheet_96
+    second: Letter_Display_4
   - first:
       213: 2177870221934184097
-    second: SpriteSheet_97
+    second: Letter_Display_5
   - first:
       213: -9016946094802586908
-    second: SpriteSheet_98
+    second: Letter_Display_6
   - first:
       213: -1174045761442754080
-    second: SpriteSheet_99
+    second: Letter_Display_7
   - first:
       213: -7866031555861458757
-    second: SpriteSheet_100
+    second: Letter_Audio_1
   - first:
       213: 6783973438557096381
-    second: SpriteSheet_101
+    second: Letter_Audio_2
   - first:
       213: -221214031347197673
-    second: SpriteSheet_102
+    second: Letter_Audio_3
   - first:
       213: -7491613937437866971
-    second: SpriteSheet_103
+    second: Letter_Audio_4
   - first:
       213: 7093715425317752191
-    second: SpriteSheet_104
+    second: Letter_Audio_5
   - first:
       213: 792531038351565978
-    second: SpriteSheet_105
+    second: Letter_Video_1
   - first:
       213: 7929823768701145548
-    second: SpriteSheet_106
+    second: Letter_Video_2
   - first:
       213: -2354785544754498944
-    second: SpriteSheet_107
+    second: Letter_Video_3
   - first:
       213: 6139310979476247574
-    second: SpriteSheet_108
+    second: Letter_Video_4
   - first:
       213: 543463543827397990
-    second: SpriteSheet_109
+    second: Letter_Video_5
   - first:
       213: -6592721875813713672
-    second: SpriteSheet_110
+    second: Letter_Controls_1
   - first:
       213: -4881886091595114325
-    second: SpriteSheet_111
+    second: Letter_Controls_2
   - first:
       213: -7912813274520506195
-    second: SpriteSheet_112
+    second: Letter_Controls_3
   - first:
       213: 720741883187527302
-    second: SpriteSheet_113
+    second: Letter_Controls_4
   - first:
       213: 3819579681194510889
-    second: SpriteSheet_114
+    second: Letter_Controls_5
   - first:
       213: -3616014075654153681
-    second: SpriteSheet_115
+    second: Letter_Controls_6
   - first:
       213: 1317317968668436404
-    second: SpriteSheet_116
+    second: Letter_Controls_7
   - first:
       213: -6120387634488855516
-    second: SpriteSheet_117
+    second: Letter_Controls_8
   - first:
       213: 640638355575074940
-    second: SpriteSheet_118
+    second: Arrow_Up
   - first:
       213: 7214810665799466888
-    second: SpriteSheet_119
+    second: Arrow_Left_Small
   - first:
       213: 3800181639119787870
-    second: SpriteSheet_120
+    second: Check_Empty
   - first:
       213: -5445997897813723297
-    second: SpriteSheet_121
+    second: Check_On
   - first:
       213: -3402517079406010240
-    second: SpriteSheet_122
+    second: Arrow_Right_Small
   - first:
       213: -5755905173179906151
-    second: SpriteSheet_123
+    second: Check_Unknown
   - first:
       213: 7043133548349567394
-    second: SpriteSheet_124
+    second: Check_Empty_Alt
   - first:
       213: -9214683214358106073
-    second: SpriteSheet_125
+    second: Slider_Seg_On
   - first:
       213: -5263981999200424552
-    second: SpriteSheet_126
+    second: Slider_Seg_On_L
   - first:
       213: 5949010832896320232
-    second: SpriteSheet_127
+    second: Slider_Seg_On_R
   - first:
       213: -2799502422476937494
-    second: SpriteSheet_128
+    second: Slider_Seg_On_Wide
   - first:
       213: 3222232815831790375
-    second: SpriteSheet_129
+    second: Slider_Seg_Off
   - first:
       213: 2454006695083939952
-    second: SpriteSheet_130
+    second: Slider_Seg_Off_L
   - first:
       213: -8763460402479013231
-    second: SpriteSheet_131
+    second: Slider_Seg_Off_R
   - first:
       213: 5216005266871980692
-    second: SpriteSheet_132
+    second: Slider_Seg_Off_Wide
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -496,7 +496,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpriteSheet_0
+      name: Plate_Tabbed
       rect:
         serializedVersion: 2
         x: 31
@@ -505,7 +505,7 @@ TextureImporter:
         height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 5, w: 13}
+      border: {x: 76, y: 7, z: 6, w: 14}
       customData: 
       outline: []
       physicsShape: []
@@ -518,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_1
+      name: Panel_Square
       rect:
         serializedVersion: 2
         x: 239
@@ -540,7 +540,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_2
+      name: Panel_Square_FoldSmall
       rect:
         serializedVersion: 2
         x: 367
@@ -549,7 +549,7 @@ TextureImporter:
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 18, y: 18, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -562,7 +562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_3
+      name: Bar_Red_Full
       rect:
         serializedVersion: 2
         x: 515
@@ -571,7 +571,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 8, y: 3, z: 8, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -584,7 +584,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_4
+      name: Bar_Red_Cap
       rect:
         serializedVersion: 2
         x: 599
@@ -593,7 +593,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 3, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -606,7 +606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_5
+      name: Bar_Red_Mid
       rect:
         serializedVersion: 2
         x: 613
@@ -615,7 +615,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 3, z: 2, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -628,7 +628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_6
+      name: Bar_Red_Tip
       rect:
         serializedVersion: 2
         x: 639
@@ -637,7 +637,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -650,7 +650,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_7
+      name: Bar_Blue_Full
       rect:
         serializedVersion: 2
         x: 515
@@ -659,7 +659,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 8, y: 3, z: 8, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -672,7 +672,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_8
+      name: Bar_Blue_Cap
       rect:
         serializedVersion: 2
         x: 599
@@ -681,7 +681,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 3, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -694,7 +694,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_9
+      name: Bar_Blue_Mid
       rect:
         serializedVersion: 2
         x: 613
@@ -703,7 +703,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 3, z: 2, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_10
+      name: Bar_Blue_Tip
       rect:
         serializedVersion: 2
         x: 639
@@ -725,7 +725,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -738,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_11
+      name: Bar_Orange_Full
       rect:
         serializedVersion: 2
         x: 515
@@ -747,7 +747,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 8, y: 3, z: 8, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -760,7 +760,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_12
+      name: Bar_Orange_Cap
       rect:
         serializedVersion: 2
         x: 599
@@ -769,7 +769,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 3, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_13
+      name: Bar_Orange_Mid
       rect:
         serializedVersion: 2
         x: 613
@@ -791,7 +791,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 3, z: 2, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -804,7 +804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_14
+      name: Bar_Orange_Tip
       rect:
         serializedVersion: 2
         x: 639
@@ -813,7 +813,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -826,7 +826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_15
+      name: Bar_Track_Full
       rect:
         serializedVersion: 2
         x: 515
@@ -835,7 +835,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 8, y: 3, z: 8, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -848,7 +848,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_16
+      name: Bar_Track_Cap
       rect:
         serializedVersion: 2
         x: 599
@@ -857,7 +857,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 3, y: 3, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -870,7 +870,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_17
+      name: Bar_Track_Mid
       rect:
         serializedVersion: 2
         x: 613
@@ -879,7 +879,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 3, z: 2, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -892,7 +892,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_18
+      name: Bar_Track_Tip
       rect:
         serializedVersion: 2
         x: 639
@@ -901,7 +901,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_19
+      name: Bar_Rail_Full
       rect:
         serializedVersion: 2
         x: 515
@@ -923,7 +923,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 2, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -936,7 +936,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_20
+      name: Bar_Rail_Mid
       rect:
         serializedVersion: 2
         x: 599
@@ -945,7 +945,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 2, z: 1, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -958,7 +958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_21
+      name: Bar_Rail_Tip
       rect:
         serializedVersion: 2
         x: 639
@@ -967,7 +967,7 @@ TextureImporter:
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 2, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -980,7 +980,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_22
+      name: Plate
       rect:
         serializedVersion: 2
         x: 31
@@ -1002,7 +1002,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_23
+      name: Panel_Square_Fold
       rect:
         serializedVersion: 2
         x: 239
@@ -1011,7 +1011,7 @@ TextureImporter:
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 22, y: 22, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -1024,7 +1024,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_24
+      name: Icon_Book_Blue
       rect:
         serializedVersion: 2
         x: 495
@@ -1046,7 +1046,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_25
+      name: Icon_Egg
       rect:
         serializedVersion: 2
         x: 529
@@ -1068,7 +1068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_26
+      name: Icon_Fish
       rect:
         serializedVersion: 2
         x: 561
@@ -1090,7 +1090,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_27
+      name: Icon_Candy
       rect:
         serializedVersion: 2
         x: 591
@@ -1112,7 +1112,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_28
+      name: Icon_Book_Red
       rect:
         serializedVersion: 2
         x: 623
@@ -1134,7 +1134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_29
+      name: Icon_Log
       rect:
         serializedVersion: 2
         x: 655
@@ -1156,7 +1156,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_30
+      name: Icon_Meat
       rect:
         serializedVersion: 2
         x: 495
@@ -1178,7 +1178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_31
+      name: Icon_Ingot_Silver
       rect:
         serializedVersion: 2
         x: 527
@@ -1200,7 +1200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_32
+      name: Icon_Ingot_Gold
       rect:
         serializedVersion: 2
         x: 559
@@ -1222,7 +1222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_33
+      name: Icon_Herb
       rect:
         serializedVersion: 2
         x: 591
@@ -1244,7 +1244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_34
+      name: Icon_Plank
       rect:
         serializedVersion: 2
         x: 623
@@ -1266,7 +1266,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_35
+      name: Icon_Feather
       rect:
         serializedVersion: 2
         x: 656
@@ -1288,7 +1288,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_36
+      name: Plate_Plain
       rect:
         serializedVersion: 2
         x: 31
@@ -1297,7 +1297,7 @@ TextureImporter:
         height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 6, y: 7, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -1310,7 +1310,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_37
+      name: Portrait_Small
       rect:
         serializedVersion: 2
         x: 499
@@ -1332,7 +1332,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_38
+      name: Icon_Star
       rect:
         serializedVersion: 2
         x: 551
@@ -1354,7 +1354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_39
+      name: Icon_Coin
       rect:
         serializedVersion: 2
         x: 583
@@ -1376,7 +1376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_40
+      name: Bracket_Side
       rect:
         serializedVersion: 2
         x: 626
@@ -1398,7 +1398,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_41
+      name: Bracket_Box
       rect:
         serializedVersion: 2
         x: 634
@@ -1420,7 +1420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_42
+      name: Bracket_Dot
       rect:
         serializedVersion: 2
         x: 626
@@ -1442,7 +1442,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_43
+      name: Bracket_Edge
       rect:
         serializedVersion: 2
         x: 634
@@ -1464,7 +1464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_44
+      name: Divider_Cap
       rect:
         serializedVersion: 2
         x: 503
@@ -1486,7 +1486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_45
+      name: Divider_Line
       rect:
         serializedVersion: 2
         x: 512
@@ -1508,7 +1508,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_46
+      name: Panel_Bar
       rect:
         serializedVersion: 2
         x: 31
@@ -1517,7 +1517,7 @@ TextureImporter:
         height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 6, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -1530,7 +1530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_47
+      name: Grid_Clues
       rect:
         serializedVersion: 2
         x: 505
@@ -1552,7 +1552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_48
+      name: Icon_Person
       rect:
         serializedVersion: 2
         x: 595
@@ -1574,7 +1574,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_49
+      name: Icon_Cross
       rect:
         serializedVersion: 2
         x: 611
@@ -1596,7 +1596,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_50
+      name: Icon_Home
       rect:
         serializedVersion: 2
         x: 627
@@ -1618,7 +1618,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_51
+      name: Chip
       rect:
         serializedVersion: 2
         x: 31
@@ -1627,7 +1627,7 @@ TextureImporter:
         height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 6, y: 14, z: 16, w: 15}
       customData: 
       outline: []
       physicsShape: []
@@ -1640,7 +1640,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_52
+      name: Chevron_Left
       rect:
         serializedVersion: 2
         x: 115
@@ -1662,7 +1662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_53
+      name: Chevron_Left_Dark
       rect:
         serializedVersion: 2
         x: 163
@@ -1684,7 +1684,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_54
+      name: Shelf
       rect:
         serializedVersion: 2
         x: 31
@@ -1693,7 +1693,7 @@ TextureImporter:
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 14, y: 16, z: 14, w: 2}
       customData: 
       outline: []
       physicsShape: []
@@ -1706,7 +1706,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_55
+      name: Slot
       rect:
         serializedVersion: 2
         x: 39
@@ -1715,7 +1715,7 @@ TextureImporter:
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -1728,7 +1728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_56
+      name: Slot_Alt
       rect:
         serializedVersion: 2
         x: 102
@@ -1737,7 +1737,7 @@ TextureImporter:
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -1750,7 +1750,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_57
+      name: Panel_Wide
       rect:
         serializedVersion: 2
         x: 31
@@ -1759,7 +1759,7 @@ TextureImporter:
         height: 149
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 6, y: 69, z: 180, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -1772,7 +1772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_58
+      name: Portrait_Large
       rect:
         serializedVersion: 2
         x: 35
@@ -1794,7 +1794,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_59
+      name: Divider_Left
       rect:
         serializedVersion: 2
         x: 146
@@ -1816,7 +1816,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_60
+      name: Divider_Right
       rect:
         serializedVersion: 2
         x: 203
@@ -1838,7 +1838,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_61
+      name: Icon_Key_Z
       rect:
         serializedVersion: 2
         x: 136
@@ -1860,7 +1860,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_62
+      name: KeyCap
       rect:
         serializedVersion: 2
         x: 162
@@ -1869,7 +1869,7 @@ TextureImporter:
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -1882,7 +1882,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_63
+      name: KeyCap_Flat
       rect:
         serializedVersion: 2
         x: 194
@@ -1891,7 +1891,7 @@ TextureImporter:
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 6, y: 6, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -1904,7 +1904,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_64
+      name: Bubble
       rect:
         serializedVersion: 2
         x: 37
@@ -1913,7 +1913,7 @@ TextureImporter:
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 8, y: 15, z: 8, w: 5}
+      border: {x: 6, y: 17, z: 16, w: 18}
       customData: 
       outline: []
       physicsShape: []
@@ -1926,7 +1926,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_65
+      name: Panel_Tall
       rect:
         serializedVersion: 2
         x: 31
@@ -1935,7 +1935,7 @@ TextureImporter:
         height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 6, y: 6, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -1948,7 +1948,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_66
+      name: Ornament_Tall
       rect:
         serializedVersion: 2
         x: 267
@@ -1957,7 +1957,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 33, y: 2, z: 33, w: 16}
       customData: 
       outline: []
       physicsShape: []
@@ -1970,7 +1970,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_67
+      name: Diamond
       rect:
         serializedVersion: 2
         x: 303
@@ -1992,7 +1992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_68
+      name: Diamond_Alt
       rect:
         serializedVersion: 2
         x: 385
@@ -2014,7 +2014,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_69
+      name: Button_XS
       rect:
         serializedVersion: 2
         x: 506
@@ -2023,7 +2023,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 4, z: 2, w: 2}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -2036,7 +2036,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_70
+      name: Button_S
       rect:
         serializedVersion: 2
         x: 499
@@ -2045,7 +2045,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 4, z: 2, w: 2}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -2058,7 +2058,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_71
+      name: Button_M
       rect:
         serializedVersion: 2
         x: 494
@@ -2067,7 +2067,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 4, z: 2, w: 2}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -2080,7 +2080,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_72
+      name: Button_L
       rect:
         serializedVersion: 2
         x: 491
@@ -2089,7 +2089,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 4, z: 2, w: 2}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -2102,7 +2102,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_73
+      name: Button_XL
       rect:
         serializedVersion: 2
         x: 490
@@ -2111,7 +2111,7 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 4, z: 2, w: 2}
+      border: {x: 6, y: 8, z: 6, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -2124,7 +2124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_74
+      name: Divider_Short
       rect:
         serializedVersion: 2
         x: 48
@@ -2146,7 +2146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_75
+      name: Divider_Options
       rect:
         serializedVersion: 2
         x: 83
@@ -2168,7 +2168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_76
+      name: Panel_Small
       rect:
         serializedVersion: 2
         x: 281
@@ -2177,7 +2177,7 @@ TextureImporter:
         height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 6, y: 7, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -2190,7 +2190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_77
+      name: Chevron_Right
       rect:
         serializedVersion: 2
         x: 56
@@ -2212,7 +2212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_78
+      name: Chevron_Right_Dark
       rect:
         serializedVersion: 2
         x: 104
@@ -2234,7 +2234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_79
+      name: Letter_Pause_1
       rect:
         serializedVersion: 2
         x: 159
@@ -2256,7 +2256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_80
+      name: Letter_Pause_2
       rect:
         serializedVersion: 2
         x: 173
@@ -2278,7 +2278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_81
+      name: Letter_Pause_3
       rect:
         serializedVersion: 2
         x: 187
@@ -2300,7 +2300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_82
+      name: Letter_Pause_4
       rect:
         serializedVersion: 2
         x: 201
@@ -2322,7 +2322,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_83
+      name: Letter_Pause_5
       rect:
         serializedVersion: 2
         x: 213
@@ -2344,7 +2344,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_84
+      name: Portrait_Tag
       rect:
         serializedVersion: 2
         x: 498
@@ -2366,7 +2366,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_85
+      name: Button
       rect:
         serializedVersion: 2
         x: 51
@@ -2388,7 +2388,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_86
+      name: Button_Pressed
       rect:
         serializedVersion: 2
         x: 131
@@ -2410,7 +2410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_87
+      name: Shelf_Slot
       rect:
         serializedVersion: 2
         x: 285
@@ -2419,7 +2419,7 @@ TextureImporter:
         height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 6, z: 2, w: 4}
+      border: {x: 14, y: 18, z: 14, w: 6}
       customData: 
       outline: []
       physicsShape: []
@@ -2432,7 +2432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_88
+      name: Speaker_Tag
       rect:
         serializedVersion: 2
         x: 501
@@ -2454,7 +2454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_89
+      name: Panel
       rect:
         serializedVersion: 2
         x: 37
@@ -2463,7 +2463,7 @@ TextureImporter:
         height: 282
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 6, y: 6, z: 6, w: 5}
+      border: {x: 6, y: 6, z: 6, w: 7}
       customData: 
       outline: []
       physicsShape: []
@@ -2476,7 +2476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_90
+      name: Ornament
       rect:
         serializedVersion: 2
         x: 337
@@ -2485,7 +2485,7 @@ TextureImporter:
         height: 251
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 53, y: 2, z: 53, w: 16}
       customData: 
       outline: []
       physicsShape: []
@@ -2498,7 +2498,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_91
+      name: Diamond_Small
       rect:
         serializedVersion: 2
         x: 393
@@ -2520,7 +2520,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_92
+      name: Diamond_Small_Alt
       rect:
         serializedVersion: 2
         x: 500
@@ -2542,7 +2542,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_93
+      name: Letter_Display_1
       rect:
         serializedVersion: 2
         x: 84
@@ -2564,7 +2564,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_94
+      name: Letter_Display_2
       rect:
         serializedVersion: 2
         x: 98
@@ -2586,7 +2586,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_95
+      name: Letter_Display_3
       rect:
         serializedVersion: 2
         x: 108
@@ -2608,7 +2608,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_96
+      name: Letter_Display_4
       rect:
         serializedVersion: 2
         x: 120
@@ -2630,7 +2630,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_97
+      name: Letter_Display_5
       rect:
         serializedVersion: 2
         x: 134
@@ -2652,7 +2652,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_98
+      name: Letter_Display_6
       rect:
         serializedVersion: 2
         x: 146
@@ -2674,7 +2674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_99
+      name: Letter_Display_7
       rect:
         serializedVersion: 2
         x: 160
@@ -2696,7 +2696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_100
+      name: Letter_Audio_1
       rect:
         serializedVersion: 2
         x: 209
@@ -2718,7 +2718,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_101
+      name: Letter_Audio_2
       rect:
         serializedVersion: 2
         x: 223
@@ -2740,7 +2740,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_102
+      name: Letter_Audio_3
       rect:
         serializedVersion: 2
         x: 237
@@ -2762,7 +2762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_103
+      name: Letter_Audio_4
       rect:
         serializedVersion: 2
         x: 251
@@ -2784,7 +2784,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_104
+      name: Letter_Audio_5
       rect:
         serializedVersion: 2
         x: 261
@@ -2806,7 +2806,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_105
+      name: Letter_Video_1
       rect:
         serializedVersion: 2
         x: 305
@@ -2828,7 +2828,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_106
+      name: Letter_Video_2
       rect:
         serializedVersion: 2
         x: 321
@@ -2850,7 +2850,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_107
+      name: Letter_Video_3
       rect:
         serializedVersion: 2
         x: 331
@@ -2872,7 +2872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_108
+      name: Letter_Video_4
       rect:
         serializedVersion: 2
         x: 345
@@ -2894,7 +2894,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_109
+      name: Letter_Video_5
       rect:
         serializedVersion: 2
         x: 357
@@ -2916,7 +2916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_110
+      name: Letter_Controls_1
       rect:
         serializedVersion: 2
         x: 397
@@ -2938,7 +2938,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_111
+      name: Letter_Controls_2
       rect:
         serializedVersion: 2
         x: 409
@@ -2960,7 +2960,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_112
+      name: Letter_Controls_3
       rect:
         serializedVersion: 2
         x: 423
@@ -2982,7 +2982,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_113
+      name: Letter_Controls_4
       rect:
         serializedVersion: 2
         x: 437
@@ -3004,7 +3004,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_114
+      name: Letter_Controls_5
       rect:
         serializedVersion: 2
         x: 451
@@ -3026,7 +3026,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_115
+      name: Letter_Controls_6
       rect:
         serializedVersion: 2
         x: 465
@@ -3048,7 +3048,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_116
+      name: Letter_Controls_7
       rect:
         serializedVersion: 2
         x: 479
@@ -3070,7 +3070,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_117
+      name: Letter_Controls_8
       rect:
         serializedVersion: 2
         x: 491
@@ -3092,7 +3092,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_118
+      name: Arrow_Up
       rect:
         serializedVersion: 2
         x: 83
@@ -3114,7 +3114,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_119
+      name: Arrow_Left_Small
       rect:
         serializedVersion: 2
         x: 116
@@ -3136,7 +3136,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_120
+      name: Check_Empty
       rect:
         serializedVersion: 2
         x: 145
@@ -3158,7 +3158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_121
+      name: Check_On
       rect:
         serializedVersion: 2
         x: 177
@@ -3180,7 +3180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_122
+      name: Arrow_Right_Small
       rect:
         serializedVersion: 2
         x: 117
@@ -3202,7 +3202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_123
+      name: Check_Unknown
       rect:
         serializedVersion: 2
         x: 145
@@ -3224,7 +3224,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_124
+      name: Check_Empty_Alt
       rect:
         serializedVersion: 2
         x: 177
@@ -3246,7 +3246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_125
+      name: Slider_Seg_On
       rect:
         serializedVersion: 2
         x: 95
@@ -3268,7 +3268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_126
+      name: Slider_Seg_On_L
       rect:
         serializedVersion: 2
         x: 109
@@ -3290,7 +3290,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_127
+      name: Slider_Seg_On_R
       rect:
         serializedVersion: 2
         x: 120
@@ -3312,7 +3312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_128
+      name: Slider_Seg_On_Wide
       rect:
         serializedVersion: 2
         x: 131
@@ -3334,7 +3334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_129
+      name: Slider_Seg_Off
       rect:
         serializedVersion: 2
         x: 95
@@ -3356,7 +3356,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_130
+      name: Slider_Seg_Off_L
       rect:
         serializedVersion: 2
         x: 109
@@ -3378,7 +3378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_131
+      name: Slider_Seg_Off_R
       rect:
         serializedVersion: 2
         x: 120
@@ -3400,7 +3400,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_132
+      name: Slider_Seg_Off_Wide
       rect:
         serializedVersion: 2
         x: 131
@@ -3435,139 +3435,139 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpriteSheet_0: 5546671543968653177
-      SpriteSheet_1: 8755591262435691780
-      SpriteSheet_10: -5540648042656198855
-      SpriteSheet_100: -7866031555861458757
-      SpriteSheet_101: 6783973438557096381
-      SpriteSheet_102: -221214031347197673
-      SpriteSheet_103: -7491613937437866971
-      SpriteSheet_104: 7093715425317752191
-      SpriteSheet_105: 792531038351565978
-      SpriteSheet_106: 7929823768701145548
-      SpriteSheet_107: -2354785544754498944
-      SpriteSheet_108: 6139310979476247574
-      SpriteSheet_109: 543463543827397990
-      SpriteSheet_11: 3929453942698372637
-      SpriteSheet_110: -6592721875813713672
-      SpriteSheet_111: -4881886091595114325
-      SpriteSheet_112: -7912813274520506195
-      SpriteSheet_113: 720741883187527302
-      SpriteSheet_114: 3819579681194510889
-      SpriteSheet_115: -3616014075654153681
-      SpriteSheet_116: 1317317968668436404
-      SpriteSheet_117: -6120387634488855516
-      SpriteSheet_118: 640638355575074940
-      SpriteSheet_119: 7214810665799466888
-      SpriteSheet_12: 8058879627694289943
-      SpriteSheet_120: 3800181639119787870
-      SpriteSheet_121: -5445997897813723297
-      SpriteSheet_122: -3402517079406010240
-      SpriteSheet_123: -5755905173179906151
-      SpriteSheet_124: 7043133548349567394
-      SpriteSheet_125: -9214683214358106073
-      SpriteSheet_126: -5263981999200424552
-      SpriteSheet_127: 5949010832896320232
-      SpriteSheet_128: -2799502422476937494
-      SpriteSheet_129: 3222232815831790375
-      SpriteSheet_13: 6833624519701456044
-      SpriteSheet_130: 2454006695083939952
-      SpriteSheet_131: -8763460402479013231
-      SpriteSheet_132: 5216005266871980692
-      SpriteSheet_14: 4050273695720440628
-      SpriteSheet_15: -8516189750247450741
-      SpriteSheet_16: -4768450242260759221
-      SpriteSheet_17: -5521112282276127969
-      SpriteSheet_18: -8541409857757731410
-      SpriteSheet_19: -3472991853938201931
-      SpriteSheet_2: -3459558614108198297
-      SpriteSheet_20: 6310945038506529798
-      SpriteSheet_21: 299985813260920670
-      SpriteSheet_22: 8784019252837020500
-      SpriteSheet_23: -5692808054993777421
-      SpriteSheet_24: -3647626148071368089
-      SpriteSheet_25: 3740191742173349062
-      SpriteSheet_26: -5489517133611239331
-      SpriteSheet_27: -1271462477897197946
-      SpriteSheet_28: 974577563860017414
-      SpriteSheet_29: 2486827473776425114
-      SpriteSheet_3: 659797372610145418
-      SpriteSheet_30: -6614553410548192088
-      SpriteSheet_31: 8361751297272463746
-      SpriteSheet_32: -4598120355091656921
-      SpriteSheet_33: 7099261525860559180
-      SpriteSheet_34: -8215722657267735165
-      SpriteSheet_35: 6025432222443554310
-      SpriteSheet_36: 8289768022458011462
-      SpriteSheet_37: 8679224743372824947
-      SpriteSheet_38: -4273276076692731511
-      SpriteSheet_39: -3031591476522573043
-      SpriteSheet_4: -689520407193891599
-      SpriteSheet_40: 6497019688765925324
-      SpriteSheet_41: 244501058832009928
-      SpriteSheet_42: 7219066547588084184
-      SpriteSheet_43: -1517539347721397750
-      SpriteSheet_44: -6298986058642862026
-      SpriteSheet_45: -6855937049084916964
-      SpriteSheet_46: -5974330689473217505
-      SpriteSheet_47: 8090335375369496866
-      SpriteSheet_48: 4797463210970005564
-      SpriteSheet_49: -6076800551345269519
-      SpriteSheet_5: 160890277334083914
-      SpriteSheet_50: -5692022439710868814
-      SpriteSheet_51: -735721280079296861
-      SpriteSheet_52: 8626295676608811214
-      SpriteSheet_53: -4395729614481908416
-      SpriteSheet_54: -3856703243772173698
-      SpriteSheet_55: 2573680409823022928
-      SpriteSheet_56: -2113894915680229263
-      SpriteSheet_57: -1569871411453203166
-      SpriteSheet_58: 7413646742071866149
-      SpriteSheet_59: 7851113030376596135
-      SpriteSheet_6: 1026407549584056185
-      SpriteSheet_60: -3141680586608123305
-      SpriteSheet_61: 3021200732435110644
-      SpriteSheet_62: 5169811298419766961
-      SpriteSheet_63: 1815293632669626553
-      SpriteSheet_64: 4403123471519957660
-      SpriteSheet_65: -740330472280341754
-      SpriteSheet_66: 574446148126647275
-      SpriteSheet_67: 1235874337418114886
-      SpriteSheet_68: 7434960351050355323
-      SpriteSheet_69: 824356400910527634
-      SpriteSheet_7: -3086720242725003937
-      SpriteSheet_70: 5513838114274322276
-      SpriteSheet_71: -3199715790774524361
-      SpriteSheet_72: 1914563275169840824
-      SpriteSheet_73: -4378996295949237452
-      SpriteSheet_74: 5457183550987407018
-      SpriteSheet_75: 6335360754331110017
-      SpriteSheet_76: 7222537069723327875
-      SpriteSheet_77: 2669869789316320289
-      SpriteSheet_78: -4401392294409562214
-      SpriteSheet_79: -1504178909458899807
-      SpriteSheet_8: -4556197565260342421
-      SpriteSheet_80: -1680910415198251487
-      SpriteSheet_81: 259971794018114871
-      SpriteSheet_82: -8967083802194223982
-      SpriteSheet_83: -332775548261697083
-      SpriteSheet_84: 4931685296756513552
-      SpriteSheet_85: -5332477682625526632
-      SpriteSheet_86: -7110964374204439647
-      SpriteSheet_87: -7446906405079736297
-      SpriteSheet_88: 4120251076616230861
-      SpriteSheet_89: 3075932930824612872
-      SpriteSheet_9: -2764029711273647405
-      SpriteSheet_90: -3336083728469882985
-      SpriteSheet_91: 237302907797614667
-      SpriteSheet_92: -4138009372153320744
-      SpriteSheet_93: 7633654532641064657
-      SpriteSheet_94: 5430743998967427626
-      SpriteSheet_95: -101211121952396709
-      SpriteSheet_96: 3664476683137694898
-      SpriteSheet_97: 2177870221934184097
-      SpriteSheet_98: -9016946094802586908
-      SpriteSheet_99: -1174045761442754080
+      Plate_Tabbed: 5546671543968653177
+      Panel_Square: 8755591262435691780
+      Bar_Blue_Tip: -5540648042656198855
+      Letter_Audio_1: -7866031555861458757
+      Letter_Audio_2: 6783973438557096381
+      Letter_Audio_3: -221214031347197673
+      Letter_Audio_4: -7491613937437866971
+      Letter_Audio_5: 7093715425317752191
+      Letter_Video_1: 792531038351565978
+      Letter_Video_2: 7929823768701145548
+      Letter_Video_3: -2354785544754498944
+      Letter_Video_4: 6139310979476247574
+      Letter_Video_5: 543463543827397990
+      Bar_Orange_Full: 3929453942698372637
+      Letter_Controls_1: -6592721875813713672
+      Letter_Controls_2: -4881886091595114325
+      Letter_Controls_3: -7912813274520506195
+      Letter_Controls_4: 720741883187527302
+      Letter_Controls_5: 3819579681194510889
+      Letter_Controls_6: -3616014075654153681
+      Letter_Controls_7: 1317317968668436404
+      Letter_Controls_8: -6120387634488855516
+      Arrow_Up: 640638355575074940
+      Arrow_Left_Small: 7214810665799466888
+      Bar_Orange_Cap: 8058879627694289943
+      Check_Empty: 3800181639119787870
+      Check_On: -5445997897813723297
+      Arrow_Right_Small: -3402517079406010240
+      Check_Unknown: -5755905173179906151
+      Check_Empty_Alt: 7043133548349567394
+      Slider_Seg_On: -9214683214358106073
+      Slider_Seg_On_L: -5263981999200424552
+      Slider_Seg_On_R: 5949010832896320232
+      Slider_Seg_On_Wide: -2799502422476937494
+      Slider_Seg_Off: 3222232815831790375
+      Bar_Orange_Mid: 6833624519701456044
+      Slider_Seg_Off_L: 2454006695083939952
+      Slider_Seg_Off_R: -8763460402479013231
+      Slider_Seg_Off_Wide: 5216005266871980692
+      Bar_Orange_Tip: 4050273695720440628
+      Bar_Track_Full: -8516189750247450741
+      Bar_Track_Cap: -4768450242260759221
+      Bar_Track_Mid: -5521112282276127969
+      Bar_Track_Tip: -8541409857757731410
+      Bar_Rail_Full: -3472991853938201931
+      Panel_Square_FoldSmall: -3459558614108198297
+      Bar_Rail_Mid: 6310945038506529798
+      Bar_Rail_Tip: 299985813260920670
+      Plate: 8784019252837020500
+      Panel_Square_Fold: -5692808054993777421
+      Icon_Book_Blue: -3647626148071368089
+      Icon_Egg: 3740191742173349062
+      Icon_Fish: -5489517133611239331
+      Icon_Candy: -1271462477897197946
+      Icon_Book_Red: 974577563860017414
+      Icon_Log: 2486827473776425114
+      Bar_Red_Full: 659797372610145418
+      Icon_Meat: -6614553410548192088
+      Icon_Ingot_Silver: 8361751297272463746
+      Icon_Ingot_Gold: -4598120355091656921
+      Icon_Herb: 7099261525860559180
+      Icon_Plank: -8215722657267735165
+      Icon_Feather: 6025432222443554310
+      Plate_Plain: 8289768022458011462
+      Portrait_Small: 8679224743372824947
+      Icon_Star: -4273276076692731511
+      Icon_Coin: -3031591476522573043
+      Bar_Red_Cap: -689520407193891599
+      Bracket_Side: 6497019688765925324
+      Bracket_Box: 244501058832009928
+      Bracket_Dot: 7219066547588084184
+      Bracket_Edge: -1517539347721397750
+      Divider_Cap: -6298986058642862026
+      Divider_Line: -6855937049084916964
+      Panel_Bar: -5974330689473217505
+      Grid_Clues: 8090335375369496866
+      Icon_Person: 4797463210970005564
+      Icon_Cross: -6076800551345269519
+      Bar_Red_Mid: 160890277334083914
+      Icon_Home: -5692022439710868814
+      Chip: -735721280079296861
+      Chevron_Left: 8626295676608811214
+      Chevron_Left_Dark: -4395729614481908416
+      Shelf: -3856703243772173698
+      Slot: 2573680409823022928
+      Slot_Alt: -2113894915680229263
+      Panel_Wide: -1569871411453203166
+      Portrait_Large: 7413646742071866149
+      Divider_Left: 7851113030376596135
+      Bar_Red_Tip: 1026407549584056185
+      Divider_Right: -3141680586608123305
+      Icon_Key_Z: 3021200732435110644
+      KeyCap: 5169811298419766961
+      KeyCap_Flat: 1815293632669626553
+      Bubble: 4403123471519957660
+      Panel_Tall: -740330472280341754
+      Ornament_Tall: 574446148126647275
+      Diamond: 1235874337418114886
+      Diamond_Alt: 7434960351050355323
+      Button_XS: 824356400910527634
+      Bar_Blue_Full: -3086720242725003937
+      Button_S: 5513838114274322276
+      Button_M: -3199715790774524361
+      Button_L: 1914563275169840824
+      Button_XL: -4378996295949237452
+      Divider_Short: 5457183550987407018
+      Divider_Options: 6335360754331110017
+      Panel_Small: 7222537069723327875
+      Chevron_Right: 2669869789316320289
+      Chevron_Right_Dark: -4401392294409562214
+      Letter_Pause_1: -1504178909458899807
+      Bar_Blue_Cap: -4556197565260342421
+      Letter_Pause_2: -1680910415198251487
+      Letter_Pause_3: 259971794018114871
+      Letter_Pause_4: -8967083802194223982
+      Letter_Pause_5: -332775548261697083
+      Portrait_Tag: 4931685296756513552
+      Button: -5332477682625526632
+      Button_Pressed: -7110964374204439647
+      Shelf_Slot: -7446906405079736297
+      Speaker_Tag: 4120251076616230861
+      Panel: 3075932930824612872
+      Bar_Blue_Mid: -2764029711273647405
+      Ornament: -3336083728469882985
+      Diamond_Small: 237302907797614667
+      Diamond_Small_Alt: -4138009372153320744
+      Letter_Display_1: 7633654532641064657
+      Letter_Display_2: 5430743998967427626
+      Letter_Display_3: -101211121952396709
+      Letter_Display_4: 3664476683137694898
+      Letter_Display_5: 2177870221934184097
+      Letter_Display_6: -9016946094802586908
+      Letter_Display_7: -1174045761442754080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

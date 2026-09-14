@@ -2,12 +2,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-// 存檔槽選單裡的其中一格。陽春版：只顯示「空／場景名稱＋存檔時間」文字，
-// 之後要加縮圖/任務名稱/遊玩時數都是加欄位就好，不用改這個元件的骨架。
+// 存檔槽選單裡的其中一格。分兩行：上面那行是「這格是什麼」（場景＋存檔時間，或是「空的存檔槽」），
+// 下面那行是次要資訊（遊玩時間，或是「點擊開始新遊戲」這種提示）。
+// 之後要加縮圖/任務名稱都是加欄位就好，不用改這個元件的骨架。
 public class SaveSlotEntryUI : MonoBehaviour
 {
     [SerializeField] private Button button;
     [SerializeField] private TextMeshProUGUI label;
+
+    [Tooltip("第二行的次要資訊（留空 = 兩行併成一行塞進 label）")]
+    [SerializeField] private TextMeshProUGUI metaLabel;
 
     [Header("刪除（留空 = 不支援刪除；空存檔槽不會顯示這顆鈕）")]
     [SerializeField] private Button deleteButton;
@@ -56,7 +60,7 @@ public class SaveSlotEntryUI : MonoBehaviour
 
         if (data == null)
         {
-            label.text = $"存檔槽 {slotIndex + 1}\n（空，點擊開始新遊戲）";
+            SetLines("空的存檔槽", "點擊開始新遊戲");
             if (deleteButton != null) deleteButton.gameObject.SetActive(false);
             return;
         }
@@ -72,9 +76,23 @@ public class SaveSlotEntryUI : MonoBehaviour
         int totalMinutes = Mathf.FloorToInt(data.totalPlaytimeSeconds / 60f);
         string playtime = $"{totalMinutes / 60}小時{totalMinutes % 60}分";
 
-        label.text = $"存檔槽 {slotIndex + 1}\n{data.sceneName}　{when}\n遊玩時間 {playtime}";
+        SetLines($"{data.sceneName}　{when}", $"遊玩時間 {playtime}");
 
         if (deleteButton != null) deleteButton.gameObject.SetActive(true);
+    }
+
+    // 槽號由格子自己的徽章顯示，所以這裡兩行都不再重複「存檔槽 N」
+    void SetLines(string main, string meta)
+    {
+        if (metaLabel != null)
+        {
+            label.text = main;
+            metaLabel.text = meta;
+        }
+        else
+        {
+            label.text = $"{main}\n{meta}";
+        }
     }
 
     void OnDeleteButtonClicked()

@@ -3,10 +3,10 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 
-public class InventoryUI : MenuPanelBase
+// 書本的「背包」那一頁。掛在 Page_Inventory 上，由 SideTabs 的 TabGroup 切換顯示——
+// 開關書、鎖玩家移動、播動畫都是書（BookWindow 上的 BookMenuPanel）的事，這裡只管內容。
+public class InventoryUI : MonoBehaviour
 {
-    public static InventoryUI Instance { get; private set; }
-
     [SerializeField] private Transform slotContainer;
     [SerializeField] private GameObject slotPrefab;
 
@@ -15,37 +15,31 @@ public class InventoryUI : MenuPanelBase
     [SerializeField] private Image detailIcon;
     [SerializeField] private TextMeshProUGUI detailNameText;
     [SerializeField] private TextMeshProUGUI detailDescriptionText;
+    [Tooltip("屬性欄的標籤（左欄）與數值（右欄）分成兩個文字：這樣不必依賴等寬字型也能對齊")]
+    [SerializeField] private TextMeshProUGUI detailAttrLabels;
+    [SerializeField] private TextMeshProUGUI detailAttrValues;
 
     private int selectedIndex = -1;
     private List<InventorySlotUI> slotUIs = new List<InventorySlotUI>();
 
-    protected override void Awake()
+    // 訂閱跟著「這一頁有沒有顯示」走，不是跟著物件存在與否走：
+    // 頁面藏起來的時候背包改了也不用重建，下次翻回來 OnEnable 會重新抓一次。
+    // 開機當下 Inventory 可能還沒 Awake，那次就會跳過訂閱——但那時頁面馬上會被書關掉，
+    // 玩家真的翻到這一頁時 OnEnable 會再跑一次，那時一定抓得到
+    void OnEnable()
     {
-        base.Awake();
-        Instance = this;
-    }
-
-    protected override void Start()
-    {
-        base.Start();
-        detailPanel.SetActive(false);
+        if (Inventory.Instance == null) return;
         Inventory.Instance.OnInventoryChanged += RefreshUI;
+        RefreshUI();
     }
 
-    void OnDestroy()
+    void OnDisable()
     {
         if (Inventory.Instance != null)
             Inventory.Instance.OnInventoryChanged -= RefreshUI;
-    }
 
-    // 開關的快捷鍵由資訊視窗的 TabGroup 統一處理（要判斷「切分頁」還是「關視窗」），這裡不再自己監聽
-
-    protected override void OnOpened() => RefreshUI();
-
-    protected override void OnClosed()
-    {
         selectedIndex = -1;
-        detailPanel.SetActive(false);
+        if (detailPanel != null) detailPanel.SetActive(false);
     }
 
     void RefreshUI()
@@ -129,9 +123,24 @@ public class InventoryUI : MenuPanelBase
         }
 
         var slot = Inventory.Instance.Slots[selectedIndex];
+        var item = slot.item;
         detailPanel.SetActive(true);
-        detailIcon.sprite = slot.item.icon;
-        detailNameText.text = slot.item.itemName;
-        detailDescriptionText.text = slot.item.description;
+
+        // 跟格子那邊同樣的處理：沒指定 icon 時 Image 會畫成一塊白方塊
+        detailIcon.enabled = item.icon != null;
+        detailIcon.sprite = item.icon;
+
+        detailNameText.text = item.itemName;
+        detailDescriptionText.text = item.description;
+
+        // 屬性欄。目前 ItemData 只有堆疊相關的資料可以顯示——
+        // 之後要加攻擊力／售價／產地，就在這兩串各補一行，版面不用動
+        if (detailAttrLabels != null && detailAttrValues != null)
+        {
+            detailAttrLabels.text = "持有\n可堆疊\n堆疊上限";
+            detailAttrValues.text = $"×{slot.quantity}\n"
+                                  + (item.isStackable ? "是\n" : "否\n")
+                                  + (item.isStackable ? item.maxStack.ToString() : "—");
+        }
     }
 }

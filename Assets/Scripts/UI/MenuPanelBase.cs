@@ -23,8 +23,7 @@ public abstract class MenuPanelBase : MonoBehaviour, IMenuPanel
 
     protected virtual void Start()
     {
-        if (panelRoot != null)
-            panelRoot.SetActive(false);
+        SetPanelVisible(false);
     }
 
     public void Open()
@@ -38,7 +37,7 @@ public abstract class MenuPanelBase : MonoBehaviour, IMenuPanel
         UIPanelManager.Instance?.NotifyOpening(this);
 
         IsOpen = true;
-        if (panelRoot != null) panelRoot.SetActive(true);
+        SetPanelVisible(true);
 
         OnOpened();
 
@@ -67,7 +66,7 @@ public abstract class MenuPanelBase : MonoBehaviour, IMenuPanel
     void CloseInternal()
     {
         IsOpen = false;
-        if (panelRoot != null) panelRoot.SetActive(false);
+        SetPanelVisible(false);
 
         OnClosed();
 
@@ -75,6 +74,16 @@ public abstract class MenuPanelBase : MonoBehaviour, IMenuPanel
             AudioManager.Instance.PlaySFX(closeSound);
 
         Player?.SetCanMove(true);
+    }
+
+    // 面板實際顯示／隱藏的動作。預設就是直接切 active，跟以前一樣。
+    //
+    // 之所以拉成獨立的虛擬方法，是為了讓「有開關動畫」的面板（書本 UI）有地方介入：
+    // 關閉流程走的是 CloseInternal → 先隱藏再 OnClosed，等到 OnClosed 時物件已經 inactive、
+    // 協程根本跑不起來，動畫沒有機會播。覆寫這裡就能自己決定「什麼時候才真的隱藏」。
+    protected virtual void SetPanelVisible(bool visible)
+    {
+        if (panelRoot != null) panelRoot.SetActive(visible);
     }
 
     // 面板打開/關閉時要做的額外事情（重建清單、清掉選取狀態、同步滑桿、存設定...）

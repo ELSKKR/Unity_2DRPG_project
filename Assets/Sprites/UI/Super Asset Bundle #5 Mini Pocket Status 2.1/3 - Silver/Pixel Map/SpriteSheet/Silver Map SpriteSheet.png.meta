@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 8a7ce654b691ffa44a113cb60ffe64d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8460298222535879379
+    second: Silver Map SpriteSheet_0
+  - first:
+      213: 7102092952412356698
+    second: Silver Map SpriteSheet_1
+  - first:
+      213: -7245958439462101500
+    second: Silver Map SpriteSheet_2
+  - first:
+      213: -8270895216509894673
+    second: Silver Map SpriteSheet_3
+  - first:
+      213: 1478329270062284314
+    second: Silver Map SpriteSheet_4
+  - first:
+      213: -3641731873936360342
+    second: Silver Map SpriteSheet_5
+  - first:
+      213: -597997814873703439
+    second: Silver Map SpriteSheet_6
+  - first:
+      213: 2797663310436441083
+    second: Silver Map SpriteSheet_7
+  - first:
+      213: -8066219660257912794
+    second: Silver Map SpriteSheet_8
+  - first:
+      213: -8728210831458368328
+    second: Silver Map SpriteSheet_9
+  - first:
+      213: 8325067806892314068
+    second: Silver Map SpriteSheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 527
+        width: 66
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2551e7579bf69a80800000000000000
+      internalID: -8460298222535879379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 529
+        width: 78
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50085669e3bf8260800000000000000
+      internalID: 7102092952412356698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 527
+        width: 258
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e1e96a03f217b90800000000000000
+      internalID: -7245958439462101500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 527
+        width: 354
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef33752f90e73d80800000000000000
+      internalID: -8270895216509894673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 527
+        width: 502
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eff1b73a4148410800000000000000
+      internalID: 1478329270062284314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 527
+        width: 482
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c3ec6c728f57dc0800000000000000
+      internalID: -3641731873936360342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 95
+        width: 482
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb3efbd72c73b7f0800000000000000
+      internalID: -597997814873703439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 95
+        width: 482
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb15bb45fb43d620800000000000000
+      internalID: 2797663310436441083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 95
+        width: 482
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6281e06a4f70f0090800000000000000
+      internalID: -8066219660257912794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 95
+        width: 482
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4053a2e7a2fd680800000000000000
+      internalID: -8728210831458368328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver Map SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 95
+        width: 482
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd4bd0ff05988370800000000000000
+      internalID: 8325067806892314068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Silver Map SpriteSheet_0: -8460298222535879379
+      Silver Map SpriteSheet_1: 7102092952412356698
+      Silver Map SpriteSheet_10: 8325067806892314068
+      Silver Map SpriteSheet_2: -7245958439462101500
+      Silver Map SpriteSheet_3: -8270895216509894673
+      Silver Map SpriteSheet_4: 1478329270062284314
+      Silver Map SpriteSheet_5: -3641731873936360342
+      Silver Map SpriteSheet_6: -597997814873703439
+      Silver Map SpriteSheet_7: 2797663310436441083
+      Silver Map SpriteSheet_8: -8066219660257912794
+      Silver Map SpriteSheet_9: -8728210831458368328
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,10 +3,9 @@ using TMPro;
 using System.Collections.Generic;
 
 // 情報面板：清單 + 選取顯示詳情，結構直接照抄 QuestUI（陽春版沒有分類/搜尋）。
-public class IntelUI : MenuPanelBase
+// 書本的「情報」那一頁：清單 + 選取顯示詳情，結構直接照抄 QuestUI（陽春版沒有分類/搜尋）。
+public class IntelUI : MonoBehaviour
 {
-    public static IntelUI Instance { get; private set; }
-
     [SerializeField] private Transform intelListContainer;
     [SerializeField] private GameObject intelEntryPrefab;
     [SerializeField] private GameObject emptyHintText;
@@ -19,31 +18,22 @@ public class IntelUI : MenuPanelBase
     private int selectedIndex = -1;
     private readonly List<IntelEntryUI> entryUIs = new List<IntelEntryUI>();
 
-    protected override void Awake()
+    // 訂閱跟著「這一頁有沒有顯示」走：頁面藏起來時資料改了也不用重建，
+    // 下次翻回來 OnEnable 會重新抓一次（跟 InventoryUI 同一套寫法）
+    void OnEnable()
     {
-        base.Awake();
-        Instance = this;
-    }
-
-    protected override void Start()
-    {
-        base.Start();
-        if (detailPanel != null) detailPanel.SetActive(false);
-
+        if (IntelManager.Instance == null) return;
         IntelManager.Instance.OnIntelChanged += RefreshUI;
+        RefreshUI();
     }
 
-    void OnDestroy()
+    void OnDisable()
     {
         if (IntelManager.Instance != null)
             IntelManager.Instance.OnIntelChanged -= RefreshUI;
+
+        ClearSelection();
     }
-
-    // 開關的快捷鍵由資訊視窗的 TabGroup 統一處理（要判斷「切分頁」還是「關視窗」），這裡不再自己監聽
-
-    protected override void OnOpened() => RefreshUI();
-
-    protected override void OnClosed() => ClearSelection();
 
     void RefreshUI()
     {

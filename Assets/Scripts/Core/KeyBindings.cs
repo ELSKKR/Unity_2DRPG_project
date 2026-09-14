@@ -29,6 +29,7 @@ public static class KeyBindings
         ToggleInventory,
         ToggleQuestLog,
         ToggleIntelLog,
+        ToggleMap,        // 全螢幕大地圖（角落小地圖是常駐的，不用按鍵）
     }
 
     static readonly Dictionary<GameAction, KeyCode> Defaults = new Dictionary<GameAction, KeyCode>
@@ -42,6 +43,7 @@ public static class KeyBindings
         { GameAction.ToggleInventory, KeyCode.Tab },
         { GameAction.ToggleQuestLog, KeyCode.Q },
         { GameAction.ToggleIntelLog, KeyCode.I },
+        { GameAction.ToggleMap, KeyCode.M },
     };
 
     // 顯示在鍵位設定畫面上的名稱（也決定了列出來的順序）
@@ -56,6 +58,7 @@ public static class KeyBindings
         (GameAction.ToggleInventory, "背包"),
         (GameAction.ToggleQuestLog, "任務"),
         (GameAction.ToggleIntelLog, "情報"),
+        (GameAction.ToggleMap, "地圖"),
     };
 
     static readonly Dictionary<GameAction, KeyCode> current = new Dictionary<GameAction, KeyCode>();

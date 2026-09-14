@@ -1,0 +1,5941 @@
+fileFormatVersion: 2
+guid: 30ccf43535bdcfc48b7df658034d55de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1176413025537349809
+    second: White Book SpriteSheet_0
+  - first:
+      213: 5926844046661670852
+    second: White Book SpriteSheet_1
+  - first:
+      213: 6233615199047703145
+    second: White Book SpriteSheet_2
+  - first:
+      213: 6078278917237593351
+    second: White Book SpriteSheet_3
+  - first:
+      213: -6587526485333452887
+    second: White Book SpriteSheet_4
+  - first:
+      213: 5977180950979976064
+    second: White Book SpriteSheet_5
+  - first:
+      213: -599568573631186460
+    second: White Book SpriteSheet_6
+  - first:
+      213: 7710609392717194540
+    second: White Book SpriteSheet_7
+  - first:
+      213: -4561987225786599377
+    second: White Book SpriteSheet_8
+  - first:
+      213: 4528661608519910198
+    second: White Book SpriteSheet_9
+  - first:
+      213: -3537969014116387853
+    second: White Book SpriteSheet_10
+  - first:
+      213: 7402689294756110824
+    second: White Book SpriteSheet_11
+  - first:
+      213: -1471739357130426465
+    second: White Book SpriteSheet_12
+  - first:
+      213: 7991063980371371141
+    second: White Book SpriteSheet_13
+  - first:
+      213: 1319934897947435648
+    second: White Book SpriteSheet_14
+  - first:
+      213: 3031053124215855111
+    second: White Book SpriteSheet_15
+  - first:
+      213: 4684145947468413613
+    second: White Book SpriteSheet_16
+  - first:
+      213: -9145888261531140124
+    second: White Book SpriteSheet_17
+  - first:
+      213: -4290842535202776447
+    second: White Book SpriteSheet_18
+  - first:
+      213: -4150214502735319571
+    second: White Book SpriteSheet_19
+  - first:
+      213: -1158609496125658649
+    second: White Book SpriteSheet_20
+  - first:
+      213: -7288134208836868333
+    second: White Book SpriteSheet_21
+  - first:
+      213: -8905769111394910931
+    second: White Book SpriteSheet_22
+  - first:
+      213: -5850836177015096097
+    second: White Book SpriteSheet_23
+  - first:
+      213: -179255381719971211
+    second: White Book SpriteSheet_24
+  - first:
+      213: 7244753265918062572
+    second: White Book SpriteSheet_25
+  - first:
+      213: -4360932398513517955
+    second: White Book SpriteSheet_26
+  - first:
+      213: 4389029240322530155
+    second: White Book SpriteSheet_27
+  - first:
+      213: 8402581052867286805
+    second: White Book SpriteSheet_28
+  - first:
+      213: 3409386839543447881
+    second: White Book SpriteSheet_29
+  - first:
+      213: -2897277889166411296
+    second: White Book SpriteSheet_30
+  - first:
+      213: -117977839546227718
+    second: White Book SpriteSheet_31
+  - first:
+      213: 2233302730311693372
+    second: White Book SpriteSheet_32
+  - first:
+      213: -8886203803693244080
+    second: White Book SpriteSheet_33
+  - first:
+      213: -6343289153624228086
+    second: White Book SpriteSheet_34
+  - first:
+      213: 6550906775451251654
+    second: White Book SpriteSheet_35
+  - first:
+      213: -3249202093781674957
+    second: White Book SpriteSheet_36
+  - first:
+      213: 3364095643938980857
+    second: White Book SpriteSheet_37
+  - first:
+      213: -3185336643751362922
+    second: White Book SpriteSheet_38
+  - first:
+      213: -3202806015279216859
+    second: White Book SpriteSheet_39
+  - first:
+      213: 9070920417701730276
+    second: White Book SpriteSheet_40
+  - first:
+      213: 6618747292833493511
+    second: White Book SpriteSheet_41
+  - first:
+      213: -2891555214594096232
+    second: White Book SpriteSheet_42
+  - first:
+      213: -1349554597400324033
+    second: White Book SpriteSheet_43
+  - first:
+      213: -7194653611424028435
+    second: White Book SpriteSheet_44
+  - first:
+      213: 5634114850676281075
+    second: White Book SpriteSheet_45
+  - first:
+      213: -819131296163849101
+    second: White Book SpriteSheet_46
+  - first:
+      213: 6714159226808162880
+    second: White Book SpriteSheet_47
+  - first:
+      213: 7657776775687298319
+    second: White Book SpriteSheet_48
+  - first:
+      213: 6361584411210430998
+    second: White Book SpriteSheet_49
+  - first:
+      213: -2167247674663247314
+    second: White Book SpriteSheet_50
+  - first:
+      213: 4730819135283232627
+    second: White Book SpriteSheet_51
+  - first:
+      213: -2934669783787264431
+    second: White Book SpriteSheet_52
+  - first:
+      213: 4597595238930077209
+    second: White Book SpriteSheet_53
+  - first:
+      213: 6375620584777794507
+    second: White Book SpriteSheet_54
+  - first:
+      213: 1923974963346474475
+    second: White Book SpriteSheet_55
+  - first:
+      213: -5562958155834994473
+    second: White Book SpriteSheet_56
+  - first:
+      213: -8191453747457258652
+    second: White Book SpriteSheet_57
+  - first:
+      213: -7016364774748907243
+    second: White Book SpriteSheet_58
+  - first:
+      213: 9099801151867637331
+    second: White Book SpriteSheet_59
+  - first:
+      213: -976321817158838823
+    second: White Book SpriteSheet_60
+  - first:
+      213: 2629767675430742806
+    second: White Book SpriteSheet_61
+  - first:
+      213: 5424506723399617736
+    second: White Book SpriteSheet_62
+  - first:
+      213: -3793279976325601024
+    second: White Book SpriteSheet_63
+  - first:
+      213: -7498561027971194059
+    second: White Book SpriteSheet_64
+  - first:
+      213: 375493259457096214
+    second: White Book SpriteSheet_65
+  - first:
+      213: 617496944694236592
+    second: White Book SpriteSheet_66
+  - first:
+      213: 7014091809259176284
+    second: White Book SpriteSheet_67
+  - first:
+      213: -8563962777176398763
+    second: White Book SpriteSheet_68
+  - first:
+      213: -4022405992970639821
+    second: White Book SpriteSheet_69
+  - first:
+      213: -318219745209784467
+    second: White Book SpriteSheet_70
+  - first:
+      213: -5019452828234158951
+    second: White Book SpriteSheet_71
+  - first:
+      213: -8321483020800719570
+    second: White Book SpriteSheet_72
+  - first:
+      213: -7421853827549166609
+    second: White Book SpriteSheet_73
+  - first:
+      213: -6154806753551058139
+    second: White Book SpriteSheet_74
+  - first:
+      213: 6915601865241949251
+    second: White Book SpriteSheet_75
+  - first:
+      213: -1620988628472461005
+    second: White Book SpriteSheet_76
+  - first:
+      213: 3863542386243109711
+    second: White Book SpriteSheet_77
+  - first:
+      213: 2585854372514650649
+    second: White Book SpriteSheet_78
+  - first:
+      213: -722521837794994757
+    second: White Book SpriteSheet_79
+  - first:
+      213: 4093958969478600092
+    second: White Book SpriteSheet_80
+  - first:
+      213: 7659139290015980380
+    second: White Book SpriteSheet_81
+  - first:
+      213: 1396104077956671546
+    second: White Book SpriteSheet_82
+  - first:
+      213: 7835936092426544025
+    second: White Book SpriteSheet_83
+  - first:
+      213: -930819169436400546
+    second: White Book SpriteSheet_84
+  - first:
+      213: -385794339532529457
+    second: White Book SpriteSheet_85
+  - first:
+      213: 2832590847546139846
+    second: White Book SpriteSheet_86
+  - first:
+      213: 9102040790914733870
+    second: White Book SpriteSheet_87
+  - first:
+      213: 1871281704685960227
+    second: White Book SpriteSheet_88
+  - first:
+      213: -1370771539465943967
+    second: White Book SpriteSheet_89
+  - first:
+      213: 7423706312844582572
+    second: White Book SpriteSheet_90
+  - first:
+      213: -6815186341170353100
+    second: White Book SpriteSheet_91
+  - first:
+      213: -689618643755462614
+    second: White Book SpriteSheet_92
+  - first:
+      213: 9047163961707969980
+    second: White Book SpriteSheet_93
+  - first:
+      213: 2429140060808999412
+    second: White Book SpriteSheet_94
+  - first:
+      213: 494232291142525331
+    second: White Book SpriteSheet_95
+  - first:
+      213: -1568931191425870183
+    second: White Book SpriteSheet_96
+  - first:
+      213: -103654384045640767
+    second: White Book SpriteSheet_97
+  - first:
+      213: -4516444027087231396
+    second: White Book SpriteSheet_98
+  - first:
+      213: -8953243381058807770
+    second: White Book SpriteSheet_99
+  - first:
+      213: -7967725647850336223
+    second: White Book SpriteSheet_100
+  - first:
+      213: 3475267833640410373
+    second: White Book SpriteSheet_101
+  - first:
+      213: -3302606561501299294
+    second: White Book SpriteSheet_102
+  - first:
+      213: 7707829360460585922
+    second: White Book SpriteSheet_103
+  - first:
+      213: 6925927343393304902
+    second: White Book SpriteSheet_104
+  - first:
+      213: -8367960899857363279
+    second: White Book SpriteSheet_105
+  - first:
+      213: 1509293059285704599
+    second: White Book SpriteSheet_106
+  - first:
+      213: 6277249234331217956
+    second: White Book SpriteSheet_107
+  - first:
+      213: -4719362257564581590
+    second: White Book SpriteSheet_108
+  - first:
+      213: -8688811635852557129
+    second: White Book SpriteSheet_109
+  - first:
+      213: -1298920902603898621
+    second: White Book SpriteSheet_110
+  - first:
+      213: -553879685108320233
+    second: White Book SpriteSheet_111
+  - first:
+      213: 7420105972759642058
+    second: White Book SpriteSheet_112
+  - first:
+      213: 7852376535476352846
+    second: White Book SpriteSheet_113
+  - first:
+      213: -4880678237204246643
+    second: White Book SpriteSheet_114
+  - first:
+      213: 4653789045747389779
+    second: White Book SpriteSheet_115
+  - first:
+      213: 1205134848470538624
+    second: White Book SpriteSheet_116
+  - first:
+      213: 6435178971542454462
+    second: White Book SpriteSheet_117
+  - first:
+      213: 3312123684219408907
+    second: White Book SpriteSheet_118
+  - first:
+      213: -6112142512734733472
+    second: White Book SpriteSheet_119
+  - first:
+      213: 3967246159692653463
+    second: White Book SpriteSheet_120
+  - first:
+      213: 2039711277505380921
+    second: White Book SpriteSheet_121
+  - first:
+      213: -5021073207316104500
+    second: White Book SpriteSheet_122
+  - first:
+      213: -2834714026437584476
+    second: White Book SpriteSheet_123
+  - first:
+      213: 6723642291688162337
+    second: White Book SpriteSheet_124
+  - first:
+      213: 6316021704728044205
+    second: White Book SpriteSheet_125
+  - first:
+      213: -2263795644779092701
+    second: White Book SpriteSheet_126
+  - first:
+      213: 5562701816421149877
+    second: White Book SpriteSheet_127
+  - first:
+      213: -2455265886871228670
+    second: White Book SpriteSheet_128
+  - first:
+      213: -8752246997172873505
+    second: White Book SpriteSheet_129
+  - first:
+      213: 6875055308076681588
+    second: White Book SpriteSheet_130
+  - first:
+      213: -5693845305393885575
+    second: White Book SpriteSheet_131
+  - first:
+      213: 2839036583797570155
+    second: White Book SpriteSheet_132
+  - first:
+      213: 4474559216991289859
+    second: White Book SpriteSheet_133
+  - first:
+      213: -2148098116203645923
+    second: White Book SpriteSheet_134
+  - first:
+      213: -8191946113728743385
+    second: White Book SpriteSheet_135
+  - first:
+      213: -1002742337828094251
+    second: White Book SpriteSheet_136
+  - first:
+      213: 3750671345005925142
+    second: White Book SpriteSheet_137
+  - first:
+      213: 3336524807756660766
+    second: White Book SpriteSheet_138
+  - first:
+      213: 725696358951166880
+    second: White Book SpriteSheet_139
+  - first:
+      213: -7621176046429030263
+    second: White Book SpriteSheet_140
+  - first:
+      213: -8400322761545244000
+    second: White Book SpriteSheet_141
+  - first:
+      213: -4280226064162803140
+    second: White Book SpriteSheet_142
+  - first:
+      213: -8547834940769833238
+    second: White Book SpriteSheet_143
+  - first:
+      213: -5990615772187233098
+    second: White Book SpriteSheet_144
+  - first:
+      213: 3815540681833024740
+    second: White Book SpriteSheet_145
+  - first:
+      213: 4145453359956068981
+    second: White Book SpriteSheet_146
+  - first:
+      213: -1250560812199230577
+    second: White Book SpriteSheet_147
+  - first:
+      213: -5364139716785137156
+    second: White Book SpriteSheet_148
+  - first:
+      213: 3092825964802905478
+    second: White Book SpriteSheet_149
+  - first:
+      213: -6211452064129742045
+    second: White Book SpriteSheet_150
+  - first:
+      213: 9136311586301134274
+    second: White Book SpriteSheet_151
+  - first:
+      213: -5211521378639925593
+    second: White Book SpriteSheet_152
+  - first:
+      213: 3321759210632454089
+    second: White Book SpriteSheet_153
+  - first:
+      213: -5086359402450433493
+    second: White Book SpriteSheet_154
+  - first:
+      213: 3989139498327665761
+    second: White Book SpriteSheet_155
+  - first:
+      213: -6797310353788515180
+    second: White Book SpriteSheet_156
+  - first:
+      213: 5657814367366174201
+    second: White Book SpriteSheet_157
+  - first:
+      213: -7630408120548526526
+    second: White Book SpriteSheet_158
+  - first:
+      213: -4572399699355941067
+    second: White Book SpriteSheet_159
+  - first:
+      213: -2576745361966973423
+    second: White Book SpriteSheet_160
+  - first:
+      213: -1315463021695689096
+    second: White Book SpriteSheet_161
+  - first:
+      213: 7028861898118021129
+    second: White Book SpriteSheet_162
+  - first:
+      213: 2157740351096416694
+    second: White Book SpriteSheet_163
+  - first:
+      213: 2859963641590353786
+    second: White Book SpriteSheet_164
+  - first:
+      213: 6658247831555172795
+    second: White Book SpriteSheet_165
+  - first:
+      213: 4975974897078294853
+    second: White Book SpriteSheet_166
+  - first:
+      213: -8159798117146797085
+    second: White Book SpriteSheet_167
+  - first:
+      213: 1358013713184771476
+    second: White Book SpriteSheet_168
+  - first:
+      213: -82965822812295331
+    second: White Book SpriteSheet_169
+  - first:
+      213: -4027937869745035841
+    second: White Book SpriteSheet_170
+  - first:
+      213: 8817036578882203006
+    second: White Book SpriteSheet_171
+  - first:
+      213: 5729383088917731274
+    second: White Book SpriteSheet_172
+  - first:
+      213: 1663604742534093513
+    second: White Book SpriteSheet_173
+  - first:
+      213: 7178427439759148534
+    second: White Book SpriteSheet_174
+  - first:
+      213: 9008642401302698716
+    second: White Book SpriteSheet_175
+  - first:
+      213: -1302833666036091744
+    second: White Book SpriteSheet_176
+  - first:
+      213: 8820783436154644314
+    second: White Book SpriteSheet_177
+  - first:
+      213: -3235076976071357457
+    second: White Book SpriteSheet_178
+  - first:
+      213: -4339174161400145347
+    second: White Book SpriteSheet_179
+  - first:
+      213: 3231793116070462592
+    second: White Book SpriteSheet_180
+  - first:
+      213: 2631133909370298876
+    second: White Book SpriteSheet_181
+  - first:
+      213: -2601328560537048568
+    second: White Book SpriteSheet_182
+  - first:
+      213: -2512045637573033898
+    second: White Book SpriteSheet_183
+  - first:
+      213: 2871161225614819427
+    second: White Book SpriteSheet_184
+  - first:
+      213: -9025504696835269278
+    second: White Book SpriteSheet_185
+  - first:
+      213: 7937960152398183216
+    second: White Book SpriteSheet_186
+  - first:
+      213: 447237684082444654
+    second: White Book SpriteSheet_187
+  - first:
+      213: 1885904843180097159
+    second: White Book SpriteSheet_188
+  - first:
+      213: -1240820011102669470
+    second: White Book SpriteSheet_189
+  - first:
+      213: -2092106065873646928
+    second: White Book SpriteSheet_190
+  - first:
+      213: 5270984854595982644
+    second: White Book SpriteSheet_191
+  - first:
+      213: 7656897103071306428
+    second: White Book SpriteSheet_192
+  - first:
+      213: -5159015740730854658
+    second: White Book SpriteSheet_193
+  - first:
+      213: -4186068257013484234
+    second: White Book SpriteSheet_194
+  - first:
+      213: -4657223053168830810
+    second: White Book SpriteSheet_195
+  - first:
+      213: 6773416470255213106
+    second: White Book SpriteSheet_196
+  - first:
+      213: -7160344695011640711
+    second: White Book SpriteSheet_197
+  - first:
+      213: 7479497509911318820
+    second: White Book SpriteSheet_198
+  - first:
+      213: -3913130189100427464
+    second: White Book SpriteSheet_199
+  - first:
+      213: -2633340597427473769
+    second: White Book SpriteSheet_200
+  - first:
+      213: -6088606462800794484
+    second: White Book SpriteSheet_201
+  - first:
+      213: 850155695483519481
+    second: White Book SpriteSheet_202
+  - first:
+      213: -7410400254294130389
+    second: White Book SpriteSheet_203
+  - first:
+      213: 8804379380683216117
+    second: White Book SpriteSheet_204
+  - first:
+      213: -7107846733413253273
+    second: White Book SpriteSheet_205
+  - first:
+      213: 4015076035493444653
+    second: White Book SpriteSheet_206
+  - first:
+      213: -2116843106741550029
+    second: White Book SpriteSheet_207
+  - first:
+      213: 5727534147980345352
+    second: White Book SpriteSheet_208
+  - first:
+      213: -6621265737042645002
+    second: White Book SpriteSheet_209
+  - first:
+      213: 8455091151573639960
+    second: White Book SpriteSheet_210
+  - first:
+      213: -2797470708169453181
+    second: White Book SpriteSheet_211
+  - first:
+      213: 4366327069167033748
+    second: White Book SpriteSheet_212
+  - first:
+      213: 6027402435231278968
+    second: White Book SpriteSheet_213
+  - first:
+      213: 2876294342715124517
+    second: White Book SpriteSheet_214
+  - first:
+      213: 4565438400496694840
+    second: White Book SpriteSheet_215
+  - first:
+      213: 1661727114367451615
+    second: White Book SpriteSheet_216
+  - first:
+      213: 984143428480870198
+    second: White Book SpriteSheet_217
+  - first:
+      213: 3182238253047855550
+    second: White Book SpriteSheet_218
+  - first:
+      213: -7049807669673748522
+    second: White Book SpriteSheet_219
+  - first:
+      213: 5620937505872825956
+    second: White Book SpriteSheet_220
+  - first:
+      213: 715503347869947252
+    second: White Book SpriteSheet_221
+  - first:
+      213: -1065571946540201954
+    second: White Book SpriteSheet_222
+  - first:
+      213: 999377002447346365
+    second: White Book SpriteSheet_223
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: White Book SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3271
+        width: 514
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8db40f965735010800000000000000
+      internalID: 1176413025537349809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c758683241604250800000000000000
+      internalID: 5926844046661670852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ad6b51fff328650800000000000000
+      internalID: 6233615199047703145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 3271
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70551bb98726a5450800000000000000
+      internalID: 6078278917237593351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7d83550976494a0800000000000000
+      internalID: -6587526485333452887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b946d086633f250800000000000000
+      internalID: 5977180950979976064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2823
+        width: 521
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9b9361f87eda7f0800000000000000
+      internalID: -599568573631186460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2311
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25e2bed366910b60800000000000000
+      internalID: 7710609392717194540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2311
+        width: 490
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28be11e9c090b0c0800000000000000
+      internalID: -4561987225786599377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2311
+        width: 490
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63347c33db909de30800000000000000
+      internalID: 4528661608519910198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2297
+        width: 490
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3f0473deb96eec0800000000000000
+      internalID: -3537969014116387853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 2311
+        width: 490
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1668441b2abb660800000000000000
+      internalID: 7402689294756110824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9777403ad4539be0800000000000000
+      internalID: -1471739357130426465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58464770a56f5ee60800000000000000
+      internalID: 7991063980371371141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0826ccedbc9515210800000000000000
+      internalID: 1319934897947435648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1863
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708593cd1c6701a20800000000000000
+      internalID: 3031053124215855111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1274
+        width: 414
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daab0faebed610140800000000000000
+      internalID: 4684145947468413613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1217
+        width: 224
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef75084517431180800000000000000
+      internalID: -9145888261531140124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1192
+        width: 54
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a1a16b27dd374c0800000000000000
+      internalID: -4290842535202776447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1319
+        width: 32
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded69c606e97766c0800000000000000
+      internalID: -4150214502735319571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1314
+        width: 98
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e929064dcacbefe0800000000000000
+      internalID: -1158609496125658649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1322
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317e7ee1d885bda90800000000000000
+      internalID: -7288134208836868333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 1313
+        width: 382
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2df8af8d2a586480800000000000000
+      internalID: -8905769111394910931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 1319
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcb20efe77adcea0800000000000000
+      internalID: -5850836177015096097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 695
+        width: 490
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a01881e28238df0800000000000000
+      internalID: -179255381719971211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 689
+        width: 382
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefa56406b88a8460800000000000000
+      internalID: 7244753265918062572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 698
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a0c19b61bda73c0800000000000000
+      internalID: -4360932398513517955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 690
+        width: 98
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b1a3a07d6f8ec30800000000000000
+      internalID: 4389029240322530155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2805
+        y: 695
+        width: 32
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5171594e2f6fb9470800000000000000
+      internalID: 8402581052867286805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94101e05443905f20800000000000000
+      internalID: 3409386839543447881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 495
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e974a83c1dcac7d0800000000000000
+      internalID: -2897277889166411296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3aa7ea7cbdc5ef0800000000000000
+      internalID: -117977839546227718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34732c20094efe10800000000000000
+      internalID: 2233302730311693372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 495
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051a32fb8bcdda480800000000000000
+      internalID: -8886203803693244080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 495
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fb3aa7f1c18f7a0800000000000000
+      internalID: -6343289153624228086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3b87b010f79ea50800000000000000
+      internalID: 6550906775451251654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33410b429e388e2d0800000000000000
+      internalID: -3249202093781674957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 466
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f30c671a2bafae20800000000000000
+      internalID: 3364095643938980857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 470
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e3a2bf2396bc3d0800000000000000
+      internalID: -3185336643751362922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 471
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5274cc6f5e85d83d0800000000000000
+      internalID: -3202806015279216859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 498
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e713f26f0262ed70800000000000000
+      internalID: 9070920417701730276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7023b6f58938adb50800000000000000
+      internalID: 6618747292833493511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 499
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893c0b93ad12fd7d0800000000000000
+      internalID: -2891555214594096232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 499
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3855f07e3b654de0800000000000000
+      internalID: -1349554597400324033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 498
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8e619c8a4772c90800000000000000
+      internalID: -7194653611424028435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 496
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe005a1b95603e40800000000000000
+      internalID: 5634114850676281075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 496
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c9fb31d6cd1a4f0800000000000000
+      internalID: -819131296163849101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 496
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04adf4f5e3c7d2d50800000000000000
+      internalID: 6714159226808162880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 496
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dd314a763e54a60800000000000000
+      internalID: 7657776775687298319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 496
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a3cde1153e84850800000000000000
+      internalID: 6361584411210430998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 463
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22e763f8b36ce1e0800000000000000
+      internalID: -2167247674663247314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 463
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f7d2740fe37a140800000000000000
+      internalID: 4730819135283232627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 499
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156a9445165f547d0800000000000000
+      internalID: -2934669783787264431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 499
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916547db280fdcf30800000000000000
+      internalID: 4597595238930077209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 499
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc349527421ca7850800000000000000
+      internalID: 6375620584777794507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 500
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be50307190553ba10800000000000000
+      internalID: 1923974963346474475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 500
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0d715f7076cc2b0800000000000000
+      internalID: -5562958155834994473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 500
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b84c4873c125e80800000000000000
+      internalID: -8191453747457258652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 476
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5191782696dd0ae90800000000000000
+      internalID: -7016364774748907243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ec2cf4fecf84e70800000000000000
+      internalID: 9099801151867637331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 483
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d598c5ea786372f0800000000000000
+      internalID: -976321817158838823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 483
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61baad784cfce7420800000000000000
+      internalID: 2629767675430742806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 484
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccc3f9ef18b74b40800000000000000
+      internalID: 5424506723399617736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 484
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009a28d85ff8b5bc0800000000000000
+      internalID: -3793279976325601024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 484
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53360316972cfe790800000000000000
+      internalID: -7498561027971194059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 463
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a6e794125063500800000000000000
+      internalID: 375493259457096214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b59366133ac19800800000000000000
+      internalID: 617496944694236592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 463
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51ced8965f075160800000000000000
+      internalID: 7014091809259176284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 463
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554abbc5a31b62980800000000000000
+      internalID: -8563962777176398763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336259e9f0b8d28c0800000000000000
+      internalID: -4022405992970639821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 463
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d676146e3d4759bf0800000000000000
+      internalID: -318219745209784467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ce5463f32575ab0800000000000000
+      internalID: -5019452828234158951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 467
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e258abc1847248c80800000000000000
+      internalID: -8321483020800719570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30f0a3447400990800000000000000
+      internalID: -7421853827549166609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 467
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bf9610edbb59aa0800000000000000
+      internalID: -6154806753551058139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 466
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34476c9814729ff50800000000000000
+      internalID: 6915601865241949251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 464
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33983f64e671189e0800000000000000
+      internalID: -1620988628472461005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 464
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f438fa2945f0e9530800000000000000
+      internalID: 3863542386243109711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 464
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a50a2f9dcc2e320800000000000000
+      internalID: 2585854372514650649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 464
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb554c3773619f5f0800000000000000
+      internalID: -722521837794994757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 464
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95dbc4fdf9a0d830800000000000000
+      internalID: 4093958969478600092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 467
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bd3aaba9aba4a60800000000000000
+      internalID: 7659139290015980380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 435
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38e4141345ff5310800000000000000
+      internalID: 1396104077956671546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 467
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9932fb70c56debc60800000000000000
+      internalID: 7835936092426544025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 468
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e548e97a5e01513f0800000000000000
+      internalID: -930819169436400546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 468
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0aecb971265aaf0800000000000000
+      internalID: -385794339532529457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 468
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4a20e3e526f4720800000000000000
+      internalID: 2832590847546139846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 451
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e279699efd1f05e70800000000000000
+      internalID: 9102040790914733870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 451
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c7e72cbc028f910800000000000000
+      internalID: 1871281704685960227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 452
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164cae92c8a0afce0800000000000000
+      internalID: -1370771539465943967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 452
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae1ded1f8d460760800000000000000
+      internalID: 7423706312844582572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 431
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c627091289b61a0800000000000000
+      internalID: -6815186341170353100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20187c4f7bfd66f0800000000000000
+      internalID: -689618643755462614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 431
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdb15270bbfd8d70800000000000000
+      internalID: 9047163961707969980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 436
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1f032e30a06b120800000000000000
+      internalID: 2429140060808999412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 436
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e31676addbd600800000000000000
+      internalID: 494232291142525331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 436
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996d70ad4690a3ae0800000000000000
+      internalID: -1568931191425870183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c33c8b03eebf8ef0800000000000000
+      internalID: -103654384045640767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56e785261e5251c0800000000000000
+      internalID: -4516444027087231396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6285f5cc490bfb380800000000000000
+      internalID: -8953243381058807770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1209c14fcb3fc6190800000000000000
+      internalID: -7967725647850336223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d5a739ea1aa3030800000000000000
+      internalID: 3475267833640410373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad37dc84d8ca22d0800000000000000
+      internalID: -3302606561501299294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 415
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb549b27f5b7fa60800000000000000
+      internalID: 7707829360460585922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6417f134936dd1060800000000000000
+      internalID: 6925927343393304902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bec4ad95e70fdb80800000000000000
+      internalID: -8367960899857363279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 436
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fdfa47a0612f410800000000000000
+      internalID: 1509293059285704599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 434
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420b7ea9be44d1750800000000000000
+      internalID: 6277249234331217956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 433
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a214a7fe705718eb0800000000000000
+      internalID: -4719362257564581590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 433
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b44abc3ad32b6780800000000000000
+      internalID: -8688811635852557129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 432
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30107f0325e49fde0800000000000000
+      internalID: -1298920902603898621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 432
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71830d86c593058f0800000000000000
+      internalID: -553879685108320233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfb71e911389f660800000000000000
+      internalID: 7420105972759642058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 432
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e473ea7fade39fc60800000000000000
+      internalID: 7852376535476352846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 431
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f06709009544cb0800000000000000
+      internalID: -4880678237204246643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 400
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3559063fa74959040800000000000000
+      internalID: 4653789045747389779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 399
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089d78572cf79b010800000000000000
+      internalID: 1205134848470538624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 435
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb00ad8fd295e4950800000000000000
+      internalID: 6435178971542454462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 435
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b025e0241f607fd20800000000000000
+      internalID: 3312123684219408907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 403
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bf1e7a4ce4d2ba0800000000000000
+      internalID: -6112142512734733472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7936305ec5d7e0730800000000000000
+      internalID: 3967246159692653463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 403
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932011c99928e4c10800000000000000
+      internalID: 2039711277505380921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 403
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca31be4580915ab0800000000000000
+      internalID: -5021073207316104500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 367
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9de56ac9219a8d0800000000000000
+      internalID: -2834714026437584476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 367
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124cdd87a0d2f4d50800000000000000
+      internalID: 6723642291688162337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 367
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2e8f7d64407a750800000000000000
+      internalID: 6316021704728044205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325addcead16590e0800000000000000
+      internalID: -2263795644779092701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bce33f54dfa23d40800000000000000
+      internalID: 5562701816421149877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 374
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fe7e73fa42dedd0800000000000000
+      internalID: -2455265886871228670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 383
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6180b3ab5c98680800000000000000
+      internalID: -8752246997172873505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 383
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4790319806a196f50800000000000000
+      internalID: 6875055308076681588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 385
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ec8fdacd56bf0b0800000000000000
+      internalID: -5693845305393885575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ab7992bb8466720800000000000000
+      internalID: 2839036583797570155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 383
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302473f86e3d81e30800000000000000
+      internalID: 4474559216991289859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 382
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14fef8f42c6032e0800000000000000
+      internalID: -2148098116203645923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7287e00996c505e80800000000000000
+      internalID: -8191946113728743385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5def280182b8512f0800000000000000
+      internalID: -1002742337828094251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 387
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613905467bf0d0430800000000000000
+      internalID: 3750671345005925142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 387
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e104d9e82a7bd4e20800000000000000
+      internalID: 3336524807756660766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 367
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3241a5ef0321a00800000000000000
+      internalID: 725696358951166880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 369
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988b1e5b3c42c3690800000000000000
+      internalID: -7621176046429030263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2a77784fe0c6b80800000000000000
+      internalID: -8400322761545244000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 368
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32353f72159994c0800000000000000
+      internalID: -4280226064162803140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 368
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeeedb4e86dff5980800000000000000
+      internalID: -8547834940769833238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b47de0e1be0ddca0800000000000000
+      internalID: -5990615772187233098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 367
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec85b6d80683f430800000000000000
+      internalID: 3815540681833024740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 335
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a81290edb978930800000000000000
+      internalID: 4145453359956068981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 335
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8347da219d15aee0800000000000000
+      internalID: -1250560812199230577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf91577195fbe85b0800000000000000
+      internalID: -5364139716785137156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6859e2814dcebea20800000000000000
+      internalID: 3092825964802905478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b0e22e14d7cc9a0800000000000000
+      internalID: -6211452064129742045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 371
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c3c24bf2bace70800000000000000
+      internalID: 9136311586301134274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 287
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae20defae4fca7b0800000000000000
+      internalID: -5211521378639925593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf11231762491e20800000000000000
+      internalID: 3321759210632454089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a49f8721f9969b0800000000000000
+      internalID: -5086359402450433493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 335
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cec450d354c5730800000000000000
+      internalID: 3989139498327665761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 351
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cc9563f3a1ba1a0800000000000000
+      internalID: -6797310353788515180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f556f3d038948e40800000000000000
+      internalID: 5657814367366174201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f273fd385b1690800000000000000
+      internalID: -7630408120548526526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 351
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53749c4f2b29b80c0800000000000000
+      internalID: -4572399699355941067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 351
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11eb257debf8d3cd0800000000000000
+      internalID: -2576745361966973423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 352
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e9aa4f9598ebde0800000000000000
+      internalID: -1315463021695689096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9004a94e7a88b8160800000000000000
+      internalID: 7028861898118021129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9e0a8ca65d1fd10800000000000000
+      internalID: 2157740351096416694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f868f77c1a0b720800000000000000
+      internalID: 2859963641590353786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 322
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb96c5a3029d66c50800000000000000
+      internalID: 6658247831555172795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 319
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549dc971ec63e0540800000000000000
+      internalID: 4975974897078294853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 303
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb509c48d292ce80800000000000000
+      internalID: -8159798117146797085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 271
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dcc7ee642a8d210800000000000000
+      internalID: 1358013713184771476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 258
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f66c2160f39def0800000000000000
+      internalID: -82965822812295331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 260
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5e08039d3e918c0800000000000000
+      internalID: -4027937869745035841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d26e7cd086c5a70800000000000000
+      internalID: 8817036578882203006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac75215509bd28f40800000000000000
+      internalID: 5729383088917731274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca566df2bf461710800000000000000
+      internalID: 1663604742534093513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 267
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5c2c839b5ee9360800000000000000
+      internalID: 7178427439759148534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 277
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda5b2eb880250d70800000000000000
+      internalID: 9008642401302698716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 236
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4bf76fea76bede0800000000000000
+      internalID: -1302833666036091744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 236
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57a5a8fcc7b96a70800000000000000
+      internalID: 8820783436154644314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 236
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febc83461a2ba13d0800000000000000
+      internalID: -3235076976071357457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 210
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ad033171828c3c0800000000000000
+      internalID: -4339174161400145347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 228
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084ceee57b2a9dc20800000000000000
+      internalID: 3231793116070462592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf16088a95aa38420800000000000000
+      internalID: 2631133909370298876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a6c15e47936ebd0800000000000000
+      internalID: -2601328560537048568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650c3e05dcb632dd0800000000000000
+      internalID: -2512045637573033898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 219
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36085a13ce968d720800000000000000
+      internalID: 2871161225614819427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 207
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d93822c47feb280800000000000000
+      internalID: -9025504696835269278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 207
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b36e493bc492e60800000000000000
+      internalID: 7937960152398183216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6907e9dd48e43600800000000000000
+      internalID: 447237684082444654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e30f186741c2a10800000000000000
+      internalID: 1885904843180097159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 193
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265770826c8b7cee0800000000000000
+      internalID: -1240820011102669470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 193
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba49271e9857f2e0800000000000000
+      internalID: -2092106065873646928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 201
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43558a26ccc462940800000000000000
+      internalID: 5270984854595982644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 193
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb26846e853c24a60800000000000000
+      internalID: 7656897103071306428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 194
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2b617748e7768b0800000000000000
+      internalID: -5159015740730854658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6353c27591918e5c0800000000000000
+      internalID: -4186068257013484234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a69c14ee483e5fb0800000000000000
+      internalID: -4657223053168830810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 162
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a97518462000e50800000000000000
+      internalID: 6773416470255213106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 146
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a7a70ef6851ac90800000000000000
+      internalID: -7160344695011640711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 180
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421dea07b538cc760800000000000000
+      internalID: 7479497509911318820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 148
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837dfce53d4c1b9c0800000000000000
+      internalID: -3913130189100427464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 174
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79278bdbdae747bd0800000000000000
+      internalID: -2633340597427473769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 173
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c6c9f4eace08ba0800000000000000
+      internalID: -6088606462800794484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 144
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f10219c91c5ccb00800000000000000
+      internalID: 850155695483519481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 143
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21855f0b38f82990800000000000000
+      internalID: -7410400254294130389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 124
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4956d26607f2a70800000000000000
+      internalID: 8804379380683216117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 124
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f7bf01e0bdb5d90800000000000000
+      internalID: -7107846733413253273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c35c9a16a68b730800000000000000
+      internalID: 4015076035493444653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348f61f8667f92e0800000000000000
+      internalID: -2116843106741550029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800c94936f94c7f40800000000000000
+      internalID: 5727534147980345352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 146
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffab14a4e98c14a0800000000000000
+      internalID: -6621265737042645002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8136819fa94865570800000000000000
+      internalID: 8455091151573639960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381dff966336d29d0800000000000000
+      internalID: -2797470708169453181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 146
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d9fdae55f489c30800000000000000
+      internalID: 4366327069167033748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877e84e8492a5a350800000000000000
+      internalID: 6027402435231278968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 147
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b20072776aae720800000000000000
+      internalID: 2876294342715124517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 147
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83678895902bb5f30800000000000000
+      internalID: 4565438400496694840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1c18d9104af0710800000000000000
+      internalID: 1661727114367451615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63723a6eb3168ad00800000000000000
+      internalID: 984143428480870198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9b397b4d4992c20800000000000000
+      internalID: 3182238253047855550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d79542a64d0a2e90800000000000000
+      internalID: -7049807669673748522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 146
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e483e61e4910e40800000000000000
+      internalID: 5620937505872825956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4751465018afde900800000000000000
+      internalID: 715503347869947252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 114
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1889d3d5f35631f0800000000000000
+      internalID: -1065571946540201954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White Book SpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 114
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba919bb6108edd00800000000000000
+      internalID: 999377002447346365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      White Book SpriteSheet_0: 1176413025537349809
+      White Book SpriteSheet_1: 5926844046661670852
+      White Book SpriteSheet_10: -3537969014116387853
+      White Book SpriteSheet_100: -7967725647850336223
+      White Book SpriteSheet_101: 3475267833640410373
+      White Book SpriteSheet_102: -3302606561501299294
+      White Book SpriteSheet_103: 7707829360460585922
+      White Book SpriteSheet_104: 6925927343393304902
+      White Book SpriteSheet_105: -8367960899857363279
+      White Book SpriteSheet_106: 1509293059285704599
+      White Book SpriteSheet_107: 6277249234331217956
+      White Book SpriteSheet_108: -4719362257564581590
+      White Book SpriteSheet_109: -8688811635852557129
+      White Book SpriteSheet_11: 7402689294756110824
+      White Book SpriteSheet_110: -1298920902603898621
+      White Book SpriteSheet_111: -553879685108320233
+      White Book SpriteSheet_112: 7420105972759642058
+      White Book SpriteSheet_113: 7852376535476352846
+      White Book SpriteSheet_114: -4880678237204246643
+      White Book SpriteSheet_115: 4653789045747389779
+      White Book SpriteSheet_116: 1205134848470538624
+      White Book SpriteSheet_117: 6435178971542454462
+      White Book SpriteSheet_118: 3312123684219408907
+      White Book SpriteSheet_119: -6112142512734733472
+      White Book SpriteSheet_12: -1471739357130426465
+      White Book SpriteSheet_120: 3967246159692653463
+      White Book SpriteSheet_121: 2039711277505380921
+      White Book SpriteSheet_122: -5021073207316104500
+      White Book SpriteSheet_123: -2834714026437584476
+      White Book SpriteSheet_124: 6723642291688162337
+      White Book SpriteSheet_125: 6316021704728044205
+      White Book SpriteSheet_126: -2263795644779092701
+      White Book SpriteSheet_127: 5562701816421149877
+      White Book SpriteSheet_128: -2455265886871228670
+      White Book SpriteSheet_129: -8752246997172873505
+      White Book SpriteSheet_13: 7991063980371371141
+      White Book SpriteSheet_130: 6875055308076681588
+      White Book SpriteSheet_131: -5693845305393885575
+      White Book SpriteSheet_132: 2839036583797570155
+      White Book SpriteSheet_133: 4474559216991289859
+      White Book SpriteSheet_134: -2148098116203645923
+      White Book SpriteSheet_135: -8191946113728743385
+      White Book SpriteSheet_136: -1002742337828094251
+      White Book SpriteSheet_137: 3750671345005925142
+      White Book SpriteSheet_138: 3336524807756660766
+      White Book SpriteSheet_139: 725696358951166880
+      White Book SpriteSheet_14: 1319934897947435648
+      White Book SpriteSheet_140: -7621176046429030263
+      White Book SpriteSheet_141: -8400322761545244000
+      White Book SpriteSheet_142: -4280226064162803140
+      White Book SpriteSheet_143: -8547834940769833238
+      White Book SpriteSheet_144: -5990615772187233098
+      White Book SpriteSheet_145: 3815540681833024740
+      White Book SpriteSheet_146: 4145453359956068981
+      White Book SpriteSheet_147: -1250560812199230577
+      White Book SpriteSheet_148: -5364139716785137156
+      White Book SpriteSheet_149: 3092825964802905478
+      White Book SpriteSheet_15: 3031053124215855111
+      White Book SpriteSheet_150: -6211452064129742045
+      White Book SpriteSheet_151: 9136311586301134274
+      White Book SpriteSheet_152: -5211521378639925593
+      White Book SpriteSheet_153: 3321759210632454089
+      White Book SpriteSheet_154: -5086359402450433493
+      White Book SpriteSheet_155: 3989139498327665761
+      White Book SpriteSheet_156: -6797310353788515180
+      White Book SpriteSheet_157: 5657814367366174201
+      White Book SpriteSheet_158: -7630408120548526526
+      White Book SpriteSheet_159: -4572399699355941067
+      White Book SpriteSheet_16: 4684145947468413613
+      White Book SpriteSheet_160: -2576745361966973423
+      White Book SpriteSheet_161: -1315463021695689096
+      White Book SpriteSheet_162: 7028861898118021129
+      White Book SpriteSheet_163: 2157740351096416694
+      White Book SpriteSheet_164: 2859963641590353786
+      White Book SpriteSheet_165: 6658247831555172795
+      White Book SpriteSheet_166: 4975974897078294853
+      White Book SpriteSheet_167: -8159798117146797085
+      White Book SpriteSheet_168: 1358013713184771476
+      White Book SpriteSheet_169: -82965822812295331
+      White Book SpriteSheet_17: -9145888261531140124
+      White Book SpriteSheet_170: -4027937869745035841
+      White Book SpriteSheet_171: 8817036578882203006
+      White Book SpriteSheet_172: 5729383088917731274
+      White Book SpriteSheet_173: 1663604742534093513
+      White Book SpriteSheet_174: 7178427439759148534
+      White Book SpriteSheet_175: 9008642401302698716
+      White Book SpriteSheet_176: -1302833666036091744
+      White Book SpriteSheet_177: 8820783436154644314
+      White Book SpriteSheet_178: -3235076976071357457
+      White Book SpriteSheet_179: -4339174161400145347
+      White Book SpriteSheet_18: -4290842535202776447
+      White Book SpriteSheet_180: 3231793116070462592
+      White Book SpriteSheet_181: 2631133909370298876
+      White Book SpriteSheet_182: -2601328560537048568
+      White Book SpriteSheet_183: -2512045637573033898
+      White Book SpriteSheet_184: 2871161225614819427
+      White Book SpriteSheet_185: -9025504696835269278
+      White Book SpriteSheet_186: 7937960152398183216
+      White Book SpriteSheet_187: 447237684082444654
+      White Book SpriteSheet_188: 1885904843180097159
+      White Book SpriteSheet_189: -1240820011102669470
+      White Book SpriteSheet_19: -4150214502735319571
+      White Book SpriteSheet_190: -2092106065873646928
+      White Book SpriteSheet_191: 5270984854595982644
+      White Book SpriteSheet_192: 7656897103071306428
+      White Book SpriteSheet_193: -5159015740730854658
+      White Book SpriteSheet_194: -4186068257013484234
+      White Book SpriteSheet_195: -4657223053168830810
+      White Book SpriteSheet_196: 6773416470255213106
+      White Book SpriteSheet_197: -7160344695011640711
+      White Book SpriteSheet_198: 7479497509911318820
+      White Book SpriteSheet_199: -3913130189100427464
+      White Book SpriteSheet_2: 6233615199047703145
+      White Book SpriteSheet_20: -1158609496125658649
+      White Book SpriteSheet_200: -2633340597427473769
+      White Book SpriteSheet_201: -6088606462800794484
+      White Book SpriteSheet_202: 850155695483519481
+      White Book SpriteSheet_203: -7410400254294130389
+      White Book SpriteSheet_204: 8804379380683216117
+      White Book SpriteSheet_205: -7107846733413253273
+      White Book SpriteSheet_206: 4015076035493444653
+      White Book SpriteSheet_207: -2116843106741550029
+      White Book SpriteSheet_208: 5727534147980345352
+      White Book SpriteSheet_209: -6621265737042645002
+      White Book SpriteSheet_21: -7288134208836868333
+      White Book SpriteSheet_210: 8455091151573639960
+      White Book SpriteSheet_211: -2797470708169453181
+      White Book SpriteSheet_212: 4366327069167033748
+      White Book SpriteSheet_213: 6027402435231278968
+      White Book SpriteSheet_214: 2876294342715124517
+      White Book SpriteSheet_215: 4565438400496694840
+      White Book SpriteSheet_216: 1661727114367451615
+      White Book SpriteSheet_217: 984143428480870198
+      White Book SpriteSheet_218: 3182238253047855550
+      White Book SpriteSheet_219: -7049807669673748522
+      White Book SpriteSheet_22: -8905769111394910931
+      White Book SpriteSheet_220: 5620937505872825956
+      White Book SpriteSheet_221: 715503347869947252
+      White Book SpriteSheet_222: -1065571946540201954
+      White Book SpriteSheet_223: 999377002447346365
+      White Book SpriteSheet_23: -5850836177015096097
+      White Book SpriteSheet_24: -179255381719971211
+      White Book SpriteSheet_25: 7244753265918062572
+      White Book SpriteSheet_26: -4360932398513517955
+      White Book SpriteSheet_27: 4389029240322530155
+      White Book SpriteSheet_28: 8402581052867286805
+      White Book SpriteSheet_29: 3409386839543447881
+      White Book SpriteSheet_3: 6078278917237593351
+      White Book SpriteSheet_30: -2897277889166411296
+      White Book SpriteSheet_31: -117977839546227718
+      White Book SpriteSheet_32: 2233302730311693372
+      White Book SpriteSheet_33: -8886203803693244080
+      White Book SpriteSheet_34: -6343289153624228086
+      White Book SpriteSheet_35: 6550906775451251654
+      White Book SpriteSheet_36: -3249202093781674957
+      White Book SpriteSheet_37: 3364095643938980857
+      White Book SpriteSheet_38: -3185336643751362922
+      White Book SpriteSheet_39: -3202806015279216859
+      White Book SpriteSheet_4: -6587526485333452887
+      White Book SpriteSheet_40: 9070920417701730276
+      White Book SpriteSheet_41: 6618747292833493511
+      White Book SpriteSheet_42: -2891555214594096232
+      White Book SpriteSheet_43: -1349554597400324033
+      White Book SpriteSheet_44: -7194653611424028435
+      White Book SpriteSheet_45: 5634114850676281075
+      White Book SpriteSheet_46: -819131296163849101
+      White Book SpriteSheet_47: 6714159226808162880
+      White Book SpriteSheet_48: 7657776775687298319
+      White Book SpriteSheet_49: 6361584411210430998
+      White Book SpriteSheet_5: 5977180950979976064
+      White Book SpriteSheet_50: -2167247674663247314
+      White Book SpriteSheet_51: 4730819135283232627
+      White Book SpriteSheet_52: -2934669783787264431
+      White Book SpriteSheet_53: 4597595238930077209
+      White Book SpriteSheet_54: 6375620584777794507
+      White Book SpriteSheet_55: 1923974963346474475
+      White Book SpriteSheet_56: -5562958155834994473
+      White Book SpriteSheet_57: -8191453747457258652
+      White Book SpriteSheet_58: -7016364774748907243
+      White Book SpriteSheet_59: 9099801151867637331
+      White Book SpriteSheet_6: -599568573631186460
+      White Book SpriteSheet_60: -976321817158838823
+      White Book SpriteSheet_61: 2629767675430742806
+      White Book SpriteSheet_62: 5424506723399617736
+      White Book SpriteSheet_63: -3793279976325601024
+      White Book SpriteSheet_64: -7498561027971194059
+      White Book SpriteSheet_65: 375493259457096214
+      White Book SpriteSheet_66: 617496944694236592
+      White Book SpriteSheet_67: 7014091809259176284
+      White Book SpriteSheet_68: -8563962777176398763
+      White Book SpriteSheet_69: -4022405992970639821
+      White Book SpriteSheet_7: 7710609392717194540
+      White Book SpriteSheet_70: -318219745209784467
+      White Book SpriteSheet_71: -5019452828234158951
+      White Book SpriteSheet_72: -8321483020800719570
+      White Book SpriteSheet_73: -7421853827549166609
+      White Book SpriteSheet_74: -6154806753551058139
+      White Book SpriteSheet_75: 6915601865241949251
+      White Book SpriteSheet_76: -1620988628472461005
+      White Book SpriteSheet_77: 3863542386243109711
+      White Book SpriteSheet_78: 2585854372514650649
+      White Book SpriteSheet_79: -722521837794994757
+      White Book SpriteSheet_8: -4561987225786599377
+      White Book SpriteSheet_80: 4093958969478600092
+      White Book SpriteSheet_81: 7659139290015980380
+      White Book SpriteSheet_82: 1396104077956671546
+      White Book SpriteSheet_83: 7835936092426544025
+      White Book SpriteSheet_84: -930819169436400546
+      White Book SpriteSheet_85: -385794339532529457
+      White Book SpriteSheet_86: 2832590847546139846
+      White Book SpriteSheet_87: 9102040790914733870
+      White Book SpriteSheet_88: 1871281704685960227
+      White Book SpriteSheet_89: -1370771539465943967
+      White Book SpriteSheet_9: 4528661608519910198
+      White Book SpriteSheet_90: 7423706312844582572
+      White Book SpriteSheet_91: -6815186341170353100
+      White Book SpriteSheet_92: -689618643755462614
+      White Book SpriteSheet_93: 9047163961707969980
+      White Book SpriteSheet_94: 2429140060808999412
+      White Book SpriteSheet_95: 494232291142525331
+      White Book SpriteSheet_96: -1568931191425870183
+      White Book SpriteSheet_97: -103654384045640767
+      White Book SpriteSheet_98: -4516444027087231396
+      White Book SpriteSheet_99: -8953243381058807770
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

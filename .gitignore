@@ -1,5 +1,8 @@
-# Claude Code config (contains API keys)
-.claude/
+# Claude Code config：settings.json 裡有 API key，整個目錄預設排除；
+# 只放行 skills/（給 agent 照著跑的流程，要跟專案一起走）
+# 注意要寫 .claude/* 不能寫 .claude/——後者會讓 git 不進這個目錄，negation 就失效
+.claude/*
+!.claude/skills/
 
 # Unity generated folders
 Library/
@@ -24,6 +27,10 @@ ignore.conf
 
 # Crash reports
 crashlytics-build.properties
+
+# PowerPoint slides（每次存檔整份都變，git 存不了差異，直接佔版控體積）
+*.pptx
+*.ppt
 
 # IDE 自動產生的專案檔（換電腦/換 Unity 版本會重新產生，不用進版控）
 .vs/

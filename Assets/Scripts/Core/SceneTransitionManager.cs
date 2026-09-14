@@ -17,9 +17,15 @@ public class SceneTransitionManager : MonoBehaviour
     private string currentGameplayScene;
     private string pendingSpawnID;
     private System.Action pendingOnComplete;
+    private string backgroundScene;
 
     // 存檔系統要知道「玩家現在在哪個場景」才能存檔；回標題時也要判斷目前算不算「遊玩中」
     public string CurrentGameplayScene => currentGameplayScene;
+
+    // 標題畫面拿真實場景當背景時用（TitleBackground）。那個場景不是「目前遊玩場景」——
+    // 玩家不在裡面、也沒有做出生點定位——但轉場離開標題時一樣要卸載掉，
+    // 否則接下來 LoadSceneAsync 載同一個場景會出現第二份，整個世界疊兩層。
+    public void SetBackgroundScene(string sceneName) => backgroundScene = sceneName;
 
     void Awake()
     {
@@ -71,6 +77,21 @@ public class SceneTransitionManager : MonoBehaviour
             AsyncOperation unloadOp = SceneManager.UnloadSceneAsync(currentGameplayScene);
             while (unloadOp != null && !unloadOp.isDone)
                 yield return null;
+        }
+
+        // 標題畫面的背景場景也要卸載，而且一定要在載入新場景「之前」做完：
+        // 玩家通常就是從標題直接進入那個背景場景（新遊戲的起始場景），
+        // 沒先卸載的話同一個場景會被載入第二份。
+        //
+        // 這裡刻意「卸載再重新載入」而不是沿用已經載好的那份：CropField／ItemPickup
+        // 這些是在 Awake 跟 WorldStateManager 對帳的，背景載入時就已經跑過一次，
+        // 比它們晚匯入的存檔進度會套不上去（見附錄 A 第一條：執行期 vs 持久化狀態）。
+        if (!string.IsNullOrEmpty(backgroundScene))
+        {
+            AsyncOperation bgUnloadOp = SceneManager.UnloadSceneAsync(backgroundScene);
+            while (bgUnloadOp != null && !bgUnloadOp.isDone)
+                yield return null;
+            backgroundScene = null;
         }
 
         // 附加載入新的遊玩場景

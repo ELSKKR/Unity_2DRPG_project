@@ -50,6 +50,14 @@ public class PlayerController : MonoBehaviour
             moveInput = Vector2.zero;
             isMoving = false;
             UpdateAnimator();
+
+            // 對話等鎖移動期間 CheckInteractable() 不會再跑，提示會停在鎖住前的狀態。
+            // 這裡清掉 currentInteractable，解鎖後 CheckInteractable() 才會重新判定要不要顯示
+            if (currentInteractable != null)
+            {
+                currentInteractable = null;
+                InteractionPrompt.Instance.Hide();
+            }
             return;
         }
 

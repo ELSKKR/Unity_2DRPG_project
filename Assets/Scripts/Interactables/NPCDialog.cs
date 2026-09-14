@@ -262,13 +262,26 @@ public class NPCDialog : MonoBehaviour, IInteractable
     void PlaySimple(DialogSegment segment, System.Action onComplete = null)
     {
         if (segment == null || segment.lines == null || segment.lines.Length == 0) return;
-        DialogManager.Instance.StartDialog(SpeakerName(), segment, onComplete);
+
+        questMarker?.Hide();   // 標記別擋對話框；對話真正結束後在下面還原
+        DialogManager.Instance.StartDialog(SpeakerName(), segment, () =>
+        {
+            onComplete?.Invoke();
+            // IsDialogActive 排除連續對話鏈（交任務後緊接著下一段委託）中途誤還原的情況
+            if (!DialogManager.Instance.IsDialogActive) RefreshState();
+        });
     }
 
     void PlayWithChoice(DialogSegment segment, System.Action<int> onChoiceComplete)
     {
         if (segment == null || segment.lines == null || segment.lines.Length == 0) return;
-        DialogManager.Instance.StartDialogWithChoice(SpeakerName(), segment, onChoiceComplete);
+
+        questMarker?.Hide();
+        DialogManager.Instance.StartDialogWithChoice(SpeakerName(), segment, choiceIndex =>
+        {
+            onChoiceComplete(choiceIndex);
+            if (!DialogManager.Instance.IsDialogActive) RefreshState();
+        });
     }
 
     string SpeakerName() => conversation != null ? conversation.speakerName : "";

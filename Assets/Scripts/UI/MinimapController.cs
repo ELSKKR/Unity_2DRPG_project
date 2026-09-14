@@ -2,18 +2,21 @@ using UnityEngine;
 
 // 小地圖系統：右上角常駐的即時小地圖，以及按 M 開啟的全螢幕大地圖。
 //
-// 兩種模式共用同一台相機與同一張 RenderTexture——切換時只改正交尺寸與相機位置。
-// 之所以不做成兩套，是因為兩者永遠不會同時顯示（大地圖開著時角落那個會隱藏），
-// 多養一台相機只是讓兩邊的設定有機會不同步，沒有換到任何好處。
+// 角落小地圖是即時相機，只在村莊裡顯示——玩家一進房子（不管哪一間）就收起來，
+// 因為室內空間小、走沒兩步就到頭，常駐小地圖沒有意義，反而擋畫面。
+// 大地圖則是一張事先烘焙好的靜態村莊全景圖（VillageMap_Baked.png），不是即時相機拍的——
+// 玩家進房子時 Forest_Village 會整個被 Unload（見 SceneTransitionManager），
+// 這時候如果大地圖還是靠相機即時拍村莊，畫面會是空的，因為村莊物件根本不在記憶體裡。
+// 靜態圖不依賴任何場景是否載入，室內室外按 M 都能看到完整村莊。
+// bigMapCenter / bigMapOrthoSize 保留下來純粹當「這張圖對應的世界座標範圍」，
+// 換算玩家在圖上的位置用（見 UpdateBigMapMarker），不再拿去移動相機。
 //
 // 繼承 BookMenuPanel：除了 MenuPanelBase 那些既有規則（對話中不能開、跟背包互斥、
 // Esc 關閉、鎖玩家移動、開關音效），還多拿到「有開闔動畫的面板」那一套。
 // 素材包的地圖是一卷會展開的卷軸，跟書本是同一種演出，所以直接沿用同一個類別——
 // 欄位名字雖然叫 bookFrame / pageContent，實際上就是「畫動畫的那張圖」與「動畫播完才顯示的內容」。
 //
-// 角落小地圖跟著玩家跑，所以在任何場景都能用（進室內就顯示室內）；
-// 大地圖則是固定框住整個村莊的「村莊地圖」，不跟著玩家，因此玩家在室內時
-// 標記位置沒有意義，會把標記藏起來。
+// 大地圖不跟著玩家，因此玩家在室內時標記位置沒有意義，會把標記藏起來。
 public class MinimapController : BookMenuPanel
 {
     [Header("渲染")]
@@ -26,10 +29,10 @@ public class MinimapController : BookMenuPanel
     [Tooltip("角落模式的正交尺寸：數字越大，看到的周圍範圍越廣")]
     [SerializeField] private float cornerOrthoSize = 18f;
 
-    [Header("大地圖")]
-    [Tooltip("大地圖框住的世界座標中心（依村莊實際內容範圍量出來的）")]
+    [Header("大地圖（靜態圖，見檔頭註解）")]
+    [Tooltip("VillageMap_Baked.png 這張烘焙圖對應的世界座標中心，換算玩家標記位置用")]
     [SerializeField] private Vector2 bigMapCenter = new Vector2(3.3f, 4.5f);
-    [Tooltip("大地圖的正交尺寸：要能把整個村莊含邊界密林都框進去")]
+    [Tooltip("烘焙這張圖時用的正交尺寸（半高），換算玩家標記位置用")]
     [SerializeField] private float bigMapOrthoSize = 68f;
     [Tooltip("大地圖的圖面本身，用來把世界座標換算成 UI 座標")]
     [SerializeField] private RectTransform bigMapImage;
@@ -97,8 +100,8 @@ public class MinimapController : BookMenuPanel
         }
         else
         {
-            // 標題畫面沒有世界可以畫，整個角落小地圖要收起來
-            if (cornerRoot != null) cornerRoot.SetActive(InGameplayScene());
+            // 只在村莊裡顯示；標題畫面、室內都收起來
+            if (cornerRoot != null) cornerRoot.SetActive(InVillage());
             FollowPlayer();
         }
     }
@@ -111,6 +114,14 @@ public class MinimapController : BookMenuPanel
 
         string scene = stm.CurrentGameplayScene;
         return !string.IsNullOrEmpty(scene) && scene != titleSceneName;
+    }
+
+    // 玩家目前在不在村莊本體（不是室內、也不是標題畫面）。
+    // 角落小地圖的顯示、跟大地圖上玩家標記的顯示都是同一個判斷——兩者都只在村莊裡有意義。
+    bool InVillage()
+    {
+        return SceneTransitionManager.Instance != null
+            && SceneTransitionManager.Instance.CurrentGameplayScene == villageSceneName;
     }
 
     void FollowPlayer()
@@ -126,11 +137,10 @@ public class MinimapController : BookMenuPanel
 
     void UpdateBigMapMarker()
     {
-        if (bigMapPlayerMarker == null || bigMapImage == null || minimapCamera == null) return;
+        if (bigMapPlayerMarker == null || bigMapImage == null) return;
 
         // 大地圖畫的是村莊。玩家在室內時，他在村莊地圖上的位置沒有意義，藏起來比亂指一個位置好
-        bool inVillage = SceneTransitionManager.Instance != null
-                         && SceneTransitionManager.Instance.CurrentGameplayScene == villageSceneName;
+        bool inVillage = InVillage();
 
         bigMapPlayerMarker.gameObject.SetActive(inVillage);
         if (!inVillage) return;
@@ -139,10 +149,10 @@ public class MinimapController : BookMenuPanel
         if (tf == null) return;
 
         // 世界座標 → 大地圖 UI 座標。
-        // 相機看得到的範圍是「高 = 2×正交尺寸、寬 = 高×aspect」，
-        // 先把玩家相對於地圖中心的偏移換成 -0.5～0.5 的比例，再乘上圖面實際像素尺寸。
+        // 這張圖是照 bigMapCenter/bigMapOrthoSize 烘焙出來的，圖面寬高比理當跟烘焙當下
+        // 的圖面比例一致，換算比例直接用 bigMapImage 目前的寬高比就好，不用再靠相機的 aspect。
         float halfHeight = bigMapOrthoSize;
-        float halfWidth = bigMapOrthoSize * minimapCamera.aspect;
+        float halfWidth = bigMapOrthoSize * (bigMapImage.rect.width / bigMapImage.rect.height);
 
         Vector2 offset = (Vector2)tf.position - bigMapCenter;
         Vector2 normalized = new Vector2(offset.x / halfWidth, offset.y / halfHeight) * 0.5f;
@@ -155,14 +165,12 @@ public class MinimapController : BookMenuPanel
     protected override void OnOpened()
     {
         if (cornerRoot != null) cornerRoot.SetActive(false);
-        ApplyBigMapCamera();
         UpdateBigMapMarker();   // 開啟當下就先擺好標記，不要等下一幀才跳到正確位置
     }
 
     protected override void OnClosed()
     {
-        ApplyCornerCamera();
-        if (cornerRoot != null) cornerRoot.SetActive(InGameplayScene());
+        if (cornerRoot != null) cornerRoot.SetActive(InVillage());
     }
 
     void ApplyCornerCamera()
@@ -171,26 +179,5 @@ public class MinimapController : BookMenuPanel
 
         minimapCamera.ResetAspect();   // 回到 RenderTexture 的原生比例（正方形），配正方形的角落框
         minimapCamera.orthographicSize = cornerOrthoSize;
-    }
-
-    void ApplyBigMapCamera()
-    {
-        if (minimapCamera == null) return;
-
-        // 村莊的實際內容不是正方形（密林牆 + 河道約 115.5×123.6），用正方形取景的話
-        // 多出來的寬度會露出密林牆外的空草地。這裡直接把相機 aspect 對齊圖面的比例：
-        // RenderTexture 仍是正方形，渲染時畫面會被水平壓縮存進去，再顯示到同比例的圖面上
-        // 剛好還原，四邊都能貼齊邊界。
-        // （標記換算用的是 minimapCamera.aspect，所以這裡改完座標換算會自動跟著對）
-        if (bigMapImage != null)
-        {
-            Rect r = bigMapImage.rect;
-            if (r.width > 0f && r.height > 0f)
-                minimapCamera.aspect = r.width / r.height;
-        }
-
-        minimapCamera.orthographicSize = bigMapOrthoSize;
-        Vector3 camPos = minimapCamera.transform.position;
-        minimapCamera.transform.position = new Vector3(bigMapCenter.x, bigMapCenter.y, camPos.z);
     }
 }

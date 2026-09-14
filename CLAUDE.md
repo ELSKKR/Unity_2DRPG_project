@@ -1,7 +1,7 @@
 # 林溪村 — 專案規則
 
 Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
-`Assets/Scripts/` 下 **72 支 C# 腳本**，建置場景 **7 個**：
+`Assets/Scripts/` 下 **71 支 C# 腳本**，建置場景 **7 個**：
 `Persistent`、`Forest_Village`（村莊本體）、`House_Interior_A~D`、`TitleScreen`。
 
 > `Main.unity`、`House_Interior_01/02.unity` 是早期實驗場景，**不在建置清單**，流程也沒引用。不要動它們，也不要拿它們當參考。
@@ -46,8 +46,8 @@ Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
 - **世界狀態**：任何「玩家改變了世界」的事（撿過、採過、觸發過）都要寫進 `WorldStateManager`，否則場景重載會被場景檔的原始資料蓋回去。
 - **存檔存 ID 不存參照**，透過 `GameDatabase` 還原。新增道具／任務要記得進資料庫，否則存檔讀回來那筆會安靜消失。
 - **2D 排序**：`SpriteSortingByY` 用 `transform.position.y` 決定遮擋順序。
-- **UI**：全掛在 `Persistent` 的 `[Canvas]` 底下，由 `UIPanelManager` 管理。遊戲內選單是**素材包的書本 UI**（`BookWindow`，六個分頁）——頁面座標公式、素材對應表、踩過的坑見 `Docs/系統開發歷程.md` 系統 11。標題畫面／存檔槽／互動提示／通知／裂隙過場是同一套素材但**另一條線**做的換皮，規則在 `Docs/UI美術規範.md`，兩份文件不重複記，找不到就換一份查。標題畫面仍用舊的 `SettingsPanel`，**要退役它必須先問使用者**（等於讓標題畫面也開這本書，側標籤會露出背包／存檔那些分頁）。
-- **Canvas 是 640×360，不是舊的 960×540**（`[Canvas]` 與 `[TitleCanvas]` 都改過，1080p 下 3 倍整數縮放）。UI 素材的 `spritePixelsToUnits=100` 跟這個解析度綁在一起，**排版數字直接填素材像素數**，不要拿舊解析度的數字去乘係數換算。
+- **UI**：全掛在 `Persistent` 的 `[Canvas]` 底下，由 `UIPanelManager` 管理。遊戲內選單是**素材包的書本 UI**（`BookWindow`，六個分頁，`[Canvas]` 640×360）——頁面座標公式、素材對應表、踩過的坑見 `Docs/系統開發歷程.md` 系統 11。標題畫面仍用舊的 `SettingsPanel`／960×540 版面，**要退役它必須先問使用者**（等於讓標題畫面也開這本書，側標籤會露出背包／存檔那些分頁）。
+  > 曾有一次嘗試把標題畫面／存檔槽／HUD 也換成書本 UI 那套素材皮（含把 `TitleScreen` 的 Canvas 併成 640×360），**因為換皮結果嚴重失敗已撤銷**（`git revert`，2026-09-14）。再嘗試同樣的事之前，先確認問題出在哪——不要照抄那次的做法。
 
 ---
 
@@ -118,7 +118,6 @@ Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
 
 ## 現況與工具
 
-- **指令**：`python3 Tools/check_baked_chars.py [-v]` — 檢查場景／prefab／ScriptableObject 裡出現的文字，是否都已經烘進字型資產（Silver／Cubic 兩個字型都關了 `ClearDynamicDataOnBuild`）。有缺字沒烘過的話 exit 1，編輯器裡看起來正常但打包版會缺字。**新增了沒烘過的字，要重跑一次「烘字 + `FontBaselineAligner` 對齊」流程再確認過關**。
 - **測試**：沒有。零 `.asmdef`，全部編進預設 `Assembly-CSharp`。驗證靠上面那些手法，不是靠測試套件。
 - **CI**：沒有。建置是手動的。
 - **文件**：`Docs/系統開發歷程.md`（1211 行）記錄十一個系統，模板固定為 **問題→設計→踩過的坑→怎麼驗證→報告可以這樣講**。新系統做完要沿用這個模板補進去，不要另開一套 ADR。

@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 
 // 書本的「任務」那一頁。開關書與動畫都是 BookWindow 的事，這裡只管內容。
+// 左頁清單、右頁詳情——跟素材包官方展示圖（QUEST 在左、TASK LIST 在右）左右相反，
+// 是刻意的版面決定，不是量錯：清單本身不可點，只有每列的「查看詳情」按鈕能切換右頁內容。
 public class QuestUI : MonoBehaviour
 {
     [SerializeField] private Transform questListContainer;
@@ -12,8 +15,13 @@ public class QuestUI : MonoBehaviour
     [Header("任務詳情")]
     [SerializeField] private GameObject detailPanel;
     [SerializeField] private TextMeshProUGUI detailNameText;
+    [SerializeField] private TextMeshProUGUI detailGiverText;       // 「委託人：???」，giverName 沒填就顯示 ???
     [SerializeField] private TextMeshProUGUI detailObjectiveText;
     [SerializeField] private TextMeshProUGUI detailDescriptionText;
+
+    [Header("追蹤按鈕（框在詳情頁下方，跟隨目前顯示中的任務）")]
+    [SerializeField] private Button trackButton;
+    [SerializeField] private TextMeshProUGUI trackButtonText;
 
     private int selectedIndex = -1;
     private List<QuestEntryUI> entryUIs = new List<QuestEntryUI>();
@@ -24,6 +32,7 @@ public class QuestUI : MonoBehaviour
     {
         if (QuestManager.Instance == null) return;
         QuestManager.Instance.OnQuestsChanged += RefreshUI;
+        if (trackButton != null) trackButton.onClick.AddListener(OnTrackButtonClicked);
         RefreshUI();
     }
 
@@ -31,6 +40,7 @@ public class QuestUI : MonoBehaviour
     {
         if (QuestManager.Instance != null)
             QuestManager.Instance.OnQuestsChanged -= RefreshUI;
+        if (trackButton != null) trackButton.onClick.RemoveListener(OnTrackButtonClicked);
 
         ClearSelection();
     }
@@ -68,7 +78,8 @@ public class QuestUI : MonoBehaviour
         UpdateDetailPanel();
     }
 
-    public void SelectQuest(int index)
+    // 點清單列的「查看詳情」按鈕觸發，不是點列本身
+    public void ViewDetail(int index)
     {
         if (index < 0 || index >= QuestManager.Instance.Quests.Count) return;
 
@@ -102,10 +113,23 @@ public class QuestUI : MonoBehaviour
         }
 
         var quest = QuestManager.Instance.Quests[selectedIndex];
+        var data = quest.data;
         detailPanel.SetActive(true);
 
-        if (detailNameText != null) detailNameText.text = quest.data.questName;
+        if (detailNameText != null) detailNameText.text = data.questName;
+        if (detailGiverText != null)
+            detailGiverText.text = "委託人：" + (string.IsNullOrEmpty(data.giverName) ? "？？？" : data.giverName);
         if (detailObjectiveText != null) detailObjectiveText.text = quest.CurrentObjective;
-        if (detailDescriptionText != null) detailDescriptionText.text = quest.data.description;
+        if (detailDescriptionText != null) detailDescriptionText.text = data.description;
+
+        if (trackButtonText != null)
+            trackButtonText.text = QuestManager.Instance.IsTracked(data) ? "取消追蹤" : "追蹤";
+    }
+
+    void OnTrackButtonClicked()
+    {
+        if (selectedIndex < 0) return;
+        QuestManager.Instance.ToggleTracked(QuestManager.Instance.Quests[selectedIndex].data);
+        UpdateDetailPanel();   // 只需要更新按鈕文字，不用整批重建清單
     }
 }

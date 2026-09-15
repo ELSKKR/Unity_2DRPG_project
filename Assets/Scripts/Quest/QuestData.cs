@@ -8,6 +8,8 @@ public class QuestData : ScriptableObject
     public string questName;
     [TextArea(2, 4)]
     public string description;
+    [Tooltip("委託人姓名，留空的話任務頁會顯示「？？？」")]
+    public string giverName;
 
     [Header("任務設定")]
     public QuestType type = QuestType.Side;

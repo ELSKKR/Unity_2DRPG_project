@@ -14,6 +14,18 @@ public class QuestManager : MonoBehaviour
     public event QuestEvent OnQuestAccepted;   // 接到新任務時觸發（給通知系統用）
     public event QuestEvent OnQuestCompleted;  // 完成任務時觸發（給通知系統用）
 
+    // 追蹤中的任務：目前只有任務頁詳情按鈕在用，畫面自己即時刷新就夠，不需要事件。
+    // ponytail：只追蹤單一任務、不存檔——之後要在 HUD 顯示追蹤目標或要跨場景/讀檔記住，再擴充存檔結構
+    public string TrackedQuestID { get; private set; }
+
+    public bool IsTracked(QuestData data) => data != null && TrackedQuestID == data.questID;
+
+    public void ToggleTracked(QuestData data)
+    {
+        if (data == null) return;
+        TrackedQuestID = IsTracked(data) ? null : data.questID;
+    }
+
     void Awake()
     {
         if (Instance != null && Instance != this)

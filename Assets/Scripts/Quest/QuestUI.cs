@@ -22,6 +22,8 @@ public class QuestUI : MonoBehaviour
     [Header("追蹤按鈕（框在詳情頁下方，跟隨目前顯示中的任務）")]
     [SerializeField] private Button trackButton;
     [SerializeField] private TextMeshProUGUI trackButtonText;
+    [Tooltip("追蹤中時常駐亮起，取消追蹤就熄滅——跟按鈕的 hover/click 提示是分開的")]
+    [SerializeField] private GameObject trackButtonHighlight;
 
     private int selectedIndex = -1;
     private List<QuestEntryUI> entryUIs = new List<QuestEntryUI>();
@@ -109,6 +111,7 @@ public class QuestUI : MonoBehaviour
         if (selectedIndex < 0)
         {
             detailPanel.SetActive(false);
+            if (trackButtonHighlight != null) trackButtonHighlight.SetActive(false);
             return;
         }
 
@@ -122,8 +125,9 @@ public class QuestUI : MonoBehaviour
         if (detailObjectiveText != null) detailObjectiveText.text = quest.CurrentObjective;
         if (detailDescriptionText != null) detailDescriptionText.text = data.description;
 
-        if (trackButtonText != null)
-            trackButtonText.text = QuestManager.Instance.IsTracked(data) ? "取消追蹤" : "追蹤";
+        bool tracked = QuestManager.Instance.IsTracked(data);
+        if (trackButtonText != null) trackButtonText.text = tracked ? "取消追蹤" : "追蹤";
+        if (trackButtonHighlight != null) trackButtonHighlight.SetActive(tracked);
     }
 
     void OnTrackButtonClicked()

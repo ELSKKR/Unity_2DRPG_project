@@ -36,7 +36,7 @@ public class InventorySlotUI : MonoBehaviour, IPointerClickHandler
         if (item.icon == null)
             Debug.LogWarning($"道具「{item.name}」沒有指定 icon，背包格子不會顯示圖示。");
 
-        quantityText.text = quantity > 1 ? quantity.ToString() : "";
+        quantityText.text = "x" + quantity;
     }
 
     public void SetHighlighted(bool state)

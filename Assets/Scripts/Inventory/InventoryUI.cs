@@ -85,6 +85,20 @@ public class InventoryUI : MonoBehaviour
         if (!selectionStillValid)
             selectedIndex = -1;
 
+        // 翻開背包卻兩頁都空著會讓玩家以為右頁本來就沒東西可看，
+        // 所以還沒選過東西時自動選第一個有物品的格子，右頁跟著顯示
+        if (selectedIndex < 0)
+        {
+            for (int i = 0; i < Inventory.Instance.Slots.Count; i++)
+            {
+                if (!Inventory.Instance.Slots[i].IsEmpty)
+                {
+                    selectedIndex = i;
+                    break;
+                }
+            }
+        }
+
         UpdateHighlights();
         UpdateDetailPanel();
     }

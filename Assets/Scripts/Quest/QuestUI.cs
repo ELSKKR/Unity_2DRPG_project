@@ -76,6 +76,11 @@ public class QuestUI : MonoBehaviour
         if (selectedIndex >= quests.Count)
             selectedIndex = -1;
 
+        // 翻開任務頁卻右頁空白會讓玩家以為沒有詳情可看，比照背包頁面，
+        // 還沒選過任務時自動選第一筆
+        if (selectedIndex < 0 && quests.Count > 0)
+            selectedIndex = 0;
+
         UpdateHighlights();
         UpdateDetailPanel();
     }

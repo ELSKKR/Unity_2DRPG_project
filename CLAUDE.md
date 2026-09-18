@@ -19,7 +19,6 @@ Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
 - **音效鐵則**：只建立空的 `AudioClip` 欄位，**絕不預先指定音效檔**。使用者要自己掛。
 - 美術／視覺決定要**給選項讓使用者挑**，不要自己決定。
 - 動到使用者既有的內容（刪物件、改名、改共用資產）**一定要主動講明**，免得被當成誤刪。
-- 問「要怎麼做 X？」是**要解說，不是要動手**。「幫我…」「請修復」才是動手信號。
 
 ---
 
@@ -28,7 +27,6 @@ Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
 照著現有程式碼寫，不要引入新風格。
 
 - **識別字英文，註解一律繁體中文**。連 `Debug.LogWarning` 的訊息都是中文。
-- 註解寫**「為什麼」不是「做什麼」**。範例：`NPCDialog.cs:115` 解釋「先完成任務再扣道具：反過來的話…任務階段會閃一下退回上一段」。管理器類別開頭有多行區塊註解說明職責與跨系統契約（見 `SaveManager.cs`）。
 - **零 `namespace`**。全部在全域命名空間，不要新增。
 - **Singleton 17 個**：`public static X Instance { get; private set; }`，`Awake` 裡守衛並銷毀重複實例。跨系統呼叫一律 `X.Instance.Method()`，**前面要加 null 防護**（`if (QuestManager.Instance != null)`）。
 - 私有欄位 `[SerializeField] private` + camelCase；對外狀態用 `{ get; private set; }`。

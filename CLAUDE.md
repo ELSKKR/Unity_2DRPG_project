@@ -1,7 +1,7 @@
 # 林溪村 — 專案規則
 
 Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
-`Assets/Scripts/` 下 **71 支 C# 腳本**，建置場景 **7 個**：
+`Assets/Scripts/` 下的 C# 腳本，建置場景 **7 個**：
 `Persistent`、`Forest_Village`（村莊本體）、`House_Interior_A~D`、`TitleScreen`。
 
 > `Main.unity`、`House_Interior_01/02.unity` 是早期實驗場景，**不在建置清單**，流程也沒引用。不要動它們，也不要拿它們當參考。
@@ -28,11 +28,11 @@ Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
 
 - **識別字英文，註解一律繁體中文**。連 `Debug.LogWarning` 的訊息都是中文。
 - **零 `namespace`**。全部在全域命名空間，不要新增。
-- **Singleton 17 個**：`public static X Instance { get; private set; }`，`Awake` 裡守衛並銷毀重複實例。跨系統呼叫一律 `X.Instance.Method()`，**前面要加 null 防護**（`if (QuestManager.Instance != null)`）。
+- **Singleton 模式**：`public static X Instance { get; private set; }`，`Awake` 裡守衛並銷毀重複實例。跨系統呼叫一律 `X.Instance.Method()`，**前面要加 null 防護**（`if (QuestManager.Instance != null)`）。
 - 私有欄位 `[SerializeField] private` + camelCase；對外狀態用 `{ get; private set; }`。
 - **內容資料用 ScriptableObject**，不要寫死在程式裡：`ItemData`、`QuestData`、`IntelData`、`NPCConversationData`、`GameDatabase`。
 - **event 解耦**：`Start` 訂閱、`OnDestroy` 對稱退訂（`OnQuestsChanged`、`OnInventoryChanged`、`OnWorldStateChanged`）。
-- **介面只在有多個實作時才開**。目前只有兩個：`IInteractable`（宣告在 `PlayerController.cs:185`，6 個實作）與 `IMenuPanel`／`MenuPanelBase`。
+- **介面只在有多個實作時才開**。目前只有兩個：`IInteractable`（宣告在 `PlayerController.cs`，6 個實作）與 `IMenuPanel`／`MenuPanelBase`。
 
 新增可互動物件時實作 `IInteractable`：`Interact()`、`InteractionPrompt`、`PromptWorldPosition`、`CanInteract`。
 
@@ -118,7 +118,6 @@ Unity **6000.3.14f1**／2D 俯視角 JRPG／個人專案。
 
 - **測試**：沒有。零 `.asmdef`，全部編進預設 `Assembly-CSharp`。驗證靠上面那些手法，不是靠測試套件。
 - **CI**：沒有。建置是手動的。
-- **文件**：`Docs/系統開發歷程.md`（1224 行）記錄十一個系統，模板固定為 **問題→設計→踩過的坑→怎麼驗證→報告可以這樣講**。新系統做完要沿用這個模板補進去，不要另開一套 ADR。`Docs/開發計畫.md` 是舊規劃、已全部完成，僅供歷史參考，不要照它繼續做。
+- **文件**：`Docs/系統開發歷程.md` 記錄十一個系統，模板固定為 **問題→設計→踩過的坑→怎麼驗證→報告可以這樣講**。新系統做完要沿用這個模板補進去，不要另開一套 ADR。`Docs/開發計畫.md` 是舊規劃、已全部完成，僅供歷史參考，不要照它繼續做。
 - **待辦**：見 `Docs/系統開發歷程.md` 附錄 B「目前刻意沒做的事」。
-- **Unity MCP**：可用。場景操作、eval、截圖都走這個。
 - **Skill**：`/pixel-ui-measure` — 把素材包展示圖反推成精確座標的整套流程（對位→量線→逐格比對認素材→版面驗證）。做任何素材包 UI 版面前先跑它，不要用眼睛抄。

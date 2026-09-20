@@ -62,6 +62,11 @@ public class IntelUI : MonoBehaviour
         if (selectedIndex >= intel.Count)
             selectedIndex = -1;
 
+        // 翻開情報頁卻右頁空白會讓玩家以為沒有詳情可看，比照任務／背包頁面，
+        // 還沒選過情報時自動選第一筆
+        if (selectedIndex < 0 && intel.Count > 0)
+            selectedIndex = 0;
+
         UpdateHighlights();
         UpdateDetailPanel();
     }

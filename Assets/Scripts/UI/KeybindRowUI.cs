@@ -9,6 +9,8 @@ public class KeybindRowUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI actionLabel;
     [SerializeField] private Button keyButton;
     [SerializeField] private TextMeshProUGUI keyLabel;
+    [Tooltip("等待輸入時常駐亮起，比照任務清單「查看詳情」按鈕同一套 highlight")]
+    [SerializeField] private GameObject highlight;
 
     private KeyBindings.GameAction action;
     private KeybindSettingsUI owner;
@@ -24,8 +26,16 @@ public class KeybindRowUI : MonoBehaviour
         Refresh();
     }
 
-    public void Refresh() => keyLabel.text = KeyBindings.Get(action).ToString();
+    public void Refresh()
+    {
+        keyLabel.text = KeyBindings.Get(action).ToString();
+        if (highlight != null) highlight.SetActive(false);
+    }
 
     // 等待玩家按鍵時顯示提示，讓玩家知道現在該按了
-    public void ShowCapturing() => keyLabel.text = "按下新按鍵…";
+    public void ShowCapturing()
+    {
+        keyLabel.text = "按下新按鍵…";
+        if (highlight != null) highlight.SetActive(true);
+    }
 }

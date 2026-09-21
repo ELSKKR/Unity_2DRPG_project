@@ -10,6 +10,7 @@ public class SaveData
     public float playerY;
 
     public List<QuestSaveEntry> quests = new List<QuestSaveEntry>();
+    public string trackedQuestID;   // 角落 HUD 目前追蹤中的任務，對應 QuestManager.TrackedQuestID
     public List<InventorySaveEntry> inventory = new List<InventorySaveEntry>();
 
     // 對應 WorldStateManager 的三個 HashSet<string>，本來就是字串，直接存

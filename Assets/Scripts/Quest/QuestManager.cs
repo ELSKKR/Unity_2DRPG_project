@@ -14,8 +14,8 @@ public class QuestManager : MonoBehaviour
     public event QuestEvent OnQuestAccepted;   // 接到新任務時觸發（給通知系統用）
     public event QuestEvent OnQuestCompleted;  // 完成任務時觸發（給通知系統用）
 
-    // 追蹤中的任務：目前只有任務頁詳情按鈕在用，畫面自己即時刷新就夠，不需要事件。
-    // ponytail：只追蹤單一任務、不存檔——之後要在 HUD 顯示追蹤目標或要跨場景/讀檔記住，再擴充存檔結構
+    // 追蹤中的任務：任務頁詳情按鈕、畫面角落的 QuestTrackerHUD 都在用，
+    // 兩邊都是自己訂閱 OnQuestsChanged 即時刷新，這裡不需要專屬事件。
     public string TrackedQuestID { get; private set; }
 
     public bool IsTracked(QuestData data) => data != null && TrackedQuestID == data.questID;
@@ -24,6 +24,12 @@ public class QuestManager : MonoBehaviour
     {
         if (data == null) return;
         TrackedQuestID = IsTracked(data) ? null : data.questID;
+
+        // QuestUI 自己在按下追蹤鈕後會直接呼叫 UpdateDetailPanel()，不靠這個事件
+        // （避免只是切換追蹤就整批重建清單，見 QuestUI.OnTrackButtonClicked 的註解）。
+        // 但這裡還是要發事件，不然 QuestTrackerHUD 這種只靠事件刷新畫面的訂閱者，
+        // 追蹤狀態一變就沒人通知，字幕會卡在切換前的內容
+        OnQuestsChanged?.Invoke();
     }
 
     void Awake()
@@ -70,6 +76,10 @@ public class QuestManager : MonoBehaviour
         // 完成時自動跳到最後一個階段，任務日誌就會顯示收尾的目標文字
         if (data.stageObjectives != null && data.stageObjectives.Length > 0)
             quest.currentStage = data.stageObjectives.Length - 1;
+
+        // 正在追蹤的任務完成了：追蹤目標已經沒意義，清掉。
+        // 純手動追蹤，不會自動接去追別的任務——角落 HUD 會落回「尚未追蹤」的提示
+        if (IsTracked(data)) TrackedQuestID = null;
 
         Debug.Log($"任務完成: {data.questName}");
         OnQuestsChanged?.Invoke();
@@ -142,10 +152,22 @@ public class QuestManager : MonoBehaviour
         OnQuestsChanged?.Invoke();
     }
 
+    // 讀檔用：還原追蹤中的任務。要在 ImportSave(quests) 之後呼叫，
+    // 否則 Quests 清單還是空的，會被下面的檢查當成無效直接丟掉。
+    // 存檔裡的 ID 已經不在進行中任務清單裡（任務被移除、或資料被改過）就當沒追蹤，
+    // 不要讓 HUD 掛著一個查無此任務的追蹤目標
+    public void ImportTrackedQuestID(string questID)
+    {
+        TrackedQuestID = !string.IsNullOrEmpty(questID) && Quests.Exists(q => q.data.questID == questID)
+            ? questID
+            : null;
+    }
+
     // 新遊戲／回標題用：清空目前的任務進度
     public void ResetAll()
     {
         Quests.Clear();
+        TrackedQuestID = null;
         OnQuestsChanged?.Invoke();
     }
 }

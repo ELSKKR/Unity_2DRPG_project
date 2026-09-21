@@ -29,7 +29,7 @@ MonoBehaviour:
     rewardItemCount: 1
     unlockEventID: 
     stageIndexInProgress: 0
-    stageIndexReadyToHandIn: 0
+    stageIndexReadyToHandIn: 1
     intro:
       lines:
       - "\uFF08\u865B\u5F31\u5730\u9760\u8457\u7246\uFF09\u62B1\u6B49\u554A\uFF0C\u6700\u8FD1\u8EAB\u9AD4\u4E0D\u592A\u8212\u670D\uFF0C\u8AAA\u8A71\u6709\u9EDE\u5598\u2026\u2026"

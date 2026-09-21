@@ -120,6 +120,12 @@ public static class KeyBindings
         return swapped;
     }
 
+    // 鍵位設定頁正在等玩家按下新鍵時，所有動作查詢都要當作沒按——
+    // 不然按到的鍵如果剛好是別的動作目前綁定的鍵（例如背包／任務的開關鍵），
+    // 那個動作會照常被觸發（開出對應介面），而不是被拿去對調鍵位。
+    // 由 KeybindSettingsUI 在開始/結束等待輸入時設定
+    public static bool IsCapturingRebind { get; set; }
+
     static void Save(GameAction action) => PlayerPrefs.SetString(PrefPrefix + action, current[action].ToString());
 
     public static void ResetToDefault(GameAction action) => Rebind(action, Defaults[action]);
@@ -137,6 +143,6 @@ public static class KeyBindings
     }
 
     // 直接取代 Input.GetKeyDown(KeyCode.X) / Input.GetKey(KeyCode.X) 的寫法
-    public static bool GetKeyDown(GameAction action) => Input.GetKeyDown(Get(action));
-    public static bool GetKey(GameAction action) => Input.GetKey(Get(action));
+    public static bool GetKeyDown(GameAction action) => !IsCapturingRebind && Input.GetKeyDown(Get(action));
+    public static bool GetKey(GameAction action) => !IsCapturingRebind && Input.GetKey(Get(action));
 }

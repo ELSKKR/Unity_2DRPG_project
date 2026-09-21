@@ -83,6 +83,7 @@ public class SaveManager : MonoBehaviour
             playerX = player != null ? player.transform.position.x : 0f,
             playerY = player != null ? player.transform.position.y : 0f,
             quests = QuestManager.Instance.ExportSave(),
+            trackedQuestID = QuestManager.Instance.TrackedQuestID,
             inventory = Inventory.Instance.ExportSave(),
             collectedItemIDs = WorldStateManager.Instance.ExportCollectedItems(),
             eventFlags = WorldStateManager.Instance.ExportEventFlags(),
@@ -133,6 +134,7 @@ public class SaveManager : MonoBehaviour
         }
 
         QuestManager.Instance.ImportSave(data.quests, database);
+        QuestManager.Instance.ImportTrackedQuestID(data.trackedQuestID);
         Inventory.Instance.ImportSave(data.inventory, database);
         WorldStateManager.Instance.ImportSave(data.collectedItemIDs, data.eventFlags, data.harvestedCropCells);
         IntelManager.Instance.ImportSave(data.unlockedIntelIDs, database);

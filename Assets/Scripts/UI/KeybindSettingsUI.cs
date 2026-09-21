@@ -61,6 +61,7 @@ public class KeybindSettingsUI : MonoBehaviour
         CancelCapture();
         capturing = row;
         activeCapturer = this;
+        KeyBindings.IsCapturingRebind = true;
         row.ShowCapturing();
         SetHint("按下要指定的按鍵，Esc 取消");
     }
@@ -68,6 +69,7 @@ public class KeybindSettingsUI : MonoBehaviour
     void CancelCapture()
     {
         if (activeCapturer == this) activeCapturer = null;
+        KeyBindings.IsCapturingRebind = false;
         if (capturing == null) return;
         capturing.Refresh();
         capturing = null;
@@ -96,6 +98,11 @@ public class KeybindSettingsUI : MonoBehaviour
             var target = capturing;
             capturing = null;
             activeCapturer = null;
+            // ponytail: 這裡解除防護後，如果剛按下的鍵這一幀恰好也是被對調到的
+            // GUI 開關鍵，且其他腳本的 Update() 排在這之後執行，該介面仍可能
+            // 在同一幀被多觸發一次。要徹底封死得把解除動作延到下一幀（LateUpdate
+            // 或旗標排程），目前遇到的機率低（只有互換兩個「開介面」動作時才會撞到）
+            KeyBindings.IsCapturingRebind = false;
 
             var swapped = KeyBindings.Rebind(target.Action, code);
             RefreshAll();

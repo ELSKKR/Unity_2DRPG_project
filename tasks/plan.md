@@ -13,7 +13,7 @@
 
 - **intro 接在 `SaveManager.StartNewGame` 的轉場 callback 裡。** 台詞放在 `SaveManager` 新增的 `[SerializeField] string[] introLines`。只有開新遊戲會走這個 callback，讀檔（`LoadSlotAndEnterGame`）不會，所以「讀檔不播」不需要另外判斷。
 - **邊界用一支新腳本 `ForestLoopZone`（放在 `World/`），一面邊界掛一個，落點＝進入點往村子方向退 N 格、被擋就往內找（T3 定案，原本規劃的固定回位點 `Transform` 不做）。** 路還沒開時把玩家送回村裡，路開了就問走或留。不另外再寫一支結尾專用的腳本。
-- **傳送要在畫面全黑的時候做，玩家才看不到。** 第一次觸發用 `RiftCutscene.Play`，並替它加一個可選的 `onFullyBlack` callback，在背景淡入到全黑、第一行字出現之前傳送。之後的觸發不播全黑演出：直接傳送，再用 `DialogManager` 跳一行「……回過神來，你又回到原處。」。相機是 `CameraFollow`（會直接貼齊玩家，不是 Lerp 平滑跟隨），所以瞬移不會拖出一段鏡頭掃過去的畫面，而「一眨眼換了位置」本身就符合劇情。
+- **傳送要在畫面全黑的時候做，玩家才看不到。** 每次觸發都用 `RiftCutscene.Play`（使用者改：原本第二次起只跳一行），並替它加一個可選的 `onFullyBlack` callback，在背景淡入到全黑、第一行字出現之前傳送。退回距離 6 格。相機是 `CameraFollow`（會直接貼齊玩家，不是 Lerp 平滑跟隨），所以瞬移不會拖出一段鏡頭掃過去的畫面，而「一眨眼換了位置」本身就符合劇情。
 - **「路開了」的判斷依據就是 `DemoCompletionNoticeShown` 這個旗標。** 它本來就會寫進存檔，不再另外開一個旗標。`DemoCompletionNotice` 新增一個 `requiredAllFlags` 欄位，放 `Luke_Helped`。
 - **`Luke_Helped` 完全用現有的 `ConditionalChat.requiredEventID` 做，`ConditionalChat` 一行都不改。** 魯克的 chats 由前往後排：預設 → 以 `Yaer_SwordKept` 為條件 → 以 `Yaer_SwordReturned` 為條件 → 以 `Luke_Helped` 為條件。因為 `GetActiveChat` 是從最後一筆往前找，第一個條件成立的就採用，所以排在越後面的優先權越高。
 - **現有 NPC 加入森林內容的方式：在既有 `stages` 的對話段落裡新增選項，選項只帶台詞和 `grantsIntel`，不帶 `acceptsQuest` 或 `completesHandIn`。** 亞爾、愛拉、賽勒都有 stage，而有 stage 的 NPC 永遠不會播 chats，所以情報選項只能加在他們的 intro、reminder、completed 這幾段對話裡。
@@ -74,7 +74,7 @@ T6 對白稿（使用者審）────────────────�
 | 林道沒辦法太深。`Wall_South` 的中心在 (−18, −56.5)、尺寸 96×3，相機下限是 y −55，所以林道頂多往森林裡延伸約 6 格 | 中 | T2 提出兩種做法讓使用者選：一是林道留在原本範圍內，靠兩側樹木的密度營造深度；二是把牆、相機下限、草地往南推，讓林道更深 |
 | `ReturnToTitle` 先存檔，座標落在觸發區裡 | 高（讀檔後馬上又被問一次） | T11 先傳送再回標題；驗收時實際讀檔確認 |
 | 觸發區在對話中或演出中又被觸發 | 中 | `ForestLoopZone` 在 `RiftCutscene.IsPlaying`、`DialogManager.IsDialogActive` 為真時不處理 |
-| 玩家沿著邊界探索時一直被打斷 | 中 | 觸發區放在樹帶深處、牆的前面，不放在樹帶邊緣；第二次以後只跳一行 |
+| 玩家沿著邊界探索時一直被打斷 | 中 | 觸發區放在樹帶深處、牆的前面，不放在樹帶邊緣（使用者選擇每次都播完整演出） |
 | `Tavern_B` 只有側面動畫，而且是 `.aseprite` 格式 | 低 | 讓 NPC 站著不動、朝向固定；T5 先確認 aseprite 匯入器產生的動畫片段能用 |
 | `Idle-Sheet.png.meta` 裡有 `textureCompression: 1` | 低 | T5 先確認這個值屬於哪個平台設定；如果是生效中的設定，改成 None，並回報改了什麼 |
 | Play mode 期間銷毀的場景物件會被寫回場景檔（鐵則一） | 高 | 刪除柵欄、Gate 這類操作都在 Edit mode 做；Play mode 只移動玩家（玩家在常駐場景，不會被寫回）。每個 checkpoint 都要清點關鍵物件 |

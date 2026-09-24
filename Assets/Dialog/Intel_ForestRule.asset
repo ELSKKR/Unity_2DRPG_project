@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac372ef62af3c7445a0fc6a23f9a959a, type: 3}
+  m_Name: Intel_ForestRule
+  m_EditorClassIdentifier: Assembly-CSharp::IntelData
+  intelID: forest_rule
+  title: "\u68EE\u6797\u7684\u898F\u77E9"
+  body: "\u9019\u5EA7\u68EE\u6797\u6703\u7559\u5BA2\uFF0C\u60F3\u8D70\u7684\u4EBA\u8D70\u8457\u8D70\u8457\u5C31\u6703\u56DE\u5230\u6751\u88E1\u3002\u68EE\u6797\u4E0D\u5BB3\u4EBA\uFF0C\u53EA\u662F\u4E0D\u653E\u4EBA\u8D70\uFF1B\u4F46\u591C\u88E1\u5225\u8DDF\u8457\u6797\u5B50\u6DF1\u8655\u7684\u5149\u8D70\u3002\u59AE\u5A1C\u8AAA\uFF0C\u7B49\u6751\u5B50\u6368\u4E0D\u5F97\u4F60\u4E86\uFF0C\u8DEF\u81EA\u5DF1\u5C31\u6703\u958B\u3002"

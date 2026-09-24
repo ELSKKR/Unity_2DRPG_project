@@ -118,11 +118,12 @@
 - 五筆情報的標題和內文
 - 路標字條、`RiftZone_Lake` 的新台詞、結尾文字卡
 **驗收**
-- [ ] 六個 NPC 每人至少有一個跟森林有關的細節或選項
-- [ ] 五筆情報各有明確的觸發路徑
-- [ ] 魯克的 chats 列出四段，依序是：預設、Kept、Returned、`Luke_Helped` 之後
-- [ ] 台詞裡不再出現「三十年」「神社」「老貝」「葛倫」
-- [ ] 使用者核准定稿
+- [x] 六個 NPC 每人至少有一個跟森林有關的細節或選項
+- [x] 五筆情報各有明確的觸發路徑（稿子第五節附稽核表）
+- [x] 魯克的 chats：定稿為五段，依序是預設、Kept、Returned、`Yaer_WaitsForLuke`、`Luke_Helped`
+- [x] 台詞裡不再出現「三十年」「神社」「老貝」「葛倫」（只剩稿子的說明文字）
+- [x] 使用者核准定稿（第三版，2026-09-24）
+- 審稿過程：第二版修正了「講了情報內容卻沒給情報」的漏洞，並補完亞爾追魯克的動機（光是另一回事）。第三版改成由玩家在魯克和亞爾之間傳話，而且選項的出現條件一律要來自另一個 NPC
 **相依**：無（可以和 T3～T5 同時進行）
 **檔案**：`tasks/dialogue-draft.md`（新）
 **規模**：S
@@ -131,11 +132,14 @@
 **說明**：照定稿寫入。
 - 阿茉：改寫 `NPCConversation_Amo`，把第二段的條件從葛倫的任務改成新的條件
 - 妮娜：寫入她的對話
-- 新增三筆情報 `forest_rule`、`nina_origin`、`forest_things`，並登錄到 `GameDatabase.allIntel`
+- 新增三筆情報 `forest_rule`、`nina_origin`、`forest_lights`（定稿時從 `forest_things` 改名），並登錄到 `GameDatabase.allIntel`
 **驗收**
-- [ ] 三筆情報都能在 Play mode 實際拿到
-- [ ] `GameDatabase.allIntel` 的數量從 2 變成 5
-- [ ] 阿茉的第二段對話在新條件下會出現
+- [x] 三筆情報都能在 Play mode 實際拿到：模擬玩家選選項，走 `DialogManager` 的 `AdvanceLine`、`ConfirmChoice`、`EndDialog`，跟實際按鍵是同一條路徑。阿茉選 0 → `forest_lights`、阿茉選 1 → `nina_origin`、妮娜選 0 → `forest_rule`；妮娜選 1 沒有多給情報
+- [x] `GameDatabase.allIntel` 的數量從 2 變成 5（直接讀磁碟上的資產檔確認）
+- [x] 阿茉的第二段對話在新條件下會出現：尋藥任務完成後，開場換成「聽說愛拉好多了？」。妮娜在 `DemoCompletionNoticeShown` 成立後，換成「路開了吧？」
+- [x] 存檔讀檔：存檔 JSON 和讀檔後的情報都是 [forest_lights, nina_origin, forest_rule]，共 3 筆
+- **寫的時候補的漏洞**：`GetActiveChat` 只取一段 chat，所以後面的 chat 一成立，前面那段就再也不會出現。如果第二段沒有選項，沒問過的玩家就永遠拿不到情報。所以阿茉、妮娜的第二段都帶同一組情報選項
+- 資產內容直接從磁碟解碼，跟定稿第三版逐字比對一致
 **驗證**：Play mode 逐個選項走一遍；存檔後讀檔，比對已解鎖的情報數
 **相依**：T5、T6
 **檔案**：`NPCConversation_Amo.asset`、`NPCConversation_Nina.asset`、3 個 `Intel_*.asset`（新）、`GameDatabase.asset`

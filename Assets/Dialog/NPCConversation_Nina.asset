@@ -19,7 +19,66 @@ MonoBehaviour:
     requiredEventID: 
     segment:
       lines:
-      - "\uFF08\u4F54\u4F4D\u53F0\u8A5E\uFF1AT6 \u5C0D\u767D\u7A3F\u5B9A\u7A3F\u5F8C\u66FF\u63DB\uFF09"
-      choices: []
+      - "\u4F60\u662F\u65B0\u4F86\u7684\u65C5\u4EBA\u5427\uFF1F\u2026\u2026\u60F3\u96E2\u958B\u9019\u88E1\uFF1F"
+      choices:
+      - label: "\u9019\u5EA7\u68EE\u6797\u662F\u600E\u9EBC\u56DE\u4E8B\uFF1F"
+        reactionLines:
+        - "\u9019\u5EA7\u68EE\u6797\u6703\u7559\u5BA2\u3002\u60F3\u8D70\u7684\u4EBA\uFF0C\u8D70\u8457\u8D70\u8457\u5C31\u6703\u56DE\u5230\u6751\u88E1\u3002"
+        - "\u5225\u6015\uFF0C\u5B83\u4E0D\u5BB3\u4EBA\uFF0C\u53EA\u662F\u4E0D\u653E\u4EBA\u8D70\u3002\u2026\u2026\u4E0D\u904E\u591C\u88E1\u8981\u662F\u770B\u5230\u6797\u5B50\u6DF1\u8655\u6709\u5149\uFF0C\u5225\u8DDF\u904E\u53BB\u3002"
+        - "\u7B49\u6751\u5B50\u6368\u4E0D\u5F97\u4F60\u4E86\uFF0C\u8DEF\u81EA\u5DF1\u5C31\u6703\u958B\u3002"
+        acceptsQuest: 0
+        completesHandIn: 0
+        markEventID: 
+        requiredIntel: {fileID: 0}
+        grantsIntel: {fileID: 11400000, guid: b4a21d67bd0e9cc47ba291d98e68b4a2, type: 2}
+      - label: "\u59B3\u4E5F\u662F\u88AB\u7559\u4E0B\u4F86\u7684\u55CE\uFF1F"
+        reactionLines:
+        - "\uFF08\u7B11\uFF09\u9019\u500B\u561B\u2026\u2026\u4F60\u53BB\u554F\u963F\u8309\u5427\uFF0C\u5979\u8B1B\u5F97\u6BD4\u6211\u597D\u807D\u3002"
+        acceptsQuest: 0
+        completesHandIn: 0
+        markEventID: 
+        requiredIntel: {fileID: 0}
+        grantsIntel: {fileID: 0}
+      - label: "\uFF08\u96E2\u958B\uFF09"
+        reactionLines: []
+        acceptsQuest: 0
+        completesHandIn: 0
+        markEventID: 
+        requiredIntel: {fileID: 0}
+        grantsIntel: {fileID: 0}
+      typingSound: {fileID: 0}
+      startSound: {fileID: 0}
+  - requiredCompletedQuest: {fileID: 0}
+    requiredEventID: DemoCompletionNoticeShown
+    segment:
+      lines:
+      - "\u8DEF\u958B\u4E86\u5427\uFF1F\u6211\u4E5F\u611F\u89BA\u5230\u4E86\u3002"
+      - "\u8981\u8D70\u9084\u662F\u8981\u7559\uFF0C\u90FD\u662F\u4F60\u7684\u4E8B\u3002\u2026\u2026\u4E0D\u904E\u8D70\u4E4B\u524D\uFF0C\u8A18\u5F97\u8DDF\u5927\u5BB6\u8AAA\u4E00\u8072\u3002"
+      choices:
+      - label: "\u9019\u5EA7\u68EE\u6797\u662F\u600E\u9EBC\u56DE\u4E8B\uFF1F"
+        reactionLines:
+        - "\u9019\u5EA7\u68EE\u6797\u6703\u7559\u5BA2\u3002\u60F3\u8D70\u7684\u4EBA\uFF0C\u8D70\u8457\u8D70\u8457\u5C31\u6703\u56DE\u5230\u6751\u88E1\u3002"
+        - "\u5225\u6015\uFF0C\u5B83\u4E0D\u5BB3\u4EBA\uFF0C\u53EA\u662F\u4E0D\u653E\u4EBA\u8D70\u3002\u2026\u2026\u4E0D\u904E\u591C\u88E1\u8981\u662F\u770B\u5230\u6797\u5B50\u6DF1\u8655\u6709\u5149\uFF0C\u5225\u8DDF\u904E\u53BB\u3002"
+        - "\u7B49\u6751\u5B50\u6368\u4E0D\u5F97\u4F60\u4E86\uFF0C\u8DEF\u81EA\u5DF1\u5C31\u6703\u958B\u3002"
+        acceptsQuest: 0
+        completesHandIn: 0
+        markEventID: 
+        requiredIntel: {fileID: 0}
+        grantsIntel: {fileID: 11400000, guid: b4a21d67bd0e9cc47ba291d98e68b4a2, type: 2}
+      - label: "\u59B3\u4E5F\u662F\u88AB\u7559\u4E0B\u4F86\u7684\u55CE\uFF1F"
+        reactionLines:
+        - "\uFF08\u7B11\uFF09\u9019\u500B\u561B\u2026\u2026\u4F60\u53BB\u554F\u963F\u8309\u5427\uFF0C\u5979\u8B1B\u5F97\u6BD4\u6211\u597D\u807D\u3002"
+        acceptsQuest: 0
+        completesHandIn: 0
+        markEventID: 
+        requiredIntel: {fileID: 0}
+        grantsIntel: {fileID: 0}
+      - label: "\uFF08\u96E2\u958B\uFF09"
+        reactionLines: []
+        acceptsQuest: 0
+        completesHandIn: 0
+        markEventID: 
+        requiredIntel: {fileID: 0}
+        grantsIntel: {fileID: 0}
       typingSound: {fileID: 0}
       startSound: {fileID: 0}

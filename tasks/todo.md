@@ -151,27 +151,37 @@
 - 新增情報 `luke_three_years`
 - 視需要微調 `Intel_EllaIllness`、`Intel_YaerTemper` 的內文，但 ID 不改
 **驗收**
-- [ ] 修改前後比對每個 stage 的 `quest`、各項條件欄位、`turnInItem(s)`、`consume*`、`reward*`、`unlockEventID`、`stageIndex*`，以及既有選項的 `acceptsQuest`、`completesHandIn`、`markEventID`、`requiredIntel`、`grantsIntel`：**差異是 0 筆**
-- [ ] 新增的選項都沒有勾 `acceptsQuest` 或 `completesHandIn`
-- [ ] `luke_three_years` 能實際拿到
+- [x] 修改前後比對每個 stage 的 `quest`、各項條件欄位、`turnInItem(s)`、`consume*`、`reward*`、`unlockEventID`、`stageIndex*`，以及既有選項的 `acceptsQuest`、`completesHandIn`、`markEventID`、`requiredIntel`、`grantsIntel`：**差異是 0 筆**（用 `EditorJsonUtility` 取修改前後的快照，愛拉、亞爾、賽勒共比對 181 個結構欄位。反向測試：故意改壞 4 處，4 處都抓到）
+- [x] 新增的選項都沒有勾 `acceptsQuest` 或 `completesHandIn`（9 個新選項逐一列出確認）
+- [x] `luke_three_years` 能實際拿到（賽勒第一階段 intro、第二階段 reminder 各實測一次）
+- [x] Play mode 四條任務從頭跑到尾：尋藥接取 → 配方交付後接上採集 → 作物 2/3/5 全數被收走、拿到藥水 → 愛拉完成 → 亞爾的佩劍選項（需要 `yaer_temper`）解鎖 → 還劍，四條任務全部 done，旗標 `Yaer_SwordReturned`
+- 範圍調整：亞爾的新選項「魯克託我問你：腿還好嗎？」需要 `yaer_that_night`，還會標記 `Yaer_WaitsForLuke`，屬於魯克線，**移到 T9**。T8 裡亞爾的資產沒動（差異 0）
+- **實測發現**：賽勒的 reminder 和 completed 原本沒有選項，加了新選項後，玩家每次搭話都會被迫再聽一次魯克的故事。所以這三段補上「（離開）」
+- 情報內文改寫：`ella_illness`（刪掉「村子西側」）、`yaer_temper`（跟愛拉改寫後的台詞對齊）；`GameDatabase.allIntel` 從 5 變成 6
 **驗證**：用腳本比對修改前後的 YAML 欄位（改之前先把原檔複製到 scratchpad）；然後在 Play mode 把尋藥、配方、採集、佩劍四條任務從頭跑到尾
 **相依**：T6
 **檔案**：`NPCConversation_Ella.asset`、`NPCConversation_Yaer.asset`、`NPCConversation_Sailor.asset`、`Intel_LukeThreeYears.asset`（新）、`GameDatabase.asset`
 **規模**：M
 
-### T9 魯克的對話與 `Luke_Helped`
-**說明**：
-- 照定稿寫入魯克的四段 chats；Kept、Returned 兩段的選項會標記 `Luke_Helped`
-- 新增情報 `yaer_chase`
-**驗收**：以下三種順序各實際跑一次，都要拿到 `Luke_Helped`
-- [ ] 順序 1：留著劍（選「路過而已」）→ 找魯克
-- [ ] 順序 2：把劍還給亞爾 → 找魯克
-- [ ] 順序 3：先留著劍 → 之後又還給亞爾 → 找魯克（應該顯示 Returned 那段）
-- [ ] 拿到 `Luke_Helped` 之後，魯克改播「之後」那段
-**驗證**：每種順序都在 Play mode 用新遊戲狀態重跑，記錄每一步的旗標
-**相依**：T5、T6
-**檔案**：`NPCConversation_Luke.asset`、`Intel_YaerChase.asset`（新）、`GameDatabase.asset`
-**規模**：S
+### T9 魯克線（玩家當中間人）與 `Luke_Helped`
+**說明**（照定稿第三版，範圍比原本規劃大）：
+- 魯克寫五段 chats：預設、Kept、Returned、`Yaer_WaitsForLuke`、`Luke_Helped`
+- 新增情報 `yaer_that_night`
+- 亞爾的 handIn、completed 加上「魯克託我問你：腿還好嗎？」〈需要 `yaer_that_night`〉，選了會標記 `Yaer_WaitsForLuke`（從 T8 移過來）
+- 新腳本：旗標成立的當下播 `RiftCutscene`，並在黑幕中開關物件；場景載入時如果旗標已經成立，就直接套用結果、不播演出。這支腳本要掛在不會被關掉的物件上（鐵則三）
+- 在亞爾家門口放第二個魯克（預設關閉），跟第一個魯克共用同一份對話資產
+**驗收**
+- [ ] 三種劍的順序各跑一次，都能走完「魯克帶話 → 亞爾 → 魯克起身 → 亞爾家門口的魯克」：
+  - 順序 1：留著劍
+  - 順序 2：還了劍
+  - 順序 3：先留著、後來又還了（應該播 Returned 那段）
+- [ ] 起身演出播放時，林道口的魯克關掉、亞爾家門口的魯克打開；存檔讀檔後維持切換後的狀態，不重播演出
+- [ ] 每一步選「（離開）」都不會卡住
+- [ ] 亞爾的選項結構比對：既有欄位差異是 0 筆，新選項沒有勾 `acceptsQuest` 或 `completesHandIn`
+**驗證**：每種順序都在 Play mode 用新遊戲狀態重跑，記錄每一步的旗標；物件切換要截圖
+**相依**：T5、T6、T8
+**檔案**：`NPCConversation_Luke.asset`、`NPCConversation_Yaer.asset`、`Intel_YaerThatNight.asset`（新）、`GameDatabase.asset`、新腳本、`Forest_Village.unity`
+**規模**：M
 
 ### T10 清理既有問題
 **說明**：

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac372ef62af3c7445a0fc6a23f9a959a, type: 3}
+  m_Name: Intel_LukeThreeYears
+  m_EditorClassIdentifier: Assembly-CSharp::IntelData
+  intelID: luke_three_years
+  title: "\u9B6F\u514B\u7684\u4E09\u5E74"
+  body: "\u4E09\u5E74\u524D\uFF0C\u9B6F\u514B\u6478\u9032\u6751\u5B50\u60F3\u5077\u8CFD\u52D2\u5C4B\u88E1\u7684\u85E5\u6750\u53BB\u8CE3\uFF0C\u88AB\u4E9E\u723E\u7576\u5834\u902E\u5230\u3002\u4E4B\u5F8C\u4ED6\u60F3\u6E9C\uFF0C\u6797\u5B50\u537B\u4E0D\u653E\u4EBA\u3002\u5F9E\u90A3\u5929\u8D77\uFF0C\u4ED6\u5C31\u5B88\u5728\u6797\u9053\u53E3\u7B49\u8457\u8D70\uFF0C\u6751\u88E1\u7684\u4E8B\u4E00\u6982\u4E0D\u7BA1\u3002"

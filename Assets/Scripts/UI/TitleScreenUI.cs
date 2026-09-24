@@ -5,6 +5,10 @@ using TMPro;
 // 標題畫面（獨立場景 TitleScreen.unity 專用，不是 MenuPanelBase 那一套遊戲內選單，
 // 沒有「Esc 返回」、沒有玩家可以鎖移動，所以不繼承 MenuPanelBase）。
 // 兩層面板：主選單（開始遊戲／設定／離開）→ 按「開始遊戲」切到存檔槽選單。
+//
+// 「設定」改成直接開常駐場景那本書、翻到設定頁——舊的 SettingsPanel／SettingsUI
+// 已經退役刪掉了，書本 UI 是現在唯一一套設定介面。書活在 Persistent 場景的
+// [Canvas]/BookWindow 底下，跨場景所以用 GameObject.Find 找，不是 Inspector 拖引用。
 public class TitleScreenUI : MonoBehaviour
 {
     [Header("面板")]
@@ -23,13 +27,23 @@ public class TitleScreenUI : MonoBehaviour
     [Header("音效（留空 = 不播放）")]
     [SerializeField] private AudioClip selectSound;   // 按鈕點選音效，存檔槽格子也共用這顆（往下傳給 SaveSlotEntryUI）
 
+    // 書本側標籤的排列順序（美術決定，見 TabGroup 上的 tabs 陣列）：
+    // 0 任務／1 背包／2 裝備／3 情報／4 存檔／5 設定
+    const int BookSettingsTabIndex = 5;
+
+    private TabGroup bookTabGroup;
+
     void Start()
     {
         mainMenuPanel.SetActive(true);
         saveSlotPanel.SetActive(false);
 
+        bookTabGroup = GameObject.Find("[Canvas]")?.transform.Find("BookWindow")?.GetComponent<TabGroup>();
+        if (bookTabGroup == null)
+            Debug.LogWarning("TitleScreenUI 找不到 Persistent 場景的 BookWindow，標題畫面的「設定」按鈕不會有反應。");
+
         startGameButton.onClick.AddListener(() => { PlaySelectSound(); ShowSaveSlots(); });
-        settingsButton.onClick.AddListener(() => { PlaySelectSound(); SettingsUI.Instance?.Open(); });
+        settingsButton.onClick.AddListener(() => { PlaySelectSound(); bookTabGroup?.ToggleTab(BookSettingsTabIndex); });
         quitButton.onClick.AddListener(() => { PlaySelectSound(); QuitGame(); });
         backButton.onClick.AddListener(() => { PlaySelectSound(); ShowMainMenu(); });
 

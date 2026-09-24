@@ -46,6 +46,9 @@ public class SceneTransitionManager : MonoBehaviour
         currentGameplayScene = sceneName;
     }
 
+    // 轉場收尾會把玩家移動打開；要在轉場後接著鎖住玩家的東西（例如開場演出）得等這個變 false
+    public bool IsTransitioning { get; private set; }
+
     public void TransitionToScene(string sceneName, string spawnID, System.Action onComplete = null)
     {
         pendingSpawnID = spawnID;
@@ -55,6 +58,7 @@ public class SceneTransitionManager : MonoBehaviour
 
     IEnumerator DoTransition(string newSceneName)
     {
+        IsTransitioning = true;
         var player = FindFirstObjectByType<PlayerController>();
         player?.SetCanMove(false);
         InteractionPrompt.Instance?.Hide();
@@ -120,6 +124,7 @@ public class SceneTransitionManager : MonoBehaviour
             fadeImage.raycastTarget = false;
             player = FindFirstObjectByType<PlayerController>();
             player?.SetCanMove(true);
+            IsTransitioning = false;
             yield break;
         }
 
@@ -145,6 +150,7 @@ public class SceneTransitionManager : MonoBehaviour
 
         player = FindFirstObjectByType<PlayerController>();
         player?.SetCanMove(true);
+        IsTransitioning = false;
     }
 
     void PlacePlayerAtSpawn()

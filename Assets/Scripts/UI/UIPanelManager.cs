@@ -8,8 +8,8 @@ public class UIPanelManager : MonoBehaviour
 {
     public static UIPanelManager Instance { get; private set; }
 
-    [Header("Esc 鍵：目前沒有面板開著時，按 Esc 要打開哪個面板（通常是設定選單，留空 = 不開任何東西）")]
-    [Tooltip("必須是實作 IMenuPanel 的元件（例如 SettingsUI）")]
+    [Header("Esc 鍵：目前沒有面板開著時，按 Esc 要打開哪個面板（通常是書本 UI，留空 = 不開任何東西）")]
+    [Tooltip("必須是實作 IMenuPanel 的元件（例如 BookMenuPanel）")]
     [SerializeField] private MonoBehaviour defaultEscPanel;
 
     private IMenuPanel currentOpenPanel;

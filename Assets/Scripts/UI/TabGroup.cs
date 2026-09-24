@@ -58,7 +58,15 @@ public class TabGroup : MonoBehaviour
     [Tooltip("書籤（緞帶）上的圖示，會換成目前這一頁的 ribbonIcon")]
     [SerializeField] private Image ribbonIcon;
 
+    [Header("標題畫面模式（只有書本那一份要勾）")]
+    [Tooltip("勾選 = 在標題畫面把書打開時，藏掉所有側標籤、停用分頁快捷鍵，並固定停在 titleTabIndex 那一頁。" +
+             "不管是設定按鈕、Esc 還是快捷鍵開的書都一視同仁，所以判斷放在這裡而不是開書的那一邊")]
+    [SerializeField] private bool tabsLockedAtTitle;
+    [SerializeField] private int titleTabIndex;
+    [SerializeField] private string titleSceneName = "TitleScreen";
+
     private int activeIndex = -1;
+    private bool titleModeActive;
 
     public bool IsOpen => activeIndex >= 0;
 
@@ -78,8 +86,11 @@ public class TabGroup : MonoBehaviour
 
     void Update()
     {
+        if (tabsLockedAtTitle && book != null) UpdateTitleMode();
+
         for (int i = 0; i < tabs.Length; i++)
         {
+            if (titleModeActive) break;   // 標題畫面開的書只能看設定頁，不能靠快捷鍵翻到背包／任務
             if (!tabs[i].hasHotkey) continue;
             if (!KeyBindings.GetKeyDown(tabs[i].hotkey)) continue;
 
@@ -93,6 +104,50 @@ public class TabGroup : MonoBehaviour
             var panel = tabs[activeIndex].Panel;
             if (panel != null && !panel.IsOpen) CloseAll();
         }
+    }
+
+    // 「書開著」而且「人在標題畫面」才進標題模式；書關了或離開標題就還原。
+    // 還原一定要有，因為書跟這個 TabGroup 都住在常駐場景，標題畫面卸載後它們還在，
+    // 沒還原的話進遊戲後側標籤就永遠消失了
+    void UpdateTitleMode()
+    {
+        bool atTitle = SceneTransitionManager.Instance != null
+            && SceneTransitionManager.Instance.CurrentGameplayScene == titleSceneName;
+
+        if (!titleModeActive)
+        {
+            if (book.IsOpen && atTitle) EnterTitleMode();
+        }
+        else if (!book.IsOpen || !atTitle)
+        {
+            ExitTitleMode();
+        }
+    }
+
+    void EnterTitleMode()
+    {
+        titleModeActive = true;
+        SetTabButtonsActive(false);
+
+        // 直接換頁不翻頁：這時候多半還在開書動畫中，頁面內容本來就是藏著的
+        if (activeIndex != titleTabIndex)
+        {
+            activeIndex = titleTabIndex;
+            UpdateVisuals();
+            ApplyPages(titleTabIndex);
+        }
+    }
+
+    void ExitTitleMode()
+    {
+        titleModeActive = false;
+        SetTabButtonsActive(true);
+    }
+
+    void SetTabButtonsActive(bool active)
+    {
+        foreach (var t in tabs)
+            if (t.button != null) t.button.gameObject.SetActive(active);
     }
 
     // 按下某一頁的快捷鍵時該發生什麼事。拉成獨立的 public 方法有兩個原因：

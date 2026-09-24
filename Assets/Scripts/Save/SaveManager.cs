@@ -18,6 +18,10 @@ public class SaveManager : MonoBehaviour
     [SerializeField] private string newGameScene = "Forest_Village";
     [SerializeField] private string newGameSpawnID = "default";
 
+    [Header("新遊戲開場文字卡（逐行淡入淡出，留空 = 不播）")]
+    [TextArea(1, 3)]
+    [SerializeField] private string[] introLines;
+
     [Header("存檔用的 ID 對照表（新增道具/任務記得拖進這份資產）")]
     [SerializeField] private GameDatabase database;
 
@@ -120,6 +124,11 @@ public class SaveManager : MonoBehaviour
             if (player != null) player.gameObject.SetActive(true);
 
             SaveToSlot(slot);   // 立刻存一次，避免玩家馬上關遊戲、槽位還是顯示空的
+
+            // 只有新遊戲走這裡，讀檔（LoadSlotAndEnterGame）不會播開場。
+            // 這時轉場黑幕還蓋著，用 startBlack 接上，玩家不會先瞄到村子
+            if (introLines != null && introLines.Length > 0 && RiftCutscene.Instance != null)
+                RiftCutscene.Instance.Play(introLines, null, startBlack: true);
         });
     }
 

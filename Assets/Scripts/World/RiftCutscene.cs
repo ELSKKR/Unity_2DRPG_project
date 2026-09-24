@@ -37,29 +37,36 @@ public class RiftCutscene : MonoBehaviour
         if (root != null) root.SetActive(false);
     }
 
-    public void Play(string[] lines, System.Action onComplete = null)
+    // startBlack = 呼叫當下黑幕就直接蓋滿，不做淡入。用在轉場黑畫面還沒退的時候接著播，
+    // 兩層黑幕無縫銜接，玩家不會先看到場景又被蓋黑
+    public void Play(string[] lines, System.Action onComplete = null, bool startBlack = false)
     {
         if (IsPlaying || lines == null || lines.Length == 0) return;
-        StartCoroutine(PlayRoutine(lines, onComplete));
+        StartCoroutine(PlayRoutine(lines, onComplete, startBlack));
     }
 
-    IEnumerator PlayRoutine(string[] lines, System.Action onComplete)
+    IEnumerator PlayRoutine(string[] lines, System.Action onComplete, bool startBlack)
     {
         IsPlaying = true;
+
+        root.SetActive(true);
+        SetAlpha(background, startBlack ? 1f : 0f);
+        SetAlpha(lineText, 0f);
+        lineText.text = "";
+
+        // 轉場收尾會把玩家移動打開，在它之前鎖住會被蓋掉，所以等轉場做完再鎖
+        while (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsTransitioning)
+            yield return null;
 
         var player = FindFirstObjectByType<PlayerController>();
         player?.SetCanMove(false);
         global::InteractionPrompt.Instance?.Hide();
 
-        root.SetActive(true);
-        SetAlpha(background, 0f);
-        SetAlpha(lineText, 0f);
-        lineText.text = "";
-
         if (startSound != null)
             AudioManager.Instance.PlaySFX(startSound);
 
-        yield return Fade(background, 0f, 1f, backgroundFadeDuration);
+        if (!startBlack)
+            yield return Fade(background, 0f, 1f, backgroundFadeDuration);
 
         foreach (var line in lines)
         {

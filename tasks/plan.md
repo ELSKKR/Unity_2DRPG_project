@@ -12,7 +12,7 @@
 ## Architecture Decisions
 
 - **intro 接在 `SaveManager.StartNewGame` 的轉場 callback 裡。** 台詞放在 `SaveManager` 新增的 `[SerializeField] string[] introLines`。只有開新遊戲會走這個 callback，讀檔（`LoadSlotAndEnterGame`）不會，所以「讀檔不播」不需要另外判斷。
-- **邊界用一支新腳本 `ForestLoopZone`（放在 `World/`），一個觸發區掛一個，各自帶一個回位點 `Transform`。** 路還沒開時把玩家送回村裡，路開了就問走或留。不另外再寫一支結尾專用的腳本。
+- **邊界用一支新腳本 `ForestLoopZone`（放在 `World/`），一面邊界掛一個，落點＝進入點往村子方向退 N 格、被擋就往內找（T3 定案，原本規劃的固定回位點 `Transform` 不做）。** 路還沒開時把玩家送回村裡，路開了就問走或留。不另外再寫一支結尾專用的腳本。
 - **傳送要在畫面全黑的時候做，玩家才看不到。** 第一次觸發用 `RiftCutscene.Play`，並替它加一個可選的 `onFullyBlack` callback，在背景淡入到全黑、第一行字出現之前傳送。之後的觸發不播全黑演出：直接傳送，再用 `DialogManager` 跳一行「……回過神來，你又回到原處。」。相機是 `CameraFollow`（會直接貼齊玩家，不是 Lerp 平滑跟隨），所以瞬移不會拖出一段鏡頭掃過去的畫面，而「一眨眼換了位置」本身就符合劇情。
 - **「路開了」的判斷依據就是 `DemoCompletionNoticeShown` 這個旗標。** 它本來就會寫進存檔，不再另外開一個旗標。`DemoCompletionNotice` 新增一個 `requiredAllFlags` 欄位，放 `Luke_Helped`。
 - **`Luke_Helped` 完全用現有的 `ConditionalChat.requiredEventID` 做，`ConditionalChat` 一行都不改。** 魯克的 chats 由前往後排：預設 → 以 `Yaer_SwordKept` 為條件 → 以 `Yaer_SwordReturned` 為條件 → 以 `Luke_Helped` 為條件。因為 `GetActiveChat` 是從最後一筆往前找，第一個條件成立的就採用，所以排在越後面的優先權越高。
@@ -36,7 +36,7 @@ T6 對白稿（使用者審）────────────────�
 ## Task List
 
 ### Phase 1：開場和邊界（風險最高，放最前面）
-- [ ] T1 `intro`：開新遊戲時播三張卡
+- [x] T1 `intro`：開新遊戲時播三張卡
 - [x] T2 佈局選項：林道、魯克的露宿點、回位點（**使用者決定**：林道 A、魯克在林道口）
 - [x] T3 `ForestLoopZone` 核心：先只做一個觸發區，走通「第一次播完整演出、之後只跳一行」
 - [ ] T4 邊界改造：刪除柵欄與 Gate，做出林道，鋪上全部觸發區，改寫路標

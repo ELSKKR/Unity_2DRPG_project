@@ -39,13 +39,14 @@ public class RiftCutscene : MonoBehaviour
 
     // startBlack = 呼叫當下黑幕就直接蓋滿，不做淡入。用在轉場黑畫面還沒退的時候接著播，
     // 兩層黑幕無縫銜接，玩家不會先看到場景又被蓋黑
-    public void Play(string[] lines, System.Action onComplete = null, bool startBlack = false)
+    // onFullyBlack = 黑幕剛蓋滿、第一行字出現前呼叫，用來在玩家看不到的時候瞬移之類
+    public void Play(string[] lines, System.Action onComplete = null, bool startBlack = false, System.Action onFullyBlack = null)
     {
         if (IsPlaying || lines == null || lines.Length == 0) return;
-        StartCoroutine(PlayRoutine(lines, onComplete, startBlack));
+        StartCoroutine(PlayRoutine(lines, onComplete, startBlack, onFullyBlack));
     }
 
-    IEnumerator PlayRoutine(string[] lines, System.Action onComplete, bool startBlack)
+    IEnumerator PlayRoutine(string[] lines, System.Action onComplete, bool startBlack, System.Action onFullyBlack)
     {
         IsPlaying = true;
 
@@ -67,6 +68,8 @@ public class RiftCutscene : MonoBehaviour
 
         if (!startBlack)
             yield return Fade(background, 0f, 1f, backgroundFadeDuration);
+
+        onFullyBlack?.Invoke();
 
         foreach (var line in lines)
         {

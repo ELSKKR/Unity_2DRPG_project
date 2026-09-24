@@ -50,10 +50,14 @@
 - 對話中或演出中被觸發時不處理
 - 回位點沒設定時，用 `Debug.LogWarning` 發中文警告
 **驗收**
-- [ ] 第一次進觸發區：播完整演出，全黑期間傳送到回位點
-- [ ] 第二次：直接傳送，只跳一行
-- [ ] 存檔後讀檔，仍然只跳一行
-- [ ] 現有的 `RiftZone` 呼叫 `RiftCutscene.Play` 時不帶新參數，行為不變
+- [x] 第一次進觸發區：播完整演出，全黑期間傳送到回位點（實測：x −58.6 → −54.6，黑幕 1.00、`canMove=False`、`seen=True`，有截圖）
+- [x] 第二次：直接傳送，只跳一行（實測：沒有播演出，`dialog=True`，玩家從 −58.6 → −54.6，有截圖）
+- [x] 存檔後讀檔，仍然只跳一行（實測：存檔 JSON 含 `forest_loop_seen`；讀檔後再進入：`cutscene=False`、`dialog=True`）
+- [x] 現有的 `RiftZone` 呼叫 `RiftCutscene.Play` 時不帶新參數，行為不變（實測：只傳台詞，呼叫當下黑幕 alpha 是 0.006，從透明淡入）
+- **設計變更**：回位點不再用固定的 `Transform`，改成「從進入點往 `inwardDirection` 退 `returnDistance` 格，被擋住就繼續往內找，最多 `maxExtraSteps` 格」。這樣一面邊界只需要一個觸發區，驗收時也能沿整條觸發帶每一格都檢查
+- 西面觸發帶 `[Boundary]/ForestLoop/ForestLoop_West`（x −60～−58，y −55～56）逐格檢查：110 個進入點的落點全部站得下，其中 12 個多往內退，最遠退到 x −49。反向驗證 `IsStandable`：牆、南牆、柵欄、樹帶內都回傳 false，村中空地回傳 true
+- 存場景後，`Forest_Village.unity` 的 diff 約 24 萬行，原因是 Unity 重新編了 Tilemap 調色盤的索引。重新渲染全圖和 T2 比對，1,164,800 個像素中只有 19 個不同，都在兩個小 sprite 上（同排序值的繪製順序不固定），Tilemap 沒有差異
+- **給 T4 的更正**：場景裡沒有 `SignPost_SouthRoad`，也沒有路標 sprite。所謂的路標是 `[Boundary]/Gate/Gate_ReadZone`：一個看不見的 `SignPost` 查看區，位置在 (−19,−52.8)，說話者是「凱蘭」，台詞是「（柵欄把往南的路封住了）這條路通往眠雪鎮……看來現在過不去。」柵欄拆掉後這段台詞就不成立了，**T4 開始前要請使用者決定：刪除它，還是換成旅人字條（需要一個看得見的物件）**
 **驗證**：Play mode 用 eval 移動玩家進觸發區，記錄每次傳送後的座標；截圖確認演出
 **相依**：T2（回位點距離）
 **檔案**：`ForestLoopZone.cs`（新）、`RiftCutscene.cs`、`Forest_Village.unity`

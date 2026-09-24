@@ -101,10 +101,13 @@
 - 阿茉、妮娜放進 `House_Interior_C`，魯克放在 T2 選定的位置
 - 阿茉接上既有的 `NPCConversation_Amo`；妮娜、魯克新建對話資產，先放佔位台詞
 **驗收**
-- [ ] 三個 NPC 都能互動並播出對話
-- [ ] 進出房子讓 `Forest_Village` 重新載入後，魯克仍在原位
-- [ ] 匯入設定符合鐵則二（列出每張圖的 PPU、Filter、Compression）
-- [ ] 排序正確：pivot 在腳底，站到樹後面會被樹擋住
+- [x] 三個 NPC 都能互動並播出對話（實測 `Interact()`：阿茉說出「唉，最近家裡的雞都不太安穩……」，妮娜、魯克說出佔位台詞，說話者名稱都正確；沒有任務的 NPC 頭上的「!」確實隱藏）
+- [x] 進出房子讓 `Forest_Village` 重新載入後，魯克仍在原位（進 C 屋再出來，魯克還在 (−16.5,−31)，有遊戲內截圖）
+- [x] 匯入設定符合鐵則二：三張圖都是 PPU 16、Point、RGBA32 不壓縮。`Rogue`、`Peasant_A` 的 `textureCompression: 1` 屬於 Standalone 平台，而且 `overridden: 0` 沒有生效，所以不用改。**有改的地方**：`Tavern_B` 的 aseprite 匯入器原本是 PPU 100、以畫布為 pivot 基準（pivot 落在腳下 16px），改成 PPU 16、Local 底部中央；`Rogue` 的 Idle 切圖 pivot 從中心改成底部中央。兩份素材改之前 grep GUID，引用數都是 0，不需要補償
+- [x] 排序正確：pivot 都在腳底，`sortingOrder` 由 y 計算（魯克 3100 ＝ −y×100）
+- 位置調整：魯克原本放在 (−14,−38)，但被南邊一棵樹的樹冠整個蓋住（只看得到頭頂的「!」）。改用計算找位置，條件是離林道 1.8～4 格、站得下、遮擋低於 5%，只有 (−16.5,−31) 符合，遮擋 3%。重跑邊界驗證：可達 7,444 格，302 個觸發格全部合格，林道 32 點全可達
+- C 屋：新增 `[NPC]` 根物件；阿茉 (−4.6,12.3) 在地毯上、妮娜 (−6.2,15.0) 在床邊（遊戲內截圖 `houseC_ingame.png`），位置可以再調
+- 新增資產：`Assets/Animations/Amo|Nina|Luke/`（Idle 動畫，8fps、4 格、循環，加 controller）、`NPCConversation_Nina`、`NPCConversation_Luke`（佔位台詞）
 **驗證**：Play mode 走到每個 NPC 旁邊互動，用 `ScreenCapture` 截圖；讀 meta 核對匯入設定
 **相依**：T2
 **檔案**：3 個 prefab 或 Animator controller、`NPCConversation_Nina.asset`／`NPCConversation_Luke.asset`（新）、`House_Interior_C.unity`、`Forest_Village.unity`

@@ -1,7 +1,7 @@
 # Todo：森林留客
 
 > **接手須知（2026-09-25，換新對話前補）**
-> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）、T10（清理）與 Checkpoint B 都已完成並 commit。**下一個是 T11。**
+> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）、T10（清理）、Checkpoint B、T11（結尾）都已完成並 commit。**下一個是 T12（全流程驗收、建置、文件）。**
 > - **對白改動**：一律照 `tasks/dialogue-draft.md` 的規則 1～6。使用者對嚴謹度要求很高，改一處就要全面自查。
 > - **驗證工具在 `tasks/tools/`**：
 >   - `talk.cs`：模擬對話。把 `__NPC__`、`__CHOICE__` 換掉後用 eval_file 執行
@@ -253,10 +253,15 @@
   - 選「走」：先移到回位點，播結尾卡，再呼叫 `ReturnToTitle()`
   - 選「留」：移回回位點
 **驗收**
-- [ ] 藥水、佩劍、`Luke_Helped` 三個條件任何一個還沒達成時，邊界仍然是鬼打牆
-- [ ] 條件全部達成的那一刻，通知只跳一次；讀檔後不會再跳
-- [ ] 選「留」：玩家在可達範圍內、能移動；再進觸發區會再問一次
-- [ ] 選「走」：結尾卡播完會回到 `TitleScreen`；再讀同一個存檔，玩家不在觸發區裡，而且路仍然是開的
+- [x] 藥水、佩劍、`Luke_Helped` 三個條件任何一個還沒達成時，邊界仍然是鬼打牆（三種情況各開一局新遊戲測：缺藥水、缺佩劍、缺魯克。走進 `ForestLoop_North` 都播「……回過神來，你又回到原處。」，`DemoCompletionNoticeShown` 都沒成立）
+- [x] 條件全部達成的那一刻，通知只跳一次；讀檔後不會再跳（補上 `Luke_Helped` 的當下，`DemoCompletionNoticeShown` 被標記 1 次，通知文字是「森林的路，開了。」；之後再標一個無關旗標，不會重跳；讀檔後 console 裡沒有再標記的紀錄）
+- [x] 選「留」：玩家在可達範圍內、能移動；再進觸發區會再問一次（被推回 (−24.02,48.63)，跟鬼打牆用同一個 `FindReturnPosition`；不在觸發區、沒卡在碰撞體裡、`canMove=True`；再走進去又跳出同一個問題）
+- [x] 選「走」：結尾卡播完會回到 `TitleScreen`；再讀同一個存檔，玩家不在觸發區裡，而且路仍然是開的（結尾卡第一句時玩家已經在回位點；黑幕是在場景已經切到 `TitleScreen` 之後才開始淡出（bgA 0.3→0），所以不會先看到村子一眼。回標題後玩家 inactive、`CurrentSlot=-1`、對話框和演出都關著；`[Canvas]` 下開著的子物件跟直接開機到標題畫面完全一樣（`FloatingTextLayer`、`MapPanel`、`BookWindow`）。讀檔後玩家在 (−24.02,48.63)，不在觸發區、能動；再走進去照樣問「走，還是留？」）
+- 實際改動：
+  - `DemoCompletionNotice` 新增 `requiredAllFlags`（全部旗標都要成立）；`Persistent` 裡填了 `Luke_Helped`，訊息換掉
+  - `ForestLoopZone` 新增 `roadOpenFlagID`、`leaveOrStayPrompt`、`endingLines`，台詞照對白稿第四版寫成欄位預設值（三個觸發區都用預設值，所以沒有動 `Forest_Village.unity`）。沒選就關掉對話的話，一律當成「留」
+  - `RiftCutscene.Play` 新增 `completeWhileBlack`：字播完、黑幕還蓋著的時候就呼叫 `onComplete`，等轉場做完才淡出。不加的話，「你走出了森林」之後黑幕先退掉，會先看到村子一眼，然後才被回標題的轉場蓋黑
+- 已知限制：在這個版本之前存的檔，如果已經有 `DemoCompletionNoticeShown`（舊條件不需要 `Luke_Helped`），路會直接是開的。只影響開發期間的測試存檔
 **驗證**：Play mode 分別測「差一個條件」三種情況、「全部達成」一種情況，再測走和留兩條分支；回標題後，檢查常駐場景裡的玩家是否已經 inactive
 **相依**：T4、T9
 **檔案**：`DemoCompletionNotice.cs`、`ForestLoopZone.cs`、`Persistent.unity`、`Forest_Village.unity`

@@ -40,13 +40,15 @@ public class RiftCutscene : MonoBehaviour
     // startBlack = 呼叫當下黑幕就直接蓋滿，不做淡入。用在轉場黑畫面還沒退的時候接著播，
     // 兩層黑幕無縫銜接，玩家不會先看到場景又被蓋黑
     // onFullyBlack = 黑幕剛蓋滿、第一行字出現前呼叫，用來在玩家看不到的時候瞬移之類
-    public void Play(string[] lines, System.Action onComplete = null, bool startBlack = false, System.Action onFullyBlack = null)
+    // completeWhileBlack = 字播完、黑幕還蓋著就呼叫 onComplete，等它觸發的轉場做完才淡出。
+    //   用在播完要換場景的時候（結尾回標題），不然黑幕先退掉，玩家會先看到原本的場景一眼再被轉場蓋黑
+    public void Play(string[] lines, System.Action onComplete = null, bool startBlack = false, System.Action onFullyBlack = null, bool completeWhileBlack = false)
     {
         if (IsPlaying || lines == null || lines.Length == 0) return;
-        StartCoroutine(PlayRoutine(lines, onComplete, startBlack, onFullyBlack));
+        StartCoroutine(PlayRoutine(lines, onComplete, startBlack, onFullyBlack, completeWhileBlack));
     }
 
-    IEnumerator PlayRoutine(string[] lines, System.Action onComplete, bool startBlack, System.Action onFullyBlack)
+    IEnumerator PlayRoutine(string[] lines, System.Action onComplete, bool startBlack, System.Action onFullyBlack, bool completeWhileBlack)
     {
         IsPlaying = true;
 
@@ -80,6 +82,17 @@ public class RiftCutscene : MonoBehaviour
         }
 
         yield return new WaitForSeconds(holdBeforeExit);
+
+        if (completeWhileBlack)
+        {
+            onComplete?.Invoke();
+            onComplete = null;
+            yield return null;   // 轉場協程是 onComplete 裡開的，等一幀讓 IsTransitioning 變成 true
+            while (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsTransitioning)
+                yield return null;
+            player = FindFirstObjectByType<PlayerController>();   // 轉場可能換過場景，重抓
+        }
+
         yield return Fade(background, 1f, 0f, backgroundFadeDuration);
 
         root.SetActive(false);

@@ -31528,7 +31528,9 @@ MonoBehaviour:
   requiredAnyOfFlags:
   - Yaer_SwordReturned
   - Yaer_SwordKept
-  message: "\u76EE\u524D\u7684\u8A66\u73A9\u5167\u5BB9\u5230\u9019\u88E1\u7D50\u675F\u4E86\uFF0C\u611F\u8B1D\u904A\u73A9\uFF01"
+  requiredAllFlags:
+  - Luke_Helped
+  message: "\u68EE\u6797\u7684\u8DEF\uFF0C\u958B\u4E86\u3002"
   shownFlagID: DemoCompletionNoticeShown
 --- !u!4 &2050780350
 Transform:

@@ -1,5 +1,25 @@
 # Todo：森林留客
 
+> **接手須知（2026-09-25，換新對話前補）**
+> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）都已完成並 commit。**下一個是 T10。**
+> - **對白改動**：一律照 `tasks/dialogue-draft.md` 的規則 1～6。使用者對嚴謹度要求很高，改一處就要全面自查。
+> - **驗證工具在 `tasks/tools/`**：
+>   - `talk.cs`：模擬對話。把 `__NPC__`、`__CHOICE__` 換掉後用 eval_file 執行
+>   - `verify_boundary.cs`：洪水填充檢查邊界和落點
+>   - `struct_diff.py`：比對任務結構。要搭配 `before_*.json`、`after_*.json`，這兩份用 `EditorJsonUtility.ToJson` 產生
+>   - `find_spot.cs`：找 NPC 站位，條件是站得下、不擋門和出生點、不被遮住
+>   - `markers.cs`：列出每個 NPC 頭頂的「!」狀態
+>   - `render_map.cs`：暫時建一台相機，把地圖渲染成 PNG
+>   - `dump2.py`：從磁碟解碼 `.asset`
+>   - 這些腳本裡寫死的輸出路徑指向舊對話的 scratchpad，用之前要改
+> - **環境注意事項**：
+>   - 開 Play mode 前要先 `open_scene Persistent`（非 additive），否則常駐管理器不存在
+>   - Play 剛開始先等 2～3 秒再操作
+>   - 門的位置要用 `Door_To_House_*` 的 `BoxCollider2D.bounds.center`
+>   - 連續幾次 eval 的編輯會併成同一個 Undo 群組，每一步前後都要 `Undo.IncrementCurrentGroup()`
+>   - 測試只用存檔槽 slot 2，測完要刪掉 `save_slot2.json`
+> - **旗標一覽**：`Yaer_SwordReturned`、`Yaer_SwordKept`（既有）；`Yaer_WaitsForLuke`、`Luke_Helped`、`DemoCompletionNoticeShown`（「路開了」的判斷依據）
+
 > 規格：`SPEC.md`｜計畫：`tasks/plan.md`
 > 共用驗證規則：
 > - 不在 Play mode 對真實場景物件做破壞性操作

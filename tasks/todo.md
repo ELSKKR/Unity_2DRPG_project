@@ -1,7 +1,7 @@
 # Todo：森林留客
 
 > **接手須知（2026-09-25，換新對話前補）**
-> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）以及 T10（清理）都已完成並 commit。**下一個是 Checkpoint B，接著 T11。**
+> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）、T10（清理）與 Checkpoint B 都已完成並 commit。**下一個是 T11。**
 > - **對白改動**：一律照 `tasks/dialogue-draft.md` 的規則 1～6。使用者對嚴謹度要求很高，改一處就要全面自查。
 > - **驗證工具在 `tasks/tools/`**：
 >   - `talk.cs`：模擬對話。把 `__NPC__`、`__CHOICE__` 換掉後用 eval_file 執行
@@ -234,10 +234,13 @@
 **規模**：S
 
 ### ✅ Checkpoint B
-- [ ] T5～T10 的驗收全部通過
-- [ ] 四條任務從頭到尾走一遍都正常
-- [ ] 存檔 → 讀檔後，情報數、旗標數、任務狀態都一致
-- [ ] 清點關鍵物件都還在
+- [x] T5～T10 的驗收全部通過（T5～T10 區段內未勾項目 0 個）
+- [x] 四條任務從頭到尾走一遍都正常（2026-09-25，第四版對白之後重跑，全程用實際的 NPC `Interact` 驅動）：
+  - 路線：愛拉（`yaer_temper`、接尋藥＋`ella_illness`）→ 亞爾接佩劍 → D 屋賽勒（`luke_three_years`、接配方）→ 交配方並接採集 → 交作物（甜菜 2、高麗菜 3、洋蔥 5）拿到藥水 → 愛拉完成 → 亞爾還劍（`Yaer_SwordReturned`）→ 魯克（`yaer_that_night`）→ 亞爾帶話（`Yaer_WaitsForLuke`）→ 魯克（`Luke_Helped`）→ 妮娜（`forest_rule`）→ C 屋阿茉（`forest_lights`、`nina_origin`）
+  - 結果：4 條任務 status 全部是 1（完成）、情報 7／7（等於 `GameDatabase.allIntel` 的 7 筆）、旗標 4 個
+  - 配方、佩劍、作物是直接 `Inventory.AddItem` 給的，沒有呼叫 `ItemPickup`／`CropField` 的 `Interact`（鐵則一：那兩個會 Destroy 物件或清磚）。所以這次沒有涵蓋「撿取」和「採收」本身，只測了任務推進
+- [x] 存檔 → 讀檔後，情報數、旗標數、任務狀態都一致：先存 slot 2，再把四個管理器全部 `ResetAll`（歸零後確認 情報 0／旗標 0／任務 0），然後 `LoadSlotAndEnterGame(2)`。讀回來的 JSON 快照（任務、旗標、情報、背包）跟存檔前**逐字相同**。抽查讀檔後的對話：亞爾的帶話選項和「（離開）」都隱藏了；林道口的魯克消失，改成亞爾家的魯克出現。console 的 error 0、warning 0
+- [x] 清點關鍵物件都還在：Play mode 退出後重開場景，GameObject 數量 `Forest_Village` 4010、C 屋 21、D 屋 26，都跟 HEAD 相同；`Forest_Village` 裡 NPC 5、Pickup 2、`ForestLoopZone` 3、`RiftZone` 1、`CropField` 4；C 屋、D 屋各 1 個 NPC，D 屋的配方 Pickup 1 個。測試存檔 `save_slot2.json` 已經刪掉
 
 ---
 

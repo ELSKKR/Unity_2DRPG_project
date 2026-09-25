@@ -52,7 +52,7 @@ T6 對白稿（使用者審）────────────────�
 - [x] T7 阿茉、妮娜的對話和情報寫進資產
 - [x] T8 愛拉、亞爾、賽勒的台詞改寫和情報選項
 - [x] T9 魯克線（玩家當中間人：帶話 → 亞爾 → 魯克起身換位置）與 `Luke_Helped`
-- [ ] T10 清理：`RiftZone_Lake`、`Pickup_OldItem`、全專案 grep 舊設定
+- [x] T10 清理：`RiftZone_Lake`、`Pickup_OldItem`、全專案 grep 舊設定
 
 ### Checkpoint B（T5～T10 做完）
 - [ ] 現有四條任務從頭跑到尾都正常，`stages` 結構修改前後比對結果為零差異

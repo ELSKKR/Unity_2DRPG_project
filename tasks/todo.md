@@ -1,7 +1,7 @@
 # Todo：森林留客
 
 > **接手須知（2026-09-25，換新對話前補）**
-> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）都已完成並 commit。**下一個是 T10。**
+> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）以及 T10（清理）都已完成並 commit。**下一個是 Checkpoint B，接著 T11。**
 > - **對白改動**：一律照 `tasks/dialogue-draft.md` 的規則 1～6。使用者對嚴謹度要求很高，改一處就要全面自查。
 > - **驗證工具在 `tasks/tools/`**：
 >   - `talk.cs`：模擬對話。把 `__NPC__`、`__CHOICE__` 換掉後用 eval_file 執行
@@ -223,10 +223,14 @@
 - `Pickup_OldItem`：改寫描述
 - 全專案 grep「三十年」「神社」「老貝」「葛倫」，確認建置場景會用到的資產裡已經沒有
 **驗收**
-- [ ] 走到湖邊會播新的演出，而且只播一次
-- [ ] grep 的結果列出來，每一筆剩下的都說明為什麼無害（例如只存在於沒放進場景的資產裡）
+- [x] 走到湖邊會播新的演出，而且只播一次（實測：開新遊戲後把玩家傳送進觸發區 → `IsPlaying=True`，畫面上的句子是「倒影裡的森林，有一條路。」，console 的「裂縫演出觸發」出現 1 次。走出去、讓 `Forest_Village` 整個重載後再進去 → 不播，也不跳鎖定提示。對照組：手動拿掉 `rift_played_lake_shrine` 再進去 → 會重播，證明第二次進入確實有跑觸發判定）
+- [x] grep 的結果列出來，每一筆剩下的都說明為什麼無害（注意：`.asset` 裡的中文存成 `\uXXXX` 跳脫字元，直接 grep 抓不到，要先解碼再搜）
+  - 改完後剩 2 個檔、共 12 筆：`NPCConversation_Glenn.asset`（6 筆）、`Quest_ShrineLake.asset`（6 筆）
+  - 為什麼無害：用 `AssetDatabase.GetDependencies` 追 7 個建置場景的所有相依（共 630 個檔），這兩個檔都不在裡面（對照組 `OldTrinket.asset` 在裡面），也都不在 `Resources/` 資料夾
+  - 為了做到這點，使用者選擇把 `Quest_ShrineLake` 從 `GameDatabase.allQuests` 移除（7 → 6 筆，沒有 null）。任務檔和葛倫的對話檔都保留，沒有刪
+- 實際改動：`RiftZone_Lake` 的 `requiredEventID` 清空，換成第四版的三句台詞（`riftID` 維持 `lake_shrine`，這是內部 ID，玩家看不到）；`OldTrinket` 的描述換成懷錶那句（道具名稱「舊物件」照稿不改）
 **相依**：T6
-**檔案**：`Forest_Village.unity`、`OldTrinket.asset`
+**檔案**：`Forest_Village.unity`、`OldTrinket.asset`、`GameDatabase.asset`
 **規模**：S
 
 ### ✅ Checkpoint B

@@ -1,7 +1,7 @@
 # Todo：森林留客
 
 > **接手須知（2026-09-25，換新對話前補）**
-> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）、T10（清理）、Checkpoint B、T11（結尾）都已完成並 commit。**下一個是 T12（全流程驗收、建置、文件）。**
+> - **進度**：T1～T9 加上 T9.5（對白第四版、NPC 移位、頭頂標記）、T10（清理）、Checkpoint B、T11（結尾）、T12（全流程、建置、文件）都已完成並 commit。**剩下「Checkpoint：完成」：SPEC 七條 Success Criteria 附數字，以及使用者實際玩一次（建置在 `Builds/ForestLoop/`）。**
 > - **對白改動**：一律照 `tasks/dialogue-draft.md` 的規則 1～6。使用者對嚴謹度要求很高，改一處就要全面自查。
 > - **驗證工具在 `tasks/tools/`**：
 >   - `talk.cs`：模擬對話。把 `__NPC__`、`__CHOICE__` 換掉後用 eval_file 執行
@@ -17,7 +17,8 @@
 >   - Play 剛開始先等 2～3 秒再操作
 >   - 門的位置要用 `Door_To_House_*` 的 `BoxCollider2D.bounds.center`
 >   - 連續幾次 eval 的編輯會併成同一個 Undo 群組，每一步前後都要 `Undo.IncrementCurrentGroup()`
->   - 測試只用存檔槽 slot 2，測完要刪掉 `save_slot2.json`
+>   - 測試只用存檔槽 slot 2，測完要刪掉 `save_slot2.json`。**slot 2 在標題畫面上顯示成「存檔槽 3」（`SlotEntry2`）**；「存檔槽 2」是 slot 1，裡面有使用者自己的存檔（2026-09-25 點錯過一次，讀進來而已、沒有覆寫）
+>   - 新台詞用到新字時，建置前要跑「烘字＋對齊」，腳本在 `tasks/tools/font_charset.cs`（`__BAKE__` 換成 false 只檢查、true 才烘）
 > - **旗標一覽**：`Yaer_SwordReturned`、`Yaer_SwordKept`（既有）；`Yaer_WaitsForLuke`、`Luke_Helped`、`DemoCompletionNoticeShown`（「路開了」的判斷依據）
 
 > 規格：`SPEC.md`｜計畫：`tasks/plan.md`
@@ -273,11 +274,15 @@
 - 建置遊戲
 - 在 `Docs/系統開發歷程.md` 補上系統 12，沿用既有模板
 **驗收**
-- [ ] 完整流程沒有 console error
-- [ ] 建置出來的 `MyJRPG_Data` 裡 `level0`～`level6` 共 7 個
-- [ ] 刪除 `MyJRPG_BurstDebugInformation_DoNotShip`
-- [ ] 打包後字型正常（建置完回頭數字元數量）
-- [ ] 系統開發歷程補完「問題 → 設計 → 踩過的坑 → 怎麼驗證 → 報告可以這樣講」五段
+- [x] 完整流程沒有 console error（從 `TitleScreen` 點「開始遊戲」→「存檔槽 3」開新遊戲，走完四條任務、魯克線、七筆情報，走進 `ForestLoop_North` 選「走吧。」回到標題：error 0、warning 0。配方、佩劍、作物照 Checkpoint B 的做法直接給進背包）
+- [x] 建置出來的 `MyJRPG_Data` 裡 `level0`～`level6` 共 7 個（輸出到 `Builds/ForestLoop/`，沒有覆蓋 8/30 的 `Builds/Playtest/`；建置後 console error 0）
+- [x] 刪除 `MyJRPG_BurstDebugInformation_DoNotShip`（84 KB）；刪完整包 224 MB，跟 8/30 那版的 223 MB 差不多
+- [x] 打包後字型正常（建置完回頭數字元數量）：
+  - **建置前先補字**：盤點建置場景的所有相依資產，再加上腳本裡的欄位預設值，共 668 個字，其中 15 個兩套字型都沒有（妮娜新台詞的「挺望楚決」、「再待一會兒」的「待」等）。烘進 Cubic 之後缺字 0，對齊後剩下沒對齊的 10 個 glyph 都在例外清單裡（j/p/q/y/括號）
+  - 第一版盤點回報缺 212 個，數量不合理：它把 `[Tooltip]`、`[Header]`、多行警告訊息也算進去了。改成只看欄位預設值之後，剩下的 15 個逐字追到出處，每一個都對得上
+  - 建置後：Silver 218 → 218、Cubic 515 → 515，缺字 0（`ClearDynamicDataOnBuild` 兩套字型都是 0）
+- [x] 系統開發歷程補完「問題 → 設計 → 踩過的坑 → 怎麼驗證 → 報告可以這樣講」五段（系統 12，七個坑；目錄、附錄 B 的數據、刻意沒做的事一併更新；`CLAUDE.md` 的「十一個系統」改成「十二個」）
+- 沒 commit 的：`ProjectSettings.asset` 的 `preloadedAssets` 多了 `InputSystem_Actions`，是建置時 Input System 自己加的，不是這次要改的東西
 **相依**：T1～T11
 **檔案**：`Docs/系統開發歷程.md`
 **規模**：S

@@ -187,6 +187,16 @@
 **檔案**：`NPCConversation_Luke.asset`、`NPCConversation_Yaer.asset`、`Intel_YaerThatNight.asset`（新）、`GameDatabase.asset`、新腳本、`Forest_Village.unity`
 **規模**：M
 
+### T9.5 對白第四版與 NPC 移位（使用者試玩後回饋，2026-09-25）
+- [x] 使用者自己把亞爾移到屋外的椅子前 (−19.21,−24.56)；阿茉在 C 屋內移到 (−0.14,13.97)
+- [x] 妮娜從 C 屋內移到 C 屋門外 (25.01,−12.05)：用 `MoveGameObjectToScene` 搬動，元件設定完整保留。位置用計算找，條件是離門 2.1 格、避開 `Exit_House_C`、`Default` 兩個出生點、遮擋 0%。注意 `Door_To_House_*` 的 transform 座標在房子碰撞體內，真正的門要用碰撞體中心
+- [x] 亞爾家魯克改到 (−17.46,−24.56)：在亞爾右邊 1.8 格，遮擋 0%
+- [x] 新增 `DialogChoice.hideIfEventID`：`DialogManager` 會先過濾選項，但回報的是原始索引。亞爾的帶話選項在 handIn 和 completed 都設 `Yaer_WaitsForLuke`；completed 裡配套的「（離開）」一起隱藏。實測帶話之後再找亞爾，只播台詞、沒有任何選項
+- [x] 情報去除重複 5 處（`forest_rule` 的光、`nina_origin` 的繞不出去、`luke_three_years` 的林子不放人、`yaer_that_night` 的光和被逮到）；實測妮娜、魯克的新台詞都沒有提到光
+- [x] 阿茉 chat 1、妮娜 chat 1 的選項改成對得上新的開場（「北邊林子最近還好嗎？」「路為什麼會開？」「妳呢？不走嗎？」），三筆情報照樣拿得到
+- [x] 結構比對：愛拉、亞爾、賽勒共 241 個欄位，差異 0；邊界洪水填充 302 格合格；console 0 error；Play mode 後場景沒有 `m_IsActive` 被寫回
+- [x] 定稿更新為第四版：新增規則 4～6，稽核表新增 5-5（情報重複比對）、5-6（開場和選項對不對得上）
+
 ### T10 清理既有問題
 **說明**：
 - `RiftZone_Lake`：清空 `requiredEventID`，換上定稿的新台詞

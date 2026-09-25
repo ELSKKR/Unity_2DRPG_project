@@ -42,6 +42,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 11400000, guid: fe57699aa3a26614b81e46d47166121a, type: 2}
+        hideIfEventID: 
       - label: "\u6709\u4EC0\u9EBC\u6211\u80FD\u5E6B\u5FD9\u7684\u55CE\uFF1F"
         reactionLines:
         - "\u5982\u679C\u4F60\u4E0D\u4ECB\u610F\u7684\u8A71\u2026\u2026\u6751\u5B50\u53E6\u4E00\u982D\u7684\u8CFD\u52D2\u5148\u751F\u6703\u7149\u85E5\uFF0C\u4F60\u80FD\u5E6B\u6211\u53BB\u554F\u554F\u4ED6\u55CE\uFF1F"
@@ -50,7 +51,8 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 11400000, guid: fe57699aa3a26614b81e46d47166121a, type: 2}
-      - label: "\u5357\u908A\u5C4B\u5B50\u9580\u53E3\u5750\u8457\u7684\u90A3\u4F4D\u5148\u751F\u662F\u8AB0\uFF1F"
+        hideIfEventID: 
+      - label: "\u5357\u908A\u5C4B\u5B50\u5916\u9762\u5750\u8457\u7684\u90A3\u4F4D\u5148\u751F\u662F\u8AB0\uFF1F"
         reactionLines:
         - "\u4F60\u8AAA\u4E9E\u723E\u5148\u751F\u55CE\uFF1F\u4ED6\u4EE5\u524D\u662F\u66FF\u6751\u5B50\u64CB\u4E8B\u7684\u4EBA\u3002"
         - "\u524D\u9663\u5B50\u4ED6\u4E00\u500B\u4EBA\u534A\u591C\u9032\u4E86\u5317\u908A\u7684\u6797\u5B50\uFF0C\u56DE\u4F86\u6642\u53D7\u4E86\u50B7\uFF0C\u817F\u5230\u73FE\u5728\u9084\u6C92\u597D\u3002"
@@ -60,6 +62,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 11400000, guid: 8f051ec1cc679db4c97c9c6f417a035f, type: 2}
+        hideIfEventID: 
       - label: "\u6211\u60F3\u96E2\u958B\u9019\u500B\u6751\u5B50\uFF0C\u8A72\u600E\u9EBC\u8D70\uFF1F"
         reactionLines:
         - "\u60F3\u96E2\u958B\u554A\u2026\u2026\uFF08\u9732\u51FA\u6709\u9EDE\u70BA\u96E3\u7684\u7B11\uFF09"
@@ -69,13 +72,14 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       typingSound: {fileID: 0}
       startSound: {fileID: 0}
     reminder:
       lines:
       - "\u8CFD\u52D2\u5148\u751F\u90A3\u908A\u9084\u9806\u5229\u55CE\uFF1F\u8F9B\u82E6\u4F60\u4E86\u3002"
       choices:
-      - label: "\u5357\u908A\u5C4B\u5B50\u9580\u53E3\u5750\u8457\u7684\u90A3\u4F4D\u5148\u751F\u662F\u8AB0\uFF1F"
+      - label: "\u5357\u908A\u5C4B\u5B50\u5916\u9762\u5750\u8457\u7684\u90A3\u4F4D\u5148\u751F\u662F\u8AB0\uFF1F"
         reactionLines:
         - "\u4F60\u8AAA\u4E9E\u723E\u5148\u751F\u55CE\uFF1F\u4ED6\u4EE5\u524D\u662F\u66FF\u6751\u5B50\u64CB\u4E8B\u7684\u4EBA\u3002"
         - "\u524D\u9663\u5B50\u4ED6\u4E00\u500B\u4EBA\u534A\u591C\u9032\u4E86\u5317\u908A\u7684\u6797\u5B50\uFF0C\u56DE\u4F86\u6642\u53D7\u4E86\u50B7\uFF0C\u817F\u5230\u73FE\u5728\u9084\u6C92\u597D\u3002"
@@ -85,6 +89,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 11400000, guid: 8f051ec1cc679db4c97c9c6f417a035f, type: 2}
+        hideIfEventID: 
       - label: "\u6211\u518D\u53BB\u770B\u770B\u3002"
         reactionLines: []
         acceptsQuest: 0
@@ -92,6 +97,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       typingSound: {fileID: 0}
       startSound: {fileID: 0}
     handIn:
@@ -105,7 +111,7 @@ MonoBehaviour:
       lines:
       - "\u591A\u8667\u4F60\uFF0C\u6211\u9019\u5E7E\u5929\u7CBE\u795E\u597D\u591A\u4E86\u3002"
       choices:
-      - label: "\u5357\u908A\u5C4B\u5B50\u9580\u53E3\u5750\u8457\u7684\u90A3\u4F4D\u5148\u751F\u662F\u8AB0\uFF1F"
+      - label: "\u5357\u908A\u5C4B\u5B50\u5916\u9762\u5750\u8457\u7684\u90A3\u4F4D\u5148\u751F\u662F\u8AB0\uFF1F"
         reactionLines:
         - "\u4F60\u8AAA\u4E9E\u723E\u5148\u751F\u55CE\uFF1F\u4ED6\u4EE5\u524D\u662F\u66FF\u6751\u5B50\u64CB\u4E8B\u7684\u4EBA\u3002"
         - "\u524D\u9663\u5B50\u4ED6\u4E00\u500B\u4EBA\u534A\u591C\u9032\u4E86\u5317\u908A\u7684\u6797\u5B50\uFF0C\u56DE\u4F86\u6642\u53D7\u4E86\u50B7\uFF0C\u817F\u5230\u73FE\u5728\u9084\u6C92\u597D\u3002"
@@ -115,6 +121,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 11400000, guid: 8f051ec1cc679db4c97c9c6f417a035f, type: 2}
+        hideIfEventID: 
       - label: "\u6211\u60F3\u96E2\u958B\u9019\u500B\u6751\u5B50\uFF0C\u8A72\u600E\u9EBC\u8D70\uFF1F"
         reactionLines:
         - "\u60F3\u96E2\u958B\u554A\u2026\u2026\uFF08\u9732\u51FA\u6709\u9EDE\u70BA\u96E3\u7684\u7B11\uFF09"
@@ -124,6 +131,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       - label: "\uFF08\u96E2\u958B\uFF09"
         reactionLines: []
         acceptsQuest: 0
@@ -131,6 +139,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       typingSound: {fileID: 0}
       startSound: {fileID: 0}
   chats: []

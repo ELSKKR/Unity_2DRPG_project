@@ -27,6 +27,8 @@ public class DialogManager : MonoBehaviour
     private string currentSpeaker;
     private string[] currentLines;
     private DialogChoice[] currentChoices;
+    // currentChoices 是隱藏過的清單；回報給呼叫端的必須是原始陣列的索引（NPCDialog 用它回查 acceptsQuest）
+    private int[] currentChoiceSourceIndex;
     private AudioClip currentTypingSound;
     private AudioClip currentStartSound;
 
@@ -111,7 +113,7 @@ public class DialogManager : MonoBehaviour
     {
         currentSpeaker = speaker;
         currentLines = segment.lines;
-        currentChoices = segment.choices;
+        FilterChoices(segment.choices);
         currentTypingSound = segment.typingSound != null ? segment.typingSound : defaultTypingSound;
         currentStartSound = segment.startSound != null ? segment.startSound : defaultStartSound;
         currentLineIndex = 0;
@@ -130,6 +132,26 @@ public class DialogManager : MonoBehaviour
             AudioManager.Instance.PlaySFX(currentStartSound);
 
         ShowLine();
+    }
+
+    // 拿掉 hideIfEventID 已成立的選項，並記住每個留下來的選項在原始陣列裡的索引
+    void FilterChoices(DialogChoice[] source)
+    {
+        if (source == null) { currentChoices = null; currentChoiceSourceIndex = null; return; }
+
+        var kept = new List<DialogChoice>();
+        var index = new List<int>();
+        for (int i = 0; i < source.Length; i++)
+        {
+            var c = source[i];
+            bool hidden = !string.IsNullOrEmpty(c.hideIfEventID)
+                && WorldStateManager.Instance != null && WorldStateManager.Instance.HasEvent(c.hideIfEventID);
+            if (hidden) continue;
+            kept.Add(c);
+            index.Add(i);
+        }
+        currentChoices = kept.ToArray();
+        currentChoiceSourceIndex = index.ToArray();
     }
 
     // 選項設了 requiredIntel、又還沒解鎖那則情報的話，這個選項就是「鎖住」的：
@@ -263,7 +285,7 @@ public class DialogManager : MonoBehaviour
             return;
         }
 
-        pendingChoiceIndex = selectedChoiceIndex;
+        pendingChoiceIndex = currentChoiceSourceIndex[selectedChoiceIndex];
         pendingChoice = chosen;   // 標記事件／解鎖情報延後到 EndDialog 才生效，不要一選完就跳通知
 
         isChoosing = false;

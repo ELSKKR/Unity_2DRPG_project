@@ -42,6 +42,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       - label: "\uFF08\u96E2\u958B\uFF09"
         reactionLines: []
         acceptsQuest: 0
@@ -49,6 +50,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       - label: "\u807D\u611B\u62C9\u8AAA\uFF0C\u4F60\u5728\u68EE\u6797\u5F04\u4E1F\u4E86\u4F69\u528D\uFF1F"
         reactionLines:
         - "\u2026\u2026\u5979\u4E5F\u771F\u662F\u5634\u9592\u3002\uFF08\u5606\u6C23\uFF09"
@@ -59,6 +61,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 11400000, guid: 8f051ec1cc679db4c97c9c6f417a035f, type: 2}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       typingSound: {fileID: 0}
       startSound: {fileID: 0}
     reminder:
@@ -80,6 +83,7 @@ MonoBehaviour:
         markEventID: Yaer_SwordReturned
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       - label: "\u6C92\u4E8B\uFF0C\u8DEF\u904E\u800C\u5DF2\u3002"
         reactionLines:
         - "\u54E6\u3002\uFF08\u6C92\u518D\u591A\u554F\uFF09"
@@ -88,6 +92,7 @@ MonoBehaviour:
         markEventID: Yaer_SwordKept
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: 
       - label: "\u9B6F\u514B\u8A17\u6211\u554F\u4F60\uFF1A\u817F\u9084\u597D\u55CE\uFF1F"
         reactionLines:
         - "\u2026\u2026\u90A3\u5C0F\u5B50\u3002\uFF08\u6C89\u9ED8\u4E86\u4E00\u6703\u5152\uFF09"
@@ -98,6 +103,7 @@ MonoBehaviour:
         markEventID: Yaer_WaitsForLuke
         requiredIntel: {fileID: 11400000, guid: 9a67ead9f2ebb334094e8d7eb6e60d11, type: 2}
         grantsIntel: {fileID: 0}
+        hideIfEventID: Yaer_WaitsForLuke
       typingSound: {fileID: 0}
       startSound: {fileID: 0}
     completed:
@@ -115,6 +121,7 @@ MonoBehaviour:
         markEventID: Yaer_WaitsForLuke
         requiredIntel: {fileID: 11400000, guid: 9a67ead9f2ebb334094e8d7eb6e60d11, type: 2}
         grantsIntel: {fileID: 0}
+        hideIfEventID: Yaer_WaitsForLuke
       - label: "\uFF08\u96E2\u958B\uFF09"
         reactionLines: []
         acceptsQuest: 0
@@ -122,6 +129,7 @@ MonoBehaviour:
         markEventID: 
         requiredIntel: {fileID: 0}
         grantsIntel: {fileID: 0}
+        hideIfEventID: Yaer_WaitsForLuke
       typingSound: {fileID: 0}
       startSound: {fileID: 0}
   chats: []

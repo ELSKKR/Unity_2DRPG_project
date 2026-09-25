@@ -22,4 +22,7 @@ public class DialogChoice
 
     [UnityEngine.Tooltip("選了這個選項就解鎖這則情報（留空 = 不解鎖）")]
     public IntelData grantsIntel;
+
+    [UnityEngine.Tooltip("這個世界事件旗標成立後，選項就不再出現（留空 = 一直出現）。用在「話已經帶到了」這種做過就不該再問的選項")]
+    public string hideIfEventID;
 }

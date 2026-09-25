@@ -30,6 +30,10 @@ public class NPCDialog : MonoBehaviour, IInteractable
         if (WorldStateManager.Instance != null)
             WorldStateManager.Instance.OnWorldStateChanged += RefreshState;
 
+        // 沒有任務的 NPC 靠「還有沒有沒拿到的情報」決定要不要亮標記，情報變動也要重算
+        if (IntelManager.Instance != null)
+            IntelManager.Instance.OnIntelChanged += RefreshState;
+
         RefreshState();
     }
 
@@ -43,6 +47,9 @@ public class NPCDialog : MonoBehaviour, IInteractable
 
         if (WorldStateManager.Instance != null)
             WorldStateManager.Instance.OnWorldStateChanged -= RefreshState;
+
+        if (IntelManager.Instance != null)
+            IntelManager.Instance.OnIntelChanged -= RefreshState;
     }
 
     public void Interact()
@@ -216,13 +223,31 @@ public class NPCDialog : MonoBehaviour, IInteractable
 
         if (stage == null)
         {
-            questMarker?.Hide();
+            // 純閒聊的 NPC：這段對話裡還有沒拿到的情報、或會推進劇情的選項，才亮標記；問完就熄，
+            // 跟任務標記一樣的理念——亮著就代表過去一定有事可做
+            if (questMarker != null)
+            {
+                if (ActiveChatHasSomethingNew()) questMarker.Show(markerSymbol, canAcceptColor);
+                else questMarker.Hide();
+            }
             return;
         }
 
         NPCQuestState state = EvaluateStageState(stage);
         UpdateMarker(stage, state);
         UpdateQuestProgress(stage, state);
+    }
+
+    bool ActiveChatHasSomethingNew() =>
+        SegmentHasSomethingNew(conversation != null ? conversation.GetActiveChat() : null);
+
+    static bool SegmentHasSomethingNew(DialogSegment segment)
+    {
+        if (segment == null || segment.choices == null) return false;
+
+        foreach (var c in segment.choices)
+            if (!c.IsHidden && !c.IsLocked && c.HasSomethingNew) return true;
+        return false;
     }
 
     void UpdateMarker(NPCQuestStage stage, NPCQuestState state)
@@ -244,8 +269,11 @@ public class NPCDialog : MonoBehaviour, IInteractable
                 break;
 
             default:
-                // 純閒聊、已完成都不顯示，避免玩家看到圖示跑過來卻沒事可做
-                questMarker.Hide();
+                // 進行中／已完成：這一段對話裡還有沒拿到的情報或會推進劇情的選項才亮，
+                // 否則不顯示，避免玩家看到圖示跑過來卻沒事可做
+                var segment = state == NPCQuestState.Completed ? stage.completed : stage.reminder;
+                if (SegmentHasSomethingNew(segment)) questMarker.Show(markerSymbol, canAcceptColor);
+                else questMarker.Hide();
                 break;
         }
     }

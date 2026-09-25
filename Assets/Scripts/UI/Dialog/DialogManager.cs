@@ -144,9 +144,7 @@ public class DialogManager : MonoBehaviour
         for (int i = 0; i < source.Length; i++)
         {
             var c = source[i];
-            bool hidden = !string.IsNullOrEmpty(c.hideIfEventID)
-                && WorldStateManager.Instance != null && WorldStateManager.Instance.HasEvent(c.hideIfEventID);
-            if (hidden) continue;
+            if (c.IsHidden) continue;
             kept.Add(c);
             index.Add(i);
         }
@@ -156,11 +154,7 @@ public class DialogManager : MonoBehaviour
 
     // 選項設了 requiredIntel、又還沒解鎖那則情報的話，這個選項就是「鎖住」的：
     // 還是會顯示（讓玩家知道這裡有東西、勾起好奇心），只是選了問不出所以然
-    bool IsChoiceLocked(DialogChoice choice)
-    {
-        return choice.requiredIntel != null
-            && !(IntelManager.Instance != null && IntelManager.Instance.HasIntel(choice.requiredIntel));
-    }
+    bool IsChoiceLocked(DialogChoice choice) => choice.IsLocked;
 
     void ShowLine()
     {

@@ -25,4 +25,18 @@ public class DialogChoice
 
     [UnityEngine.Tooltip("這個世界事件旗標成立後，選項就不再出現（留空 = 一直出現）。用在「話已經帶到了」這種做過就不該再問的選項")]
     public string hideIfEventID;
+
+    // 對話框（要不要列出、能不能選）跟頭頂標記（有沒有新東西可問）共用同一套判斷
+    public bool IsHidden =>
+        !string.IsNullOrEmpty(hideIfEventID)
+        && WorldStateManager.Instance != null && WorldStateManager.Instance.HasEvent(hideIfEventID);
+
+    public bool IsLocked =>
+        requiredIntel != null
+        && !(IntelManager.Instance != null && IntelManager.Instance.HasIntel(requiredIntel));
+
+    // 選了會帶來玩家還沒有的東西：沒拿過的情報，或還沒成立的旗標
+    public bool HasSomethingNew =>
+        (grantsIntel != null && IntelManager.Instance != null && !IntelManager.Instance.HasIntel(grantsIntel))
+        || (!string.IsNullOrEmpty(markEventID) && WorldStateManager.Instance != null && !WorldStateManager.Instance.HasEvent(markEventID));
 }
